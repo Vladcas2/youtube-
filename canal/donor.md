@@ -1,35 +1,16 @@
-# Donor — date de intrare
+# Donor — ce avem și ce lipsește
 
-Completează ce ai și fă commit (sau lipește direct în chat). Câmpul 5 e cel mai important.
+## Ce ai dat
+- Canal: Little Dreamers Education (@LittleDreamersEducation) — 105K abonați, 372 videoclipuri
+- Videoclip donor: quiz „ghicește animalul după sunet” (căutarea ta: „can you guess animal”)
+- Descriere (promisiunea): numele animalelor, recunoașterea sunetelor, potrivire animal–sunet, vocabular, distracție
+- Capitole: Intro 0:00 → 20 de provocări (0:03–8:28, ~25 s fiecare) → Final 8:28
+- Durată estimată: ~8:40
+- Ultimul video de pe canal (alt video): „Learn Wild Animals for Kids” — 543 vizualizări în 7 zile
 
-## 1. Titlul videoclipului + primele rânduri din descriere
-<!-- copiază exact -->
-
-## 2. Vizualizări și data publicării
-
-## 3. Durata
-
-## 4. Vizualizările ultimelor 10 videoclipuri ale canalului
-<!-- canal → Videoclipuri → sortează după dată; numere separate prin virgulă -->
-
-## 5. Transcrierea (integral)
-<!-- pe calculator: descriere → „Afișează transcrierea”, copiază tot textul.
-     Dacă nu există: 7–8 rânduri, câte unul la ~30 de secunde, ce se întâmplă în video. -->
-
-## 6. Primele 10–15 comentarii (opțional)
-
-## 7. Canalul donor (pentru analiza de stil)
-- Link / nume canal:
-- Nr. abonați:
-- 2–3 capturi / descrieri ale thumbnail-urilor tipice:
-- Cum arată avatarul și bannerul (descriere scurtă):
-
----
-
-# Canalul MEU
-
-- Tema / nișa:
-- Limba:
-- Pentru cine (publicul țintă):
-- Cu față sau fără față (voce + imagini generate)?
-- Ce unelte ai pentru imagini/video/voce (ex. Midjourney, Kling, ElevenLabs, CapCut):
+## Ce lipsește (completează când poți)
+- [ ] Titlul exact al videoclipului donor
+- [ ] Vizualizările lui + data publicării
+- [ ] Vizualizările ultimelor 10 videoclipuri ale canalului (pentru verificarea „a explodat videoclipul sau doar canalul e mare”)
+- [ ] Ce se întâmplă într-o provocare (dacă nu există transcriere: derulează una și scrie în 3–4 rânduri ce se vede/aude secundă cu secundă)
+- [ ] Captură cu thumbnail-ul donorului
