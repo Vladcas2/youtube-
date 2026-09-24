@@ -43,6 +43,10 @@ high contrast, friendly, designed to read clearly as a tiny circular profile ico
 
 Verificare: micșorează imaginea la mărimea unei unghii — dacă încă recunoști bufnița, e bună.
 
+✅ **Avatar ales:** `pip-avatar.jpg`. Este și **imaginea de referință pentru Pip**: încarc-o ca
+referință de personaj (Midjourney `--cref`, Leonardo „Character Reference”, Ideogram/Kling „reference image”)
+la fiecare scenă cu Pip, ca să arate la fel în toate videoclipurile.
+
 **Banner** (2560×1440, zona sigură centrală 1546×423):
 
 ```
