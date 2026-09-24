@@ -76,16 +76,17 @@ rounded shapes, 16:9
 
 | Timp | Voce | Ecran |
 |---|---|---|
-| 0:00–0:03 | **"Put on your listening ears! Can you name ALL twenty? Let's go!"** | Pip apare cu un „pop” și își pune căștile |
+| 0:00–0:01 | **"Who said MOO?"** | Pip apare cu un „pop”; sus scrie „Who Said Moo?” (ecou al titlului) |
+| 0:01–0:03 | **"Put on your ears… can you name all twenty?"** | Pip își pune căștile |
 | 0:03–0:05 | **"Round 1!"** | „Round 1” |
 | 0:05–0:11 | *(tăcere, „muu” de 2 ori)* | silueta vacii + „?”, Pip ascultă |
-| 0:11–0:13 | **"Who's making this sound?"** | Pip se apleacă |
+| 0:11–0:13 | **"Who's making that noise?"** | Pip se apleacă |
 | 0:13–0:18 | **"Five… four… three… two… one…"** | cronometru |
 | 0:18–0:25 | **"It's a COW! Moo!"** + „muu” încă o dată | vaca colorată, „COW” scris mare |
 | 0:25–0:28 | **"Great job!"** | Pip sare, confetti |
 | 0:28–0:30 | **"Round 2!"** | „Round 2” |
 
-Cârligul: întrebarea „can you name ALL twenty?” deschide o buclă care se închide abia la final
+Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”), ca cel care a dat click să vadă imediat că a nimerit unde trebuie, apoi **pune întrebarea jocului**. Întrebarea „can you name all twenty?” deschide o buclă care se închide abia la final
 („You did all twenty!”). În plus, fiecare rundă e o buclă mică de 25 s.
 
 ---
@@ -94,7 +95,7 @@ Cârligul: întrebarea „can you name ALL twenty?” deschide o buclă care se 
 
 | Bloc | Timp | Ce se întâmplă | Ca să nu plece |
 |---|---|---|---|
-| 1. Intro | 0:00–0:03 | promisiunea „all twenty” | niciun salut lung: sunetul vine în secunda 5 |
+| 1. Intro | 0:00–0:03 | ecoul titlului + întrebarea jocului (ca la donor) | niciun salut lung: sunetul vine în secunda 5 |
 | 2. Runde 1–5 | 0:03–2:05 | vacă, câine, pisică, rață, cocoș | toate ușoare: copilul ghicește → vrea încă una |
 | 3. Runde 6–15 | 2:05–6:19 | oaie … albină | la 6: „trickier”, la 11: „halfway there”: le reamintești de promisiune |
 | 4. Runde 16–20 | 6:19–8:28 | bufniță, șoarece, porumbel, greier, păun | „last five, hardest ones”: miza crește exact când atenția scade |
@@ -109,7 +110,7 @@ Cârligul: întrebarea „can you name ALL twenty?” deschide o buclă care se 
 |---|---|---|
 | 0–2 | **"Round 1!"** | titlul „Round 1” |
 | 2–8 | *(tăcere, sunetul cow de 2 ori)* | silueta + „?”, Pip ascultă |
-| 8–10 | **"Who's making this sound?"** | Pip se apleacă spre siluetă |
+| 8–10 | **"Who's making that noise?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
 | 15–22 | **"It's a COW! Moo!"** + sunetul încă o dată | animalul colorat + „COW” scris mare |
 | 22–25 | **"Great job!"** | Pip sare, confetti |
@@ -159,7 +160,7 @@ Cârligul: întrebarea „can you name ALL twenty?” deschide o buclă care se 
 |---|---|---|
 | 0–2 | **"Round 6! Now it gets a little trickier!"** | titlul „Round 6” |
 | 2–8 | *(tăcere, sunetul sheep de 2 ori)* | silueta + „?”, Pip ascultă |
-| 8–10 | **"Who's making this sound?"** | Pip se apleacă spre siluetă |
+| 8–10 | **"Who's making that noise?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
 | 15–22 | **"It's a SHEEP! Baa!"** + sunetul încă o dată | animalul colorat + „SHEEP” scris mare |
 | 22–25 | **"Well done!"** | Pip sare, confetti |
@@ -209,7 +210,7 @@ Cârligul: întrebarea „can you name ALL twenty?” deschide o buclă care se 
 |---|---|---|
 | 0–2 | **"Round 11! Halfway there! Ten more to go!"** | titlul „Round 11” |
 | 2–8 | *(tăcere, sunetul turkey de 2 ori)* | silueta + „?”, Pip ascultă |
-| 8–10 | **"Who's making this funny sound?"** | Pip se apleacă spre siluetă |
+| 8–10 | **"Who's making that funny noise?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
 | 15–22 | **"It's a TURKEY! Gobble gobble!"** + sunetul încă o dată | animalul colorat + „TURKEY” scris mare |
 | 22–25 | **"High five!"** | Pip sare, confetti |
@@ -370,7 +371,9 @@ Titlul „Round N”, cronometrul și numele animalelor le faci în editor (CapC
 | Limbă | engleză | **engleză: la fel.** Asta nu te diferențiază, deci restul trebuie să fie clar diferit |
 
 ✔️ Donorul folosește „Challenge 1…20” în capitole, așa că la noi e peste tot **„Round 1…20”**.
-✔️ Donorul deschide cu text colorat pe negru, *„What animal makes this sound?”*, și „Hi boys and girls!”. Noi deschidem cu Pip la fermă și *„Put on your listening ears!”*.
+✔️ Donorul deschide cu *„Guess the animal sounds”* → *„What animal makes this sound?”*, text colorat pe fundal negru.
+   Noi păstrăm **mecanismul** (ecoul titlului + întrebarea), dar cu altă formulare: *„Who said MOO?”* → *„can you name all twenty?”*, cu Pip la fermă.
+✔️ Întrebarea din runde e *„Who's making that noise?”*, nu *„…makes this sound?”*.
 
 ---
 

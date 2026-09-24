@@ -6,7 +6,7 @@
 - **Vizualizări:** 5,4 mil., publicat acum ~3 ani · 15K like-uri
 - **Hashtag-uri:** #AnimalsForKids #GuessTheSound #AnimalSounds
 - **Descriere (început):** „Hi boys and girls! 😊👋 Are you ready to listen, guess, and have some fun? 🎧…” + lista „What will you learn?”
-- **Primul cadru:** text multicolor pe fundal negru: „What animal makes this sound?”
+- **Intro (0:00–0:03):** „Guess the animal sounds” (repetă titlul) → „What animal makes this sound?” (întrebarea jocului); text multicolor pe fundal negru
 - **Capitole:** Intro 0:00 → Challenge 1–20 (0:03–8:28, ~25 s fiecare) → Ending and credits 8:28
 - **Durată:** ~8:40
 
