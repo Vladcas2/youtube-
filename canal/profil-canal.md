@@ -8,6 +8,11 @@
 
 ## PASUL 1 — Numele canalului
 
+✅ **Ales: Who Said That? Kids** · handle: **@WhoSaidThatKids**
+
+<details><summary>Variantele inițiale</summary>
+
+
 Alege unul, apoi **caută-l pe YouTube și ca @handle** — dacă există deja un canal activ cu el, treci la următorul.
 
 **Dacă faci în engleză**
@@ -21,6 +26,8 @@ Alege unul, apoi **caută-l pe YouTube și ca @handle** — dacă există deja u
 3. **Bufnița Ghicitoare**
 
 Handle: același nume fără spații (ex. @TinyEarsClub).
+
+</details>
 
 ---
 
@@ -47,17 +54,53 @@ Verificare: micșorează imaginea la mărimea unei unghii — dacă încă recun
 referință de personaj (Midjourney `--cref`, Leonardo „Character Reference”, Ideogram/Kling „reference image”)
 la fiecare scenă cu Pip, ca să arate la fel în toate videoclipurile.
 
-**Banner** (2560×1440, zona sigură centrală 1546×423):
+**Banner** — 2560×1440 px. Tot ce contează (text + Pip) stă în **zona sigură centrală de 1546×423**:
+pe telefon se vede doar banda aceea.
+
+Prompt (cu `pip-avatar.jpg` ca referință de personaj):
+```
+Ultra-wide cartoon banner, sunny yellow sky, soft mint-green rolling farm hills
+along the bottom, a red barn far on the right, Pip, a small round coral-orange
+baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized
+teal headphones, sitting on a wooden fence on the left, one wing cupped to its
+ear, listening; cartoon farm animals peeking from behind bushes along the hills
+(cow, pig, duck, sheep, frog), each with a small musical note above its head;
+large empty sky in the center for a title; 2D cartoon children's illustration,
+soft cel shading, subtle feather and fur texture, clean dark-brown outlines,
+bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded
+cute shapes, no text, extra wide 16:9
+```
+
+**În Canva** (șablon „YouTube Banner”):
+1. Pune imaginea generată pe fundal.
+2. Așază Pip și animalele în interiorul zonei sigure (Canva o arată cu ghidaje).
+3. Titlu în centru: **Who Said That? Kids**, font *Fredoka Bold* sau *Baloo 2 ExtraBold*, alb cu contur maro închis (#3B2A20) gros.
+4. Sub titlu, mai mic: **Listen • Name • Learn!**
+5. Export PNG și verifică în YouTube Studio → Personalizare → Branding cum arată pe telefon, pe TV și pe desktop.
+
+---
+
+## Descrierea canalului (Studio → Personalizare → Informații de bază)
 
 ```
-Wide flat vector banner, Pip the round coral-orange baby owl with teal headphones
-on the left, a row of simple farm and jungle animals peeking out from behind
-bushes (cow, lion, duck, elephant, frog), each with a small musical note above
-its head, solid warm yellow sky, mint-green rolling hills, empty space in the
-center for a title, flat colors, thick clean outlines, no text
+Put on your listening ears! 🦉🎧
+
+Hi! I'm Pip, and on Who Said That? Kids we play sound quizzes for toddlers and
+preschoolers. Listen to the noise, count down with me, and shout the answer
+before the big reveal!
+
+🐮 Farm animals, jungle animals, ocean creatures
+🚒 Vehicles, instruments, everyday sounds
+🧠 Builds listening skills and first words
+🎉 Easy to hard, so every kid wins
+
+New quiz every week. Subscribe and play along with Pip!
 ```
 
-Titlul canalului îl pui peste banner în Canva, nu în generator.
+**Cuvinte cheie pentru canal** (Studio → Setări → Canal):
+`sound quiz for kids, animal noises for toddlers, preschool learning, listening game, farm animals, first words, toddler videos`
+
+**Watermark** (Studio → Personalizare → Branding): capul lui Pip decupat, 150×150, afișat „la final”.
 
 ---
 
@@ -65,7 +108,7 @@ Titlul canalului îl pui peste banner în Canva, nu în generator.
 
 | Element | Donor | Noi |
 |---|---|---|
-| Desen | 3D cartoon, junglă realistă | **2D vectorial plat, contururi groase** |
+| Desen | 3D cartoon, junglă realistă | **2D cartoon cu umbre moi, ca avatarul** (vezi `pip-avatar.jpg`) |
 | Paletă | verde junglă + curcubeu | **galben cald #FFD23F, coral #FF6F59, mentă #3DDC97, teal #1B998B, bej #FFF8E7** |
 | Personaj | copii din banner | **Pip bufnița** apare la fiecare dezvăluire |
 | Font | 3D gros cu efect | **rotunjit, plat, alb cu contur închis** (ex. „Fredoka”, „Baloo 2”) |
@@ -73,13 +116,11 @@ Titlul canalului îl pui peste banner în Canva, nu în generator.
 **Sufixul de stil** — lipește-l la finalul FIECĂRUI prompt, identic:
 
 ```
-flat 2D vector children's illustration, thick clean dark outlines, flat colors,
-palette of warm yellow, coral, mint green, teal and cream, soft shadows, simple
-rounded shapes, 16:9
+2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes, 16:9
 ```
 
 **Pip se descrie mereu cu aceleași cuvinte:**
-`Pip, a small round coral-orange baby owl with big mint-green eyes and oversized teal headphones`
+`Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones`
 
 ---
 

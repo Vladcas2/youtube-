@@ -65,9 +65,7 @@ Pip, a small round coral-orange baby owl with big mint-green eyes and oversized
 teal headphones, large on the left, one wing cupped to its ear, beak open in
 surprise, next to a solid black silhouette of a cow with a huge white question
 mark, plain solid warm yellow background, empty space at the top for a title,
-flat 2D vector children's illustration, thick clean dark outlines, flat colors,
-palette of warm yellow, coral, mint green, teal and cream, soft shadows, simple
-rounded shapes, 16:9
+2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes, 16:9
 ```
 
 ---
@@ -327,9 +325,7 @@ Pentru fiecare rundă folosești **promptul A (silueta)** și **promptul B (dezv
 Pip, a small round coral-orange baby owl with big mint-green eyes and oversized
 teal headphones, popping up from behind a wooden farm fence and waving one wing,
 red barn and rolling mint-green hills behind, bright morning light, medium shot,
-flat 2D vector children's illustration, thick clean dark outlines, flat colors,
-palette of warm yellow, coral, mint green, teal and cream, soft shadows, simple
-rounded shapes, 16:9
+2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes, 16:9
 ```
 Video: `camera slowly pushes in, Pip bounces once and puts on headphones, 3 seconds`
 
@@ -338,9 +334,7 @@ Video: `camera slowly pushes in, Pip bounces once and puts on headphones, 3 seco
 Pip, a small round coral-orange baby owl with big mint-green eyes and oversized
 teal headphones, wearing a shiny gold medal, standing in the middle of a happy
 crowd of cartoon farm animals (cow, pig, sheep, duck, horse, rooster), confetti
-falling, sunset light, wide shot, flat 2D vector children's illustration, thick
-clean dark outlines, flat colors, palette of warm yellow, coral, mint green, teal
-and cream, soft shadows, simple rounded shapes, 16:9
+falling, sunset light, wide shot, 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes, 16:9
 ```
 
 Total: 1 intro + 40 scene de rundă + 1 final = **42 de imagini**.
