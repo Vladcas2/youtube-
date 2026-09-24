@@ -8,14 +8,24 @@
 
 ## 1. Titlu: alege unul
 
-1. **Who Said Moo? 20 Farm Animal Sounds Quiz for Toddlers**
-   → promisiune: un joc interactiv, cu un număr clar de runde
-2. **Listen & Name It! Farm Animal Sounds Challenge (20 Rounds)**
-   → promisiune: o provocare pe care o poți „câștiga”
-3. **Which Farm Animal Makes This Sound? Sound Quiz for Preschoolers**
-   → promisiune: întrebarea din video pusă direct în titlu (bun pentru căutare)
+Titlul donorului: *Guess The Animal Sounds For Kids | 4K*. Regula: **niciun cuvânt din el** în titlul nostru.
 
-Recomandare: **1**. Se potrivește și cu textul de pe thumbnail.
+1. **Who Said Moo? 20-Round Farm Noises Quiz for Toddlers**
+   → promisiune: un joc interactiv, cu un număr clar de runde
+2. **Listen & Name It! Farm Noises Game – 20 Rounds**
+   → promisiune: o provocare pe care o poți „câștiga”
+3. **Moo, Oink or Quack? Toddler Listening Quiz on the Farm**
+   → promisiune: sunetele chiar în titlu, copilul le recunoaște din prima
+
+Recomandare: **1**. Se potrivește cu textul de pe thumbnail.
+
+⚠️ Compromis: „animal sounds” e exact ce scriu oamenii în căutare. Titlurile de mai sus îl evită
+ca să nu semene cu donorul, așa că îl punem în **descriere** și în **etichete**. Dacă vrei totuși
+căutarea în titlu, singura abatere acceptabilă e: *Who Said Moo? Farm Animal Sounds Quiz (20 Rounds)*.
+Doar „Animal Sounds” e comun, restul e diferit.
+
+(Varianta veche „Which Farm Animal Makes This Sound?” a fost scoasă: e aproape identică cu
+textul de pe primul cadru al donorului, *„What animal makes this sound?”*.)
 
 **Descriere (primele rânduri):**
 ```
@@ -27,7 +37,10 @@ little one name them all before the countdown ends?
 ⏱️ Guess before the timer runs out
 🎉 Easy to hard, so every kid wins
 ```
-Capitolele: copiază lista de timpi de mai jos (0:00 Intro, 0:03 Challenge 1 …).
+Capitolele: copiază lista de timpi de mai jos (0:00 Intro, 0:03 Round 1 …).
+
+Etichete: `farm animal sounds, animal noises for toddlers, farm animals quiz, toddler learning, preschool listening game`
+Hashtag-uri (nu ale donorului): `#FarmAnimals #ToddlerLearning #ListeningGame`
 
 ---
 
@@ -63,16 +76,16 @@ rounded shapes, 16:9
 
 | Timp | Voce | Ecran |
 |---|---|---|
-| 0:00–0:03 | **"Hi friends! Can you guess ALL twenty? Let's go!"** | Pip apare cu un „pop” și își pune căștile |
-| 0:03–0:05 | **"Challenge 1!"** | „Challenge 1” |
+| 0:00–0:03 | **"Put on your listening ears! Can you name ALL twenty? Let's go!"** | Pip apare cu un „pop” și își pune căștile |
+| 0:03–0:05 | **"Round 1!"** | „Round 1” |
 | 0:05–0:11 | *(tăcere, „muu” de 2 ori)* | silueta vacii + „?”, Pip ascultă |
 | 0:11–0:13 | **"Who's making this sound?"** | Pip se apleacă |
 | 0:13–0:18 | **"Five… four… three… two… one…"** | cronometru |
 | 0:18–0:25 | **"It's a COW! Moo!"** + „muu” încă o dată | vaca colorată, „COW” scris mare |
 | 0:25–0:28 | **"Great job!"** | Pip sare, confetti |
-| 0:28–0:30 | **"Challenge 2!"** | „Challenge 2” |
+| 0:28–0:30 | **"Round 2!"** | „Round 2” |
 
-Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se închide abia la final
+Cârligul: întrebarea „can you name ALL twenty?” deschide o buclă care se închide abia la final
 („You did all twenty!”). În plus, fiecare rundă e o buclă mică de 25 s.
 
 ---
@@ -94,7 +107,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 1 — 0:03 — cow
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 1!"** | titlul „Challenge 1” |
+| 0–2 | **"Round 1!"** | titlul „Round 1” |
 | 2–8 | *(tăcere, sunetul cow de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's making this sound?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -104,7 +117,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 2 — 0:25 — dog
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 2!"** | titlul „Challenge 2” |
+| 0–2 | **"Round 2!"** | titlul „Round 2” |
 | 2–8 | *(tăcere, sunetul dog de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who could that be?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -114,7 +127,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 3 — 0:50 — cat
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 3!"** | titlul „Challenge 3” |
+| 0–2 | **"Round 3!"** | titlul „Round 3” |
 | 2–8 | *(tăcere, sunetul cat de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Hmm… who says that?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -124,7 +137,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 4 — 1:15 — duck
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 4!"** | titlul „Challenge 4” |
+| 0–2 | **"Round 4!"** | titlul „Round 4” |
 | 2–8 | *(tăcere, sunetul duck de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Do you know this one?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -134,7 +147,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 5 — 1:40 — rooster
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 5!"** | titlul „Challenge 5” |
+| 0–2 | **"Round 5!"** | titlul „Round 5” |
 | 2–8 | *(tăcere, sunetul rooster de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's waking up the farm?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -144,7 +157,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 6 — 2:05 — sheep
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 6! Now it gets a little trickier!"** | titlul „Challenge 6” |
+| 0–2 | **"Round 6! Now it gets a little trickier!"** | titlul „Round 6” |
 | 2–8 | *(tăcere, sunetul sheep de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's making this sound?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -154,7 +167,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 7 — 2:30 — pig
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 7!"** | titlul „Challenge 7” |
+| 0–2 | **"Round 7!"** | titlul „Round 7” |
 | 2–8 | *(tăcere, sunetul pig de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who could that be?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -164,7 +177,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 8 — 2:55 — horse
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 8!"** | titlul „Challenge 8” |
+| 0–2 | **"Round 8!"** | titlul „Round 8” |
 | 2–8 | *(tăcere, sunetul horse de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Listen again… who is it?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -174,7 +187,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 9 — 3:20 — goat
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 9!"** | titlul „Challenge 9” |
+| 0–2 | **"Round 9!"** | titlul „Round 9” |
 | 2–8 | *(tăcere, sunetul goat de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Hmm… who says that?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -184,7 +197,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 10 — 3:45 — chicken
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 10!"** | titlul „Challenge 10” |
+| 0–2 | **"Round 10!"** | titlul „Round 10” |
 | 2–8 | *(tăcere, sunetul chicken de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Do you know this one?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -194,7 +207,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 11 — 4:10 — turkey
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 11! Halfway there! Ten more to go!"** | titlul „Challenge 11” |
+| 0–2 | **"Round 11! Halfway there! Ten more to go!"** | titlul „Round 11” |
 | 2–8 | *(tăcere, sunetul turkey de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's making this funny sound?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -204,7 +217,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 12 — 4:35 — donkey
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 12!"** | titlul „Challenge 12” |
+| 0–2 | **"Round 12!"** | titlul „Round 12” |
 | 2–8 | *(tăcere, sunetul donkey de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who could that be?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -214,7 +227,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 13 — 5:00 — goose
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 13!"** | titlul „Challenge 13” |
+| 0–2 | **"Round 13!"** | titlul „Round 13” |
 | 2–8 | *(tăcere, sunetul goose de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Listen again… who is it?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -224,7 +237,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 14 — 5:30 — frog
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 14!"** | titlul „Challenge 14” |
+| 0–2 | **"Round 14!"** | titlul „Round 14” |
 | 2–8 | *(tăcere, sunetul frog de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's hiding by the pond?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -234,7 +247,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 15 — 5:55 — bee
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 15!"** | titlul „Challenge 15” |
+| 0–2 | **"Round 15!"** | titlul „Round 15” |
 | 2–8 | *(tăcere, sunetul bee de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Hmm… who's buzzing around?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -244,7 +257,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 16 — 6:19 — owl
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 16! Last five! These are the hardest ones!"** | titlul „Challenge 16” |
+| 0–2 | **"Round 16! Last five! These are the hardest ones!"** | titlul „Round 16” |
 | 2–8 | *(tăcere, sunetul owl de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's awake at night?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -254,7 +267,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 17 — 6:44 — mouse
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 17!"** | titlul „Challenge 17” |
+| 0–2 | **"Round 17!"** | titlul „Round 17” |
 | 2–8 | *(tăcere, sunetul mouse de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Shh… who's that tiny sound?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -264,7 +277,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 18 — 7:08 — pigeon
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 18!"** | titlul „Challenge 18” |
+| 0–2 | **"Round 18!"** | titlul „Round 18” |
 | 2–8 | *(tăcere, sunetul pigeon de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's sitting on the roof?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -274,7 +287,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 19 — 7:33 — cricket
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 19!"** | titlul „Challenge 19” |
+| 0–2 | **"Round 19!"** | titlul „Round 19” |
 | 2–8 | *(tăcere, sunetul cricket de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's singing in the grass?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -284,7 +297,7 @@ Cârligul: întrebarea „can you guess ALL twenty?” deschide o buclă care se
 ### Runda 20 — 7:58 — peacock
 | Sec | Voce (citești exact) | Ecran |
 |---|---|---|
-| 0–2 | **"Challenge 20! Final challenge!"** | titlul „Challenge 20” |
+| 0–2 | **"Round 20! Final challenge!"** | titlul „Round 20” |
 | 2–8 | *(tăcere, sunetul peacock de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"This is the hardest one… who is it?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
@@ -330,7 +343,7 @@ and cream, soft shadows, simple rounded shapes, 16:9
 ```
 
 Total: 1 intro + 40 scene de rundă + 1 final = **42 de imagini**.
-Titlul „Challenge N”, cronometrul și numele animalelor le faci în editor (CapCut / Canva), nu în generator.
+Titlul „Round N”, cronometrul și numele animalelor le faci în editor (CapCut / Canva), nu în generator.
 
 ---
 
@@ -351,14 +364,14 @@ Titlul „Challenge N”, cronometrul și numele animalelor le faci în editor (
 | | Donor | Noi |
 |---|---|---|
 | Subiect | animale sălbatice / amestecate | **animale de la fermă**, ordonate de la ușor la greu |
-| Text | al lor | **scris de la zero**; nicio frază preluată (n-am avut transcrierea, deci nici n-aveam de unde) |
+| Text + titlu | *Guess The Animal Sounds For Kids*, „Hi boys and girls!” | **scris de la zero**; nicio frază preluată (n-am avut transcrierea, deci nici n-aveam de unde) |
 | Vizual | 3D, junglă, copii-personaje | **2D plat, fermă, bufnița Pip**, paletă galben/coral/mentă |
 | Voce | a lor | a ta / voce AI aleasă de tine |
 | Limbă | engleză | **engleză: la fel.** Asta nu te diferențiază, deci restul trebuie să fie clar diferit |
 
-⚠️ Aproape de original: formatul „Challenge N” + numărătoare. Asta e mecanismul preluat, e în regulă.
-Dar dacă și donorul folosește exact cuvântul „Challenge” pe ecran, schimbă-l cu **„Sound #1”** sau **„Round 1”**.
+✔️ Donorul folosește „Challenge 1…20” în capitole, așa că la noi e peste tot **„Round 1…20”**.
+✔️ Donorul deschide cu text colorat pe negru, *„What animal makes this sound?”*, și „Hi boys and girls!”. Noi deschidem cu Pip la fermă și *„Put on your listening ears!”*.
 
 ---
 
-**Neverificat:** fără transcrierea donorului (interiorul rundei e presupus), fără vizualizările videoclipului și ale canalului (nu se știe dacă videoclipul a mers bine singur sau doar datorită canalului), fără comentarii.
+**Neverificat:** fără transcrierea donorului (interiorul rundei e presupus) și fără comentarii. Verificarea donorului e trecută: 5,4 mil. față de maxim 4K la ultimele 10.
