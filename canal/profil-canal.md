@@ -115,8 +115,8 @@ Donor = animale (sălbatice / amestecate). Noi schimbăm subiectul, mecanismul r
 
 **Lista pentru videoclipul 1 (ușor → greu):**
 1 vacă · 2 câine · 3 pisică · 4 rață · 5 cocoș · 6 oaie · 7 porc · 8 cal · 9 capră · 10 găină ·
-11 curcan · 12 măgar · 13 gâscă · 14 broască · 15 albină · 16 bufniță · 17 lamă ·
-18 porumbel · 19 greier · 20 bivol
+11 curcan · 12 măgar · 13 gâscă · 14 broască · 15 albină · 16 bufniță · 17 șoarece ·
+18 porumbel · 19 greier · 20 păun
 
 ---
 
@@ -157,4 +157,4 @@ cheering on the fence, confetti, medium shot, bright warm light,
 ## PAȘII URMĂTORI
 - [ ] Alege numele (Pasul 1) și verifică dacă e liber
 - [ ] Generează avatarul + bannerul
-- [ ] Spune-mi limba → primești textul exact pentru voce (intro + 20 de runde + final), titlurile și thumbnail-ul
+- [x] Limba: engleză → vezi `video-01-farm.md`
