@@ -87,6 +87,45 @@ Muzica de fundal: la −25 dB, cu **volumul la 0** cât se aude mugetul.
 
 ---
 
+## Varianta cu mișcare: Higgsfield (imagine → video)
+
+Regula: **întâi imaginea statică, apoi o animezi** (image-to-video, cu imaginea ca prim cadru).
+Nu genera direct din text: Pip ar ieși de fiecare dată altfel.
+
+**Ce animezi (clipuri de 5 s):**
+| Clip | Imagine de start | Unde intră |
+|---|---|---|
+| intro | A | 0:00–0:03 |
+| r01-reveal | B | 0:18–0:28 (5 s de clip, apoi îngheți ultimul cadru + zoom lent) |
+
+**Ce NU animezi:** silueta (rămâne imagine statică; o faci din **primul cadru** al clipului
+r01-reveal, ca trecerea să fie perfectă), textul, cronometrul, confetti (le pui din CapCut).
+
+**Prompt de mișcare, intro** (descrii doar mișcarea, nu din nou personajul):
+```
+The owl pops up from behind the fence with a small bounce, waves one wing
+twice, then settles and looks at the camera. Static camera, gentle slow
+push in. Smooth cartoon animation, no morphing, keep the style unchanged.
+```
+
+**Prompt de mișcare, reveal (șablon: schimbi doar animalul și gestul):**
+```
+The cow opens its mouth wide and moos, head tilting up slightly, musical
+notes gently float upward. The owl on the fence claps its wings once.
+Static camera. Smooth cartoon animation, no morphing, keep the style
+and characters unchanged.
+```
+
+**Setări:** 16:9, 5 s, mișcare mică/medie; alege modelul image-to-video pe care îl are Higgsfield în acel moment (Kling, Seedance etc.).
+Fă 2 variante per clip și păstrează-o pe cea în care Pip nu se deformează.
+
+⚠️ **Sunetul din clip îl oprești.** Generatoarele pot scoate sunete de animale inventate.
+Pentru un video de învățat, sunetul trebuie să fie real: îl iei de pe Pixabay, ca mai sus.
+
+Total pe video: 1 intro + 20 reveal + 1 final = **22 de clipuri** (nu 42), deci mai puține credite.
+
+---
+
 ## 5. Export și verificare
 Exportă cele 30 de secunde și uită-te la ele **pe telefon, cu volumul la jumătate**:
 - [ ] Mugetul se aude clar, fără muzică peste el?
