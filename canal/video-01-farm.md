@@ -80,7 +80,7 @@ mark, plain solid warm yellow background, empty space at the top for a title,
 | 0:05–0:11 | *(tăcere, „muu” de 2 ori)* | silueta vacii + „?”, Pip ascultă |
 | 0:11–0:13 | **"Who's making that noise?"** | Pip se apleacă |
 | 0:13–0:18 | **"Five… four… three… two… one…"** | cronometru |
-| 0:18–0:25 | **"It's a COW! Moo!"** + „muu” încă o dată | vaca colorată, „COW” scris mare |
+| 0:18–0:25 | **"It's a COW!"** + „muu” încă o dată | vaca colorată, „COW” scris mare |
 | 0:25–0:28 | **"Great job!"** | Pip sare, confetti |
 | 0:28–0:30 | **"Round 2!"** | „Round 2” |
 
@@ -110,7 +110,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul cow de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's making that noise?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a COW! Moo!"** + sunetul încă o dată | animalul colorat + „COW” scris mare |
+| 15–22 | **"It's a COW!"** + sunetul încă o dată | animalul colorat + „COW” scris mare |
 | 22–25 | **"Great job!"** | Pip sare, confetti |
 
 ### Runda 2 — 0:25 — dog
@@ -120,7 +120,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul dog de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who could that be?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a DOG! Woof woof!"** + sunetul încă o dată | animalul colorat + „DOG” scris mare |
+| 15–22 | **"It's a DOG!"** + sunetul încă o dată | animalul colorat + „DOG” scris mare |
 | 22–25 | **"You got it!"** | Pip sare, confetti |
 
 ### Runda 3 — 0:50 — cat
@@ -130,7 +130,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul cat de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Hmm… who says that?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a CAT! Meow!"** + sunetul încă o dată | animalul colorat + „CAT” scris mare |
+| 15–22 | **"It's a CAT!"** + sunetul încă o dată | animalul colorat + „CAT” scris mare |
 | 22–25 | **"Awesome listening!"** | Pip sare, confetti |
 
 ### Runda 4 — 1:15 — duck
@@ -140,7 +140,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul duck de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Do you know this one?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a DUCK! Quack quack!"** + sunetul încă o dată | animalul colorat + „DUCK” scris mare |
+| 15–22 | **"It's a DUCK!"** + sunetul încă o dată | animalul colorat + „DUCK” scris mare |
 | 22–25 | **"High five!"** | Pip sare, confetti |
 
 ### Runda 5 — 1:40 — rooster
@@ -150,7 +150,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul rooster de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's waking up the farm?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a ROOSTER! Cock-a-doodle-doo!"** + sunetul încă o dată | animalul colorat + „ROOSTER” scris mare |
+| 15–22 | **"It's a ROOSTER!"** + sunetul încă o dată | animalul colorat + „ROOSTER” scris mare |
 | 22–25 | **"Super ears!"** | Pip sare, confetti |
 
 ### Runda 6 — 2:05 — sheep
@@ -160,7 +160,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul sheep de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's making that noise?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a SHEEP! Baa!"** + sunetul încă o dată | animalul colorat + „SHEEP” scris mare |
+| 15–22 | **"It's a SHEEP!"** + sunetul încă o dată | animalul colorat + „SHEEP” scris mare |
 | 22–25 | **"Well done!"** | Pip sare, confetti |
 
 ### Runda 7 — 2:30 — pig
@@ -170,7 +170,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul pig de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who could that be?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a PIG! Oink oink!"** + sunetul încă o dată | animalul colorat + „PIG” scris mare |
+| 15–22 | **"It's a PIG!"** + sunetul încă o dată | animalul colorat + „PIG” scris mare |
 | 22–25 | **"Yes! You're so smart!"** | Pip sare, confetti |
 
 ### Runda 8 — 2:55 — horse
@@ -180,7 +180,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul horse de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Listen again… who is it?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a HORSE! Neigh!"** + sunetul încă o dată | animalul colorat + „HORSE” scris mare |
+| 15–22 | **"It's a HORSE!"** + sunetul încă o dată | animalul colorat + „HORSE” scris mare |
 | 22–25 | **"Great job!"** | Pip sare, confetti |
 
 ### Runda 9 — 3:20 — goat
@@ -190,7 +190,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul goat de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Hmm… who says that?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a GOAT! Maaa!"** + sunetul încă o dată | animalul colorat + „GOAT” scris mare |
+| 15–22 | **"It's a GOAT!"** + sunetul încă o dată | animalul colorat + „GOAT” scris mare |
 | 22–25 | **"You got it!"** | Pip sare, confetti |
 
 ### Runda 10 — 3:45 — chicken
@@ -200,7 +200,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul chicken de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Do you know this one?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a CHICKEN! Cluck cluck!"** + sunetul încă o dată | animalul colorat + „CHICKEN” scris mare |
+| 15–22 | **"It's a CHICKEN!"** + sunetul încă o dată | animalul colorat + „CHICKEN” scris mare |
 | 22–25 | **"Awesome listening!"** | Pip sare, confetti |
 
 ### Runda 11 — 4:10 — turkey
@@ -210,7 +210,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul turkey de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's making that funny noise?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a TURKEY! Gobble gobble!"** + sunetul încă o dată | animalul colorat + „TURKEY” scris mare |
+| 15–22 | **"It's a TURKEY!"** + sunetul încă o dată | animalul colorat + „TURKEY” scris mare |
 | 22–25 | **"High five!"** | Pip sare, confetti |
 
 ### Runda 12 — 4:35 — donkey
@@ -220,7 +220,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul donkey de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who could that be?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a DONKEY! Hee-haw!"** + sunetul încă o dată | animalul colorat + „DONKEY” scris mare |
+| 15–22 | **"It's a DONKEY!"** + sunetul încă o dată | animalul colorat + „DONKEY” scris mare |
 | 22–25 | **"Super ears!"** | Pip sare, confetti |
 
 ### Runda 13 — 5:00 — goose
@@ -230,7 +230,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul goose de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Listen again… who is it?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a GOOSE! Honk honk!"** + sunetul încă o dată | animalul colorat + „GOOSE” scris mare |
+| 15–22 | **"It's a GOOSE!"** + sunetul încă o dată | animalul colorat + „GOOSE” scris mare |
 | 22–25 | **"Well done!"** | Pip sare, confetti |
 
 ### Runda 14 — 5:30 — frog
@@ -240,7 +240,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul frog de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's hiding by the pond?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a FROG! Ribbit!"** + sunetul încă o dată | animalul colorat + „FROG” scris mare |
+| 15–22 | **"It's a FROG!"** + sunetul încă o dată | animalul colorat + „FROG” scris mare |
 | 22–25 | **"Yes! You're so smart!"** | Pip sare, confetti |
 
 ### Runda 15 — 5:55 — bee
@@ -250,7 +250,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul bee de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Hmm… who's buzzing around?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a BEE! Bzzzz!"** + sunetul încă o dată | animalul colorat + „BEE” scris mare |
+| 15–22 | **"It's a BEE!"** + sunetul încă o dată | animalul colorat + „BEE” scris mare |
 | 22–25 | **"Great job!"** | Pip sare, confetti |
 
 ### Runda 16 — 6:19 — owl
@@ -260,7 +260,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul owl de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's awake at night?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's an OWL! Hoo-hoo!"** + sunetul încă o dată | animalul colorat + „OWL” scris mare |
+| 15–22 | **"It's an OWL!"** + sunetul încă o dată | animalul colorat + „OWL” scris mare |
 | 22–25 | **"You got it!"** | Pip sare, confetti |
 
 ### Runda 17 — 6:44 — mouse
@@ -270,7 +270,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul mouse de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Shh… who's that tiny sound?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a MOUSE! Squeak squeak!"** + sunetul încă o dată | animalul colorat + „MOUSE” scris mare |
+| 15–22 | **"It's a MOUSE!"** + sunetul încă o dată | animalul colorat + „MOUSE” scris mare |
 | 22–25 | **"Awesome listening!"** | Pip sare, confetti |
 
 ### Runda 18 — 7:08 — pigeon
@@ -280,7 +280,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul pigeon de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's sitting on the roof?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a PIGEON! Coo-coo!"** + sunetul încă o dată | animalul colorat + „PIGEON” scris mare |
+| 15–22 | **"It's a PIGEON!"** + sunetul încă o dată | animalul colorat + „PIGEON” scris mare |
 | 22–25 | **"High five!"** | Pip sare, confetti |
 
 ### Runda 19 — 7:33 — cricket
@@ -290,7 +290,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul cricket de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"Who's singing in the grass?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a CRICKET! Chirp chirp!"** + sunetul încă o dată | animalul colorat + „CRICKET” scris mare |
+| 15–22 | **"It's a CRICKET!"** + sunetul încă o dată | animalul colorat + „CRICKET” scris mare |
 | 22–25 | **"Super ears!"** | Pip sare, confetti |
 
 ### Runda 20 — 7:58 — peacock
@@ -300,7 +300,7 @@ Cârligul, preluat de la donor: întâi **repetă titlul** („Who said moo?”)
 | 2–8 | *(tăcere, sunetul peacock de 2 ori)* | silueta + „?”, Pip ascultă |
 | 8–10 | **"This is the hardest one… who is it?"** | Pip se apleacă spre siluetă |
 | 10–15 | **"Five… four… three… two… one…"** | cronometru |
-| 15–22 | **"It's a PEACOCK! Ay-AW!"** + sunetul încă o dată | animalul colorat + „PEACOCK” scris mare |
+| 15–22 | **"It's a PEACOCK!"** + sunetul încă o dată | animalul colorat + „PEACOCK” scris mare |
 | 22–25 | **"WOW! You're a super listener!"** | Pip sare, confetti |
 
 ### Final — 8:28–8:40

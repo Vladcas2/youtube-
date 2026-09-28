@@ -60,7 +60,7 @@ Generează fiecare replică separat. Așa le poți muta ușor pe timeline.
 03  Round one!
 04  Who's making that noise?
 05  Five… four… three… two… one…
-06  It's a COW! Moo!
+06  It's a COW!
 07  Great job!
 08  Round two!
 ```
