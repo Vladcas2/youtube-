@@ -203,3 +203,12 @@ cheering on the fence, confetti, medium shot, bright warm light,
 - [ ] Alege numele (Pasul 1) și verifică dacă e liber
 - [ ] Generează avatarul + bannerul
 - [x] Limba: engleză → vezi `video-01-farm.md`
+
+---
+
+## Identitatea audio (aleasă)
+- **Muzica de fundal:** „Pajama Party” (Jeremy Korpas, YouTube Audio Library), aceeași în toate videoclipurile.
+  Volum ~10% sub voce, **oprită** cât se aude sunetul animalului, puțin mai tare la lauda lui Pip.
+- **Voci (ElevenLabs Voice Design):** „WST – Narator” și „WST – Pip”.
+  Setări: Speed 0.9 · Stability 45 · Similarity 75 · Style 30. Aceleași setări la orice replică.
+- Replicile: `voce-replici.md`.
