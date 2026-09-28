@@ -38,10 +38,14 @@ dips = []
 for k, r in enumerate(cfg["rounds"]):
     R = 3 + RLEN * k; v = r["voice"]
     ev += [(v["round"], R + (1.15 if k == 0 else 0.2), r.get("round_gain", 0), None),
-           (r["clip"], R + 2.6, 6, r["sound"]), (r["clip"], R + 5.5, 6, r["sound"]),
            (v["question"], R + 8.4, r.get("question_gain", 0), None),
-           (cfg["voice"]["N-00-countdown"], R + 10, 0, None),
-           (r["clip"], R + 14.5, 4, None),
+           (cfg["voice"]["N-00-countdown"], R + 10, 0, None)]
+    if "sfx" in r:  # sunet real (Pixabay): 2x pe siluetă + 1x după răspuns; sunetul clipului e oprit
+        ev += [(r["sfx"], R + 2.6, r.get("sfx_gain", 0), r["s1"]), (r["sfx"], R + 5.5, r.get("sfx_gain", 0), r["s2"]),
+               (r["sfx"], R + 16.6, r.get("sfx_gain", 0), r["s3"])]
+    else:           # provizoriu: sunetul din clipul Higgsfield
+        ev += [(r["clip"], R + 2.6, 6, r["sound"]), (r["clip"], R + 5.5, 6, r["sound"]), (r["clip"], R + 14.5, 4, None)]
+    ev += [
            (v["answer"], R + 15.0, r.get("answer_gain", 0), None),
            (v["praise"], R + 21.6, 0, None)]
     dips.append(R)
