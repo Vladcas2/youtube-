@@ -20,13 +20,12 @@ for r in cfg["rounds"]:
     ins = []
     for f, t in [("1-round.png", 2), ("2-silueta.png", 8)] + [(f"3-numaratoare-{k}.png", 1) for k in range(5, 0, -1)]:
         ins += ["-loop", "1", "-framerate", "30", "-t", str(t), "-i", f"{d}/{f}"]
-    ins += ["-i", r["clip"], "-loop", "1", "-framerate", "30", "-i", f"{OVL}/animale/{r['label']}.png",
-            "-loop", "1", "-framerate", "30", "-i", f"{OVL}/great-job.png"]
+    ins += ["-i", r["clip"], "-loop", "1", "-framerate", "30", "-i", f"{OVL}/animale/{r['label']}.png"]
     fc = "".join(f"[{i}:v]{V}[s{i}];" for i in range(7)) + "".join(f"[s{i}]" for i in range(7)) + \
          "concat=n=7:v=1:a=0,fps=30,settb=AVTB[sil];" + \
          f"[7:v]trim=0:10,setpts=PTS-STARTPTS,{V},settb=AVTB[c];[sil][c]xfade=transition=fade:duration=0.5:offset=14.5[q];" + \
-         "[8:v]format=rgba,scale=1920:1080[nm];[9:v]format=rgba,scale=1920:1080[gj];" + \
-         "[q][nm]overlay=0:0:shortest=1:enable='gte(t,15.2)'[q2];[q2][gj]overlay=0:0:shortest=1:enable='gte(t,21.5)',format=yuv420p"
+         "[8:v]format=rgba,scale=1920:1080[nm];" + \
+         "[q][nm]overlay=0:0:shortest=1:enable='gte(t,15.2)',format=yuv420p"
     out = f"{TMP}/{n:02d}.mp4"
     run(ins + ["-filter_complex", fc, "-t", str(RLEN), "-an", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", out])
     segs.append(out)
