@@ -207,7 +207,7 @@ cheering on the fence, confetti, medium shot, bright warm light,
 ---
 
 ## Identitatea audio (aleasă)
-- **Muzica de fundal:** „Pajama Party” (Jeremy Korpas, YouTube Audio Library), aceeași în toate videoclipurile.
+- **Muzica de fundal:** „Baby Animals Playing” (Joel Cummins, YouTube Audio Library), aceeași în toate videoclipurile. 2:08, se pune în buclă de ~4 ori. (Rezervă: „Pajama Party” – Jeremy Korpas.) Verifică în bibliotecă dacă cere atribuire.
   Volum ~10% sub voce, **oprită** cât se aude sunetul animalului, puțin mai tare la lauda lui Pip.
 - **Voci (ElevenLabs Voice Design):** „WST – Narator” și „WST – Pip”.
   Setări: Speed 0.9 · Stability 45 · Similarity 75 · Style 30. Aceleași setări la orice replică.
