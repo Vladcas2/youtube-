@@ -327,3 +327,29 @@ Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes,
 - Dacă în clip Pip se deformează → mai încearcă o dată, sau taie clipul înainte de deformare și îngheață cadrul.
 - Animalul trebuie să stea **în centru-dreapta, întreg**: altfel silueta nu se mai recunoaște.
 - Total: 22 de imagini + 22 de clipuri + 1 thumbnail.
+
+---
+
+## Variante corectate (după verificarea imaginilor)
+
+### RUNDA 3: pisică, din profil
+```
+Wide horizontal 16:9 landscape composition. A fluffy orange tabby cartoon cat on a sunny farmhouse porch, side view facing right, standing on all four paws, back slightly arched, tail raised high in a curve, pointed ears clearly visible, mouth open meowing, small musical notes floating near its head, the cat is the main subject in the center-right of the frame, full body visible. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on the white porch railing on the left, holding one wing to its ear, listening with a curious smile. Flower pots, a wooden rocking chair and a big green tree in the background, no barn, bright morning light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle fur and feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
+```
+
+### RUNDA 6: oaie, din profil
+```
+Wide horizontal 16:9 landscape composition. A fluffy white cartoon sheep standing in a green meadow, side view facing right, full body visible, round woolly body on thin dark legs, head and floppy ears clearly visible in profile, mouth open bleating, small musical notes floating near its head, the sheep is the main subject in the center-right of the frame. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a large grey rock on the left, clapping its wings happily. A windmill and a big oak tree in the background, rolling green hills, no barn, soft afternoon light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle wool and feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
+```
+
+### RUNDA 5: cocoș (opțional, doar alt gest pentru Pip)
+În promptul cocoșului schimbi partea cu Pip în:
+`Pip ... sitting on a hay bale on the left, waving one wing at the rooster with a big smile`
+
+### Gesturi pentru Pip, câte unul pe rundă (nu repeta două la rând)
+- `holding one wing to its ear, listening with a curious smile`
+- `clapping its wings happily`
+- `waving one wing`
+- `sitting calmly with both wings folded, big smile`
+- `peeking out from behind a flower pot`
+- `hopping with both feet off the ground`
