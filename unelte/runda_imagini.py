@@ -21,12 +21,23 @@ subprocess.run([FFMPEG, "-loglevel", "error", "-y", "-i", clip, "-vf", r"select=
 
 im = Image.open(f0).convert("RGB")
 w, h = im.size
-m = np.array(remove(im.crop(box), session=new_session("isnet-general-use"), only_mask=True)) > 25
-m = nd.binary_fill_holes(nd.binary_closing(m, structure=np.ones((5, 5))))
+crop = im.crop(box)
+# două modele: unul general, unul pentru desene animate; unim măștile
+m = np.zeros(crop.size[::-1], bool)
+for name in ("isnet-general-use", "isnet-anime"):
+    m |= np.array(remove(crop, session=new_session(name), only_mask=True)) > 60
+m = nd.binary_fill_holes(nd.binary_closing(m, structure=np.ones((9, 9)), iterations=2))
+m = nd.binary_opening(m, structure=np.ones((3, 3)))
 lab, n = nd.label(m)
 m = lab == (np.argmax(nd.sum(m, lab, range(1, n + 1))) + 1)
 full = np.zeros((h, w), bool)
 full[box[1]:box[3], box[0]:box[2]] = m
+if len(sys.argv) > 4:  # opțional: zonă x0,y0,x1,y1 unde adăugăm pixelii portocalii (cioc, labe) scăpați de model
+    x0, y0, x1, y1 = (int(v) for v in sys.argv[4].split(","))
+    a = np.array(im).astype(int)[y0:y1, x0:x1]
+    orange = (a[..., 0] > 190) & (a[..., 1] > 90) & (a[..., 1] < 200) & (a[..., 2] < 110) & (a[..., 0] - a[..., 2] > 110)
+    full[y0:y1, x0:x1] |= nd.binary_closing(orange, structure=np.ones((5, 5)))
+    full = nd.binary_fill_holes(full)
 cy, cx = nd.center_of_mass(full)
 
 mask = Image.fromarray((full * 255).astype("uint8"))
