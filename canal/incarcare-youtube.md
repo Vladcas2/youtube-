@@ -56,5 +56,5 @@ farm animal sounds, animal noises for toddlers, farm animals quiz, toddler learn
 - **Thumbnail:** `canal/thumbnail/B-inainte-dupa.jpg` (sau A/C, dacă ai „Test & Compare”)
 - **Categorie:** Education
 - **Conținut modificat/sintetic:** Nu (desen animat, nu imagini realiste)
-- **End screen (ultimele 10 s):** abonare + „cel mai recent videoclip”
+- **End screen / carduri:** indisponibile pentru conținut „Conceput pentru copii”. În schimb: Studio → Personalizare → Aspect → „Videoclip recomandat” = acest videoclip, plus un playlist cu el și Shorts-urile.
 - **Capitolele** se creează singure din lista de timpi din descriere (prima linie trebuie să fie 0:00).

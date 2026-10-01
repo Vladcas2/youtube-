@@ -1,7 +1,7 @@
 # Shorts: titluri și ordinea de postare
 
 1 Short pe zi, în ordinea de mai jos (animalele alternează).
-La fiecare: **Conceput pentru copii: DA** · **Videoclip asociat:** „Who Said Moo? 20-Round Farm Noises Quiz for Toddlers”.
+La fiecare: **Conceput pentru copii: DA**. (Câmpul „Videoclip asociat”, ecranele de final și cardurile sunt dezactivate de YouTube pentru conținutul pentru copii; trimiterea spre videoclipul lung se face prin textul de la finalul Short-ului, playlist și „Videoclip recomandat” pe pagina canalului.)
 
 **Descriere (aceeași la toate):**
 ```
