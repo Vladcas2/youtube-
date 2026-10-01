@@ -1,6 +1,6 @@
 # Încărcare pe YouTube: Video 1
 
-**Fișierul:** `canal/final/who-said-moo-video-01.mp4` (1920×1080, 8:34)
+**Fișierul:** `canal/who-said-moo-video-01-1080p.mp4` (1920×1080, 8:34)
 
 ## Titlu
 ```
