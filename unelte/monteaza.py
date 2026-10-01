@@ -38,9 +38,16 @@ for r in cfg["rounds"]:
     out = f"{TMP}/{n:02d}.mp4"
     run(ins + ["-filter_complex", fc, "-t", str(RLEN + e), "-an", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", out])
     segs.append(out)
+FLEN = 11.0
+if cfg.get("final"):  # finalul: clipul cu Pip + „You did it!”, apoi fade la negru
+    run(["-i", cfg["final"]["clip"], "-loop", "1", "-framerate", "30", "-i", f"{OVL}/final-you-did-it.png",
+         "-filter_complex", f"[0:v]trim=0:10,setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration=1[c];[1:v]format=rgba,scale=1920:1080[t];"
+         f"[c][t]overlay=0:0:shortest=1:enable='between(t,0.4,8.5)',fade=t=out:st={FLEN-1.5}:d=1.5,format=yuv420p",
+         "-t", str(FLEN), "-an", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", f"{TMP}/99.mp4"])
+    segs.append(f"{TMP}/99.mp4")
 open(f"{TMP}/list.txt", "w").write("".join(f"file '{s}'\n" for s in segs))
 run(["-f", "concat", "-safe", "0", "-i", f"{TMP}/list.txt", "-c", "copy", f"{TMP}/video.mp4"])
-total = 3 + sum(RLEN + r["_e"] for r in cfg["rounds"])
+total = 3 + sum(RLEN + r["_e"] for r in cfg["rounds"]) + (FLEN if cfg.get("final") else 0)
 
 ev = [(cfg["voice"]["P-00-intro-1"], 0.1, 0, None), (cfg["voice"]["P-00-intro-2"], 1.35, 2, None)]
 dips = []
@@ -72,6 +79,10 @@ def auto_gain(f, tr, g):
     if k not in cache: cache[k] = level(f, tr)
     mean, peak = cache[k]
     return g + (-16 - mean if tr is None else -3 - peak)
+if cfg.get("final"):
+    t = R0 + 0.5
+    for f in cfg["final"]["lines"]:
+        ev.append((f, t, 0, None)); t += dur(f) + 0.35
 ins = []; fc = ""; labels = []
 for i, (f, st, g, tr) in enumerate(ev):
     g = round(auto_gain(f, tr, g), 1)
