@@ -451,46 +451,46 @@ N-20-answer  It's a KOALA!
 ```
 P-00-intro-1  Who said ROAR?
 P-00-intro-2  Put on your ears… can you name all twenty?
-P-01-question  The lion lifts its head, opens its mouth wide and roars, its mane shakes
-P-01-praise  Who said that?
-P-02-question  The elephant lifts its trunk high and trumpets loudly, its big ears flap
-P-02-praise  Who could that be?
-P-03-question  The monkey opens its mouth and hoots excitedly, bouncing on the branch and scratching its head
-P-03-praise  Who's in the trees?
-P-04-question  The tiger opens its mouth and growls, its whiskers twitch and its tail swishes
-P-04-praise  Who's hiding in the jungle?
-P-05-question  The wolf points its nose to the moon and howls a long howl
-P-05-praise  Who's singing to the moon?
-P-06-question  The bear lifts its head and growls, then sniffs the air
-P-06-praise  Who's walking in the forest?
-P-07-question  The snake raises its head, flicks its tongue and hisses, its body sways gently
-P-07-praise  Sss… who is it?
-P-08-question  The hippo opens its huge mouth wide and grunts loudly, water splashes around its legs
-P-08-praise  Who's in the river?
-P-09-question  The parrot flaps its wings, opens its beak and squawks loudly, bobbing its head
-P-09-praise  Who's that loud bird?
-P-10-question  The zebra lifts its head and calls with a squeaky bark, its ears flick and its tail swishes
-P-10-praise  Who's that? It's not a horse!
-P-11-question  The gorilla beats its chest with both fists and grunts, then smiles
-P-11-praise  Who's beating on its chest?
-P-12-question  The hyena opens its mouth and giggles and whoops, its shoulders bounce
-P-12-praise  Who's laughing out there?
-P-13-question  The crocodile lifts its head, opens its long mouth and rumbles a deep growl, its tail swishes
-P-13-praise  Who's by the river?
-P-14-question  The toucan opens its big colorful beak and croaks, tilting its head side to side
-P-14-praise  Who's got the big beak?
-P-15-question  The fox lifts its head and gives a high yappy call, its fluffy tail swishes
-P-15-praise  What does the fox say?
-P-16-question  The kookaburra throws its head back and laughs loudly, its tail bobs
-P-16-praise  Who's laughing in the tree?
-P-17-question  The rhino lowers its head, snorts and grunts, then stamps one foot
-P-17-praise  Who's snorting out there?
-P-18-question  The camel opens its mouth and grumbles a long bubbly groan, its head bobs
-P-18-praise  Who's walking in the desert?
-P-19-question  The flamingo lifts its head and honks, flapping its pink wings once
-P-19-praise  Who's standing on one leg?
-P-20-question  The koala opens its mouth and makes a long deep snoring bellow, then blinks sleepily
-P-20-praise  This is the hardest one… who is it?
+P-01-question  Who said that?
+P-01-praise  Great job!
+P-02-question  Who could that be?
+P-02-praise  You got it!
+P-03-question  Who's in the trees?
+P-03-praise  Awesome listening!
+P-04-question  Who's hiding in the jungle?
+P-04-praise  Super ears!
+P-05-question  Who's singing to the moon?
+P-05-praise  Well done!
+P-06-question  Who's walking in the forest?
+P-06-praise  Yes! You're so smart!
+P-07-question  Sss… who is it?
+P-07-praise  Great job!
+P-08-question  Who's in the river?
+P-08-praise  You got it!
+P-09-question  Who's that loud bird?
+P-09-praise  Awesome listening!
+P-10-question  Who's that? It's not a horse!
+P-10-praise  Super ears!
+P-11-question  Who's beating on its chest?
+P-11-praise  Well done!
+P-12-question  Who's laughing out there?
+P-12-praise  Yes! You're so smart!
+P-13-question  Who's by the river?
+P-13-praise  Great job!
+P-14-question  Who's got the big beak?
+P-14-praise  You got it!
+P-15-question  What does the fox say?
+P-15-praise  Awesome listening!
+P-16-question  Who's laughing in the tree?
+P-16-praise  Super ears!
+P-17-question  Who's snorting out there?
+P-17-praise  Well done!
+P-18-question  Who's walking in the desert?
+P-18-praise  Yes! You're so smart!
+P-19-question  Who's standing on one leg?
+P-19-praise  Great job!
+P-20-question  This is the hardest one… who is it?
+P-20-praise  WOW! You're a super listener!
 P-99-final-1  You did it! All twenty wild animals!
 P-99-final-2  You are a SUPER listener!
 P-99-final-3  Want more? Watch the next game! See you there!

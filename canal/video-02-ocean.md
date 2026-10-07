@@ -461,46 +461,46 @@ N-20-answer  It's a NARWHAL!
 ```
 P-00-intro-1  Who's singing under the sea?
 P-00-intro-2  Put on your ears… can you name all twenty?
-P-01-question  The dolphin rises in a gentle arc, opens its mouth and chatters, water drops sparkle around it
-P-01-praise  Who's splashing in the sea?
-P-02-question  The seagull lifts its head, opens its beak wide and calls loudly, flapping its wings once
-P-02-praise  Who could that be?
-P-03-question  The whale slowly opens its mouth and sings a long song, its flippers wave gently, bubbles rise
-P-03-praise  Listen… who's singing down there?
-P-04-question  The penguin lifts its beak to the sky and calls loudly, flapping its flippers, then waddles in place
-P-04-praise  Who's calling from the ice?
-P-05-question  The baby seal lifts its head and cries out, its little flippers wiggle
-P-05-praise  Who's that little voice?
-P-06-question  The sea lion lifts its head and barks loudly three times, clapping its front flippers
-P-06-praise  Who's barking by the sea?
-P-07-question  The walrus lifts its head, opens its mouth and bellows, its whiskers wiggle
-P-07-praise  Who's that big deep voice?
-P-08-question  The polar bear lifts its head and growls, then shakes its fluffy fur
-P-08-praise  Who's walking on the ice?
-P-09-question  The orca rises out of the water, opens its mouth and calls, water splashes around it
-P-09-praise  Who's calling out at sea?
-P-10-question  The crab clicks its big claws together and scuttles a tiny bit sideways and back
-P-10-praise  Click, click… who is it?
-P-11-question  The otter squeaks, wiggles its whiskers and taps the shell with its paws
-P-11-praise  Who's that squeaky voice?
-P-12-question  The puffin opens its colorful beak and makes a long low growly call, bobbing its head
-P-12-praise  Who's on the cliff?
-P-13-question  The beluga opens its mouth and whistles and chirps, its round forehead wobbles, bubbles rise
-P-13-praise  Who's whistling under the water?
-P-14-question  The elephant seal lifts its head high, its big nose wobbles and it makes a loud deep rumbling call
-P-14-praise  Who's making that funny noise?
-P-15-question  The manatee squeaks softly, wiggles its whiskers and slowly waves its paddle tail
-P-15-praise  Shh… who's that soft sound?
-P-16-question  The bird opens its long orange beak and pipes loudly many times, bobbing its head
-P-16-praise  Who's piping on the beach?
-P-17-question  The shrimp snaps its giant claw shut with a pop, a little burst of bubbles shoots out
-P-17-praise  Snap! Who did that?
-P-18-question  The albatross points its beak to the sky, clacks it and calls, then spreads its long wings
-P-18-praise  Who's that big sea bird?
-P-19-question  The bird opens its beak and calls 'kitti-waake' again and again, bobbing its head
-P-19-praise  It says its own name… who is it?
-P-20-question  The narwhal clicks and whistles, its long tusk sparkles, it does a happy little wiggle, bubbles rise
-P-20-praise  This is the hardest one… who is it?
+P-01-question  Who's splashing in the sea?
+P-01-praise  Great job!
+P-02-question  Who could that be?
+P-02-praise  You got it!
+P-03-question  Listen… who's singing down there?
+P-03-praise  Awesome listening!
+P-04-question  Who's calling from the ice?
+P-04-praise  Super ears!
+P-05-question  Who's that little voice?
+P-05-praise  Well done!
+P-06-question  Who's barking by the sea?
+P-06-praise  Yes! You're so smart!
+P-07-question  Who's that big deep voice?
+P-07-praise  Great job!
+P-08-question  Who's walking on the ice?
+P-08-praise  You got it!
+P-09-question  Who's calling out at sea?
+P-09-praise  Awesome listening!
+P-10-question  Click, click… who is it?
+P-10-praise  Super ears!
+P-11-question  Who's that squeaky voice?
+P-11-praise  Well done!
+P-12-question  Who's on the cliff?
+P-12-praise  Yes! You're so smart!
+P-13-question  Who's whistling under the water?
+P-13-praise  Great job!
+P-14-question  Who's making that funny noise?
+P-14-praise  You got it!
+P-15-question  Shh… who's that soft sound?
+P-15-praise  Awesome listening!
+P-16-question  Who's piping on the beach?
+P-16-praise  Super ears!
+P-17-question  Snap! Who did that?
+P-17-praise  Well done!
+P-18-question  Who's that big sea bird?
+P-18-praise  Yes! You're so smart!
+P-19-question  It says its own name… who is it?
+P-19-praise  Great job!
+P-20-question  This is the hardest one… who is it?
+P-20-praise  WOW! You're a super listener!
 P-99-final-1  You did it! All twenty sea animals!
 P-99-final-2  You are a SUPER listener!
 P-99-final-3  Want more? Let's go to the jungle next! See you there!
