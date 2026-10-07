@@ -1,5 +1,7 @@
 # Video 2 — Ocean Animal Sounds Quiz (engleză)
 
+> ⏸️ **Amânat.** Videoclipul 2 e `video-02-wild.md` (animale sălbatice). Oceanul îl facem mai târziu, cu formatul „ghicește după umbră”: animalele marine nu au sunete pe care copiii mici să le recunoască.
+
 > Exact aceeași structură ca Video 1 (intro 3 s → 20 de runde → final), același Pip, aceleași voci, aceeași muzică.
 > Se schimbă doar materialul: 20 de animale ale mării, de la ușor la greu.
 
