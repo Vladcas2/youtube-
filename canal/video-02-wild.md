@@ -27,15 +27,15 @@ Un sunet bun e clar, fără vorbitori și fără muzică, cu 2–6 secunde utili
 | 11 | gorilla | gorilă | `gorilla` | mediu |
 | 12 | hyena | hienă | `hyena laugh` | mediu |
 | 13 | crocodile | crocodil | `crocodile / alligator growl` | mediu |
-| 14 | toucan | tucan | `toucan` | mediu |
+| 14 | woodpecker | ciocănitoare | `woodpecker` | mediu |
 | 15 | fox | vulpe | `fox scream / fox bark` | mediu |
-| 16 | kookaburra | kookaburra | `kookaburra` | greu |
+| 16 | deer | cerb | `deer / stag` | greu |
 | 17 | rhino | rinocer | `rhino` | greu |
 | 18 | camel | cămilă | `camel` | greu |
 | 19 | flamingo | flamingo | `flamingo` | greu |
 | 20 | koala | koala | `koala bellow` | greu |
 
-**Rezerve:** `cheetah` (ghepard), `ostrich` (struț), `meerkat`, `lemur`, `jaguar`.
+**Rezerve:** `cheetah` (ghepard), `toucan` (tucan), `ostrich` (struț), `meerkat`, `lemur`, `jaguar`.
 
 Numele fișierelor: `01-lion.mp3`, `02-elephant.mp3` …
 
@@ -285,16 +285,16 @@ The crocodile lifts its head, opens its long mouth and rumbles a deep growl, its
 
 ---
 
-### RUNDA 14 — toucan (tucan)
-Sunet: `toucan`
+### RUNDA 14 — woodpecker (ciocănitoare)
+Sunet: `woodpecker`
 
 **Imagine reveal:**
 ```
-Wide horizontal 16:9 landscape composition. A black cartoon toucan with a huge bright orange-and-yellow beak perched on a jungle branch, side view facing right, mouth open making its sound, small musical notes floating near its head, full body clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the toucan is the main subject in the center-right of the frame. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a lower branch on the left, clapping its wings happily. Background: lush green jungle with big leaves, hanging vines and colorful flowers, soft sunbeams, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
+Wide horizontal 16:9 landscape composition. A red-headed cartoon woodpecker with black-and-white wings clinging to the side of a tall tree trunk, side view facing right, mouth open making its sound, small musical notes floating near its head, full body clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the woodpecker is the main subject in the center-right of the frame. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a tree stump on the left, clapping its wings happily. Background: calm green forest with tall pine trees and soft moss, gentle morning light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
 ```
 **Clip:**
 ```
-The toucan opens its big colorful beak and croaks, tilting its head side to side. The toucan stays in the same place in the frame. The owl on the left claps its wings once and bounces happily. Static camera. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+The woodpecker taps its beak fast against the tree trunk, rat-a-tat-tat, little wood chips fly. The woodpecker stays in the same place in the frame. The owl on the left claps its wings once and bounces happily. Static camera. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -313,16 +313,16 @@ The fox lifts its head and gives a high yappy call, its fluffy tail swishes. The
 
 ---
 
-### RUNDA 16 — kookaburra (kookaburra)
-Sunet: `kookaburra`
+### RUNDA 16 — deer (cerb)
+Sunet: `deer / stag`
 
 **Imagine reveal:**
 ```
-Wide horizontal 16:9 landscape composition. A brown-and-cream cartoon kookaburra bird with a big beak perched on a eucalyptus branch, side view facing right, mouth open making its sound, small musical notes floating near its head, full body clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the kookaburra is the main subject in the center-right of the frame. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a lower branch on the left, sitting calmly with both wings folded, big smile. Background: Australian bush with eucalyptus trees and red earth, blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
+Wide horizontal 16:9 landscape composition. A big brown cartoon deer with wide branching antlers standing in a forest meadow, side view facing right, head raised, mouth open making its sound, small musical notes floating near its head, full body clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the deer is the main subject in the center-right of the frame. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a tree stump on the left, sitting calmly with both wings folded, big smile. Background: autumn forest meadow with orange and yellow trees, soft morning mist, gentle golden light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
 ```
 **Clip:**
 ```
-The kookaburra throws its head back and laughs loudly, its tail bobs. The kookaburra stays in the same place in the frame. The owl on the left claps its wings once and bounces happily. Static camera. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+The deer lifts its head high, opens its mouth and bellows a long loud call, its breath makes a little cloud. The deer stays in the same place in the frame. The owl on the left claps its wings once and bounces happily. Static camera. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -432,11 +432,11 @@ N-12-answer  It's a HYENA!
 N-13-round  Round thirteen!
 N-13-answer  It's a CROCODILE!
 N-14-round  Round fourteen!
-N-14-answer  It's a TOUCAN!
+N-14-answer  It's a WOODPECKER!
 N-15-round  Round fifteen!
 N-15-answer  It's a FOX!
 N-16-round  Round sixteen! Last five! These are the hardest ones!
-N-16-answer  It's a KOOKABURRA!
+N-16-answer  It's a DEER!
 N-17-round  Round seventeen!
 N-17-answer  It's a RHINO!
 N-18-round  Round eighteen!
@@ -477,11 +477,11 @@ P-12-question  Who's laughing out there?
 P-12-praise  Yes! You're so smart!
 P-13-question  Who's by the river?
 P-13-praise  Great job!
-P-14-question  Who's got the big beak?
+P-14-question  Knock, knock… who is it?
 P-14-praise  You got it!
 P-15-question  What does the fox say?
 P-15-praise  Awesome listening!
-P-16-question  Who's laughing in the tree?
+P-16-question  Who's calling in the forest?
 P-16-praise  Super ears!
 P-17-question  Who's snorting out there?
 P-17-praise  Well done!
