@@ -33,9 +33,9 @@ Un sunet bun e clar, fără vorbitori și fără muzică, cu 2–6 secunde utili
 | 17 | rhino | rinocer | `rhino` | greu |
 | 18 | camel | cămilă | `camel` | greu |
 | 19 | flamingo | flamingo | `flamingo` | greu |
-| 20 | koala | koala | `koala bellow` | greu |
+| 20 | eagle | vultur (acvilă) | `eagle` | greu |
 
-**Rezerve:** `cheetah` (ghepard), `toucan` (tucan), `ostrich` (struț), `meerkat`, `lemur`, `jaguar`.
+**Rezerve:** `cheetah` (ghepard), `toucan` (tucan), `ostrich` (struț), `meerkat`, `lemur`, `jaguar`, `koala`.
 
 Numele fișierelor: `01-lion.mp3`, `02-elephant.mp3` …
 
@@ -369,16 +369,16 @@ The flamingo lifts its head and honks, flapping its pink wings once. The flaming
 
 ---
 
-### RUNDA 20 — koala (koala)
-Sunet: `koala bellow`
+### RUNDA 20 — eagle (vultur (acvilă))
+Sunet: `eagle`
 
 **Imagine reveal:**
 ```
-Wide horizontal 16:9 landscape composition. A fluffy grey cartoon koala with big round ears hugging a eucalyptus tree trunk, side view facing right, mouth open making its sound, small musical notes floating near its head, full body clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the koala is the main subject in the center-right of the frame. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a lower branch on the left, clapping its wings happily. Background: Australian bush with eucalyptus leaves, blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
+Wide horizontal 16:9 landscape composition. A big brown cartoon eagle with a white head and a yellow hooked beak perched on top of a tall rocky peak, side view facing right, wings spread wide, mouth open making its sound, small musical notes floating near its head, full body clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the eagle is the main subject in the center-right of the frame. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a lower rock on the left, clapping its wings happily. Background: high mountains with snowy peaks, green valley far below, bright blue sky with soft clouds, bright light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
 ```
 **Clip:**
 ```
-The koala opens its mouth and makes a long deep snoring bellow, then blinks sleepily. The koala stays in the same place in the frame. The owl on the left claps its wings once and bounces happily. Static camera. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+The eagle spreads its big wings, opens its beak and screeches loudly, its feathers ruffle in the wind. The eagle stays in the same place in the frame. The owl on the left claps its wings once and bounces happily. Static camera. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -386,7 +386,7 @@ The koala opens its mouth and makes a long deep snoring bellow, then blinks slee
 ### FINAL
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, wearing a shiny gold medal, standing on a big rock in the middle of a happy crowd of cartoon wild animals (lion, elephant, monkey, tiger, zebra, hippo, parrot, koala), confetti falling, warm sunset light over the savanna, wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
+Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, wearing a shiny gold medal, standing on a big rock in the middle of a happy crowd of cartoon wild animals (lion, elephant, monkey, tiger, zebra, hippo, parrot, flamingo), confetti falling, warm sunset light over the savanna, wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather and fur texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080.
 ```
 **Clip:**
 ```
@@ -444,7 +444,7 @@ N-18-answer  It's a CAMEL!
 N-19-round  Round nineteen!
 N-19-answer  It's a FLAMINGO!
 N-20-round  Round twenty! Final round!
-N-20-answer  It's a KOALA!
+N-20-answer  It's an EAGLE!
 ```
 
 ### Pip: 45 de replici
