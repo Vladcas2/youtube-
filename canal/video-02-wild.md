@@ -33,7 +33,7 @@ Un sunet bun e clar, fără vorbitori și fără muzică, cu 2–6 secunde utili
 | 17 | rhino | rinocer | `rhino` | greu |
 | 18 | camel | cămilă | `camel` | greu |
 | 19 | flamingo | flamingo | `flamingo` | greu |
-| 20 | eagle | vultur (acvilă) | `eagle` | greu |
+| 20 | eagle | acvilă | `eagle` | greu |
 
 **Rezerve:** `cheetah` (ghepard), `toucan` (tucan), `ostrich` (struț), `meerkat`, `lemur`, `jaguar`, `koala`.
 
@@ -369,7 +369,7 @@ The flamingo lifts its head and honks, flapping its pink wings once. The flaming
 
 ---
 
-### RUNDA 20 — eagle (vultur (acvilă))
+### RUNDA 20 — eagle (acvilă)
 Sunet: `eagle`
 
 **Imagine reveal:**
