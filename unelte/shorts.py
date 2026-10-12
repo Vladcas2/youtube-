@@ -11,6 +11,7 @@ OVL = os.path.join(IMG, "suprapuneri")
 FONT = os.path.join(HERE, "fonturi", "fredoka-latin-700-normal.woff")
 cfg = json.load(open(sys.argv[1])); OUT = sys.argv[2]; os.makedirs(OUT, exist_ok=True)
 want = {int(x) for x in sys.argv[3:]}
+RUNDE = cfg.get("runde_dir", IMG); ANIMALE = cfg.get("animale_dir", f"{OVL}/animale")  # Video 2+
 TMP = os.path.join(cfg["tmp"], "shorts"); os.makedirs(TMP, exist_ok=True)
 V = "scale=1920:1080,fps=30,format=yuv420p,setsar=1"
 SIL, CD, CLIP, END = 8.0, 5.0, 10.0, 2.5
@@ -44,11 +45,11 @@ card(f"{TMP}/end.png", [("Play all 20!", 1400, 100, Y), ("Full video on our chan
 for r in cfg["rounds"]:
     n = r["nr"]
     if want and n not in want: continue
-    d = f"{IMG}/runda-{n:02d}"; v = r["voice"]
+    d = f"{RUNDE}/runda-{n:02d}"; v = r["voice"]
     # 1) partea orizontală: siluetă → numărătoare → clip cu numele animalului
     ins = ["-loop", "1", "-framerate", "30", "-t", str(SIL), "-i", f"{d}/2-silueta.png"]
     for k in range(5, 0, -1): ins += ["-loop", "1", "-framerate", "30", "-t", "1", "-i", f"{d}/3-numaratoare-{k}.png"]
-    ins += ["-i", r["clip"], "-loop", "1", "-framerate", "30", "-i", f"{OVL}/animale/{r['label']}.png"]
+    ins += ["-i", r["clip"], "-loop", "1", "-framerate", "30", "-i", f"{ANIMALE}/{r['label']}.png"]
     fc = "".join(f"[{i}:v]{V}[s{i}];" for i in range(6)) + "".join(f"[s{i}]" for i in range(6)) + "concat=n=6:v=1:a=0,fps=30,settb=AVTB[sil];" + \
          f"[6:v]trim=0:{CLIP},setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration={END},settb=AVTB[c];" + \
          f"[sil][c]xfade=transition=fade:duration=0.5:offset={SIL + CD - 0.5}[q];[7:v]format=rgba,scale=1920:1080[nm];" + \
