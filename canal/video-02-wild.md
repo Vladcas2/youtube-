@@ -399,6 +399,41 @@ Total: 22 de imagini + 22 de clipuri + 1 imagine pentru thumbnail.
 
 ## 4. Voci (aceleași voci salvate în ElevenLabs)
 
+> ✅ **Varianta scurtă (recomandată): generezi doar 21 de replici.** Restul le refolosesc de la Video 1,
+> pentru că sunt identice: „Round one!” … „Round twenty!”, laudele, numărătoarea, „Put on your ears…” și finalul „You did it! / You are a SUPER listener!”.
+> Întrebările lui Pip le iau tot de la Video 1, doar pe cele generale („Who could that be?”, „Hmm… who says that?” …).
+>
+> **Naratorul (20):**
+> ```
+> N-01-answer  It's a LION!
+> N-02-answer  It's an ELEPHANT!
+> N-03-answer  It's a MONKEY!
+> N-04-answer  It's a TIGER!
+> N-05-answer  It's a WOLF!
+> N-06-answer  It's a BEAR!
+> N-07-answer  It's a SNAKE!
+> N-08-answer  It's a HIPPO!
+> N-09-answer  It's a PARROT!
+> N-10-answer  It's a ZEBRA!
+> N-11-answer  It's a GORILLA!
+> N-12-answer  It's a HYENA!
+> N-13-answer  It's a CROCODILE!
+> N-14-answer  It's a WOODPECKER!
+> N-15-answer  It's a FOX!
+> N-16-answer  It's a DEER!
+> N-17-answer  It's a RHINO!
+> N-18-answer  It's a CAMEL!
+> N-19-answer  It's a FLAMINGO!
+> N-20-answer  It's an EAGLE!
+> ```
+> **Pip (1):**
+> ```
+> P-00-intro-1  Who said ROAR?
+> ```
+> (Opțional, a 22-a: `P-99-final-3  See you next time!`)
+>
+> Lista completă de mai jos rămâne doar pentru cine vrea să le genereze pe toate din nou.
+
 Numărătoarea `N-00-countdown` o refolosesc pe cea de la Video 1, deci **nu o mai generezi**.
 
 Nu folosim „High five!”: la Video 1 se confunda cu „Round five”.
