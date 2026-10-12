@@ -5,13 +5,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 IMG = os.path.join(HERE, "..", "canal", "imagini")
 OVL = os.path.join(IMG, "suprapuneri")
 cfg = json.load(open(sys.argv[1]))
+# Video 2+: siluetele, numele animalelor și titlul din intro sunt în altă parte; restul suprapunerilor sunt comune
+RUNDE = cfg.get("runde_dir", IMG)
+ANIMALE = cfg.get("animale_dir", f"{OVL}/animale")
+INTRO_TXT = cfg.get("intro_text", f"{OVL}/intro-who-said-moo.png")
 TMP = cfg["tmp"]; os.makedirs(TMP, exist_ok=True)
 V = "scale=1920:1080,fps=30,format=yuv420p,setsar=1"
 RLEN = 24.5
 def run(args): subprocess.run([FF, "-loglevel", "error", "-y"] + args, check=True)
 
 # intro (3 s)
-run(["-i", cfg["intro"], "-loop", "1", "-framerate", "30", "-i", f"{OVL}/intro-who-said-moo.png",
+run(["-i", cfg["intro"], "-loop", "1", "-framerate", "30", "-i", INTRO_TXT,
      "-filter_complex", f"[0:v]trim=0:3,setpts=PTS-STARTPTS,{V}[i];[1:v]format=rgba,scale=1920:1080[t];[i][t]overlay=0:0:shortest=1:enable='lt(t,1.3)',format=yuv420p",
      "-t", "3", "-an", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", f"{TMP}/00.mp4"])
 def dur(f):
@@ -25,11 +29,11 @@ for k, r in enumerate(cfg["rounds"]):
 
 segs = [f"{TMP}/00.mp4"]
 for r in cfg["rounds"]:
-    n = r["nr"]; d = f"{IMG}/runda-{n:02d}"; e = r["_e"]
+    n = r["nr"]; d = f"{RUNDE}/runda-{n:02d}"; e = r["_e"]
     ins = []
     for f, t in [("1-round.png", 2), ("2-silueta.png", 8 + e)] + [(f"3-numaratoare-{k}.png", 1) for k in range(5, 0, -1)]:
         ins += ["-loop", "1", "-framerate", "30", "-t", str(t), "-i", f"{d}/{f}"]
-    ins += ["-i", r["clip"], "-loop", "1", "-framerate", "30", "-i", f"{OVL}/animale/{r['label']}.png"]
+    ins += ["-i", r["clip"], "-loop", "1", "-framerate", "30", "-i", f"{ANIMALE}/{r['label']}.png"]
     fc = "".join(f"[{i}:v]{V}[s{i}];" for i in range(7)) + "".join(f"[s{i}]" for i in range(7)) + \
          "concat=n=7:v=1:a=0,fps=30,settb=AVTB[sil];" + \
          f"[7:v]trim=0:10,setpts=PTS-STARTPTS,{V},settb=AVTB[c];[sil][c]xfade=transition=fade:duration=0.5:offset={14.5 + e}[q];" + \

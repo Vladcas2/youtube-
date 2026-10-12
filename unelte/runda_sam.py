@@ -9,7 +9,8 @@ from scipy import ndimage as nd
 from rembg import remove, new_session
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "canal", "imagini")
-OVL = os.path.join(ROOT, "suprapuneri")
+OVL = os.path.join(ROOT, "suprapuneri")  # cartonașele „Round N”, numărătoarea și „?” sunt comune
+ROOT = os.environ.get("RUNDE_DIR", ROOT)  # Video 2+: RUNDE_DIR=canal/video-02/imagini
 W, H = 1920, 1080
 nr = int(sys.argv[1])
 pts = lambda s: [[int(v) for v in p.split(",")] for p in s.split(";") if p]

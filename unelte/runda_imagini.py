@@ -10,7 +10,8 @@ from rembg import remove, new_session
 
 FFMPEG = "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
 ROOT = os.path.join(os.path.dirname(__file__), "..", "canal", "imagini")
-OVL = os.path.join(ROOT, "suprapuneri")
+OVL = os.path.join(ROOT, "suprapuneri")  # cartonașele „Round N”, numărătoarea și „?” sunt comune
+ROOT = os.environ.get("RUNDE_DIR", ROOT)  # Video 2+: RUNDE_DIR=canal/video-02/imagini
 W, H = 1920, 1080
 
 clip, nr, box = sys.argv[1], int(sys.argv[2]), tuple(int(v) for v in sys.argv[3].split(","))
