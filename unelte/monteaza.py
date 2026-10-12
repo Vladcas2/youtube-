@@ -44,7 +44,7 @@ for r in cfg["rounds"]:
     segs.append(out)
 FLEN = 11.0
 if cfg.get("final"):  # finalul: clipul cu Pip + „You did it!”, apoi fade la negru
-    run(["-i", cfg["final"]["clip"], "-loop", "1", "-framerate", "30", "-i", f"{OVL}/final-you-did-it.png",
+    run(["-i", cfg["final"]["clip"], "-loop", "1", "-framerate", "30", "-i", cfg["final"].get("text", f"{OVL}/final-you-did-it.png"),
          "-filter_complex", f"[0:v]trim=0:10,setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration=1[c];[1:v]format=rgba,scale=1920:1080[t];"
          f"[c][t]overlay=0:0:shortest=1:enable='between(t,0.4,8.5)',fade=t=out:st={FLEN-1.5}:d=1.5,format=yuv420p",
          "-t", str(FLEN), "-an", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", f"{TMP}/99.mp4"])
