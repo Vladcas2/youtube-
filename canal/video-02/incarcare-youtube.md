@@ -60,7 +60,7 @@ wild animal sounds, jungle animal sounds for kids, animal noises for toddlers, s
 - Ecrane de final / carduri: indisponibile la conținut pentru copii, nu-ți face griji
 
 ## Thumbnail
-Trimite-mi fișierul imaginii pentru thumbnail (cea cu Pip și silueta leului pe verde), ca să pun textul „WHO SAID ROAR?” și cercul cu „20” sus-dreapta.
+Gata: `canal/video-02/thumbnail/who-said-roar.jpg` (1280×720).
 
 ## Shorts
 Din acest videoclip pot face 20 de Shorts (câte unul pe animal), ca la primul.
