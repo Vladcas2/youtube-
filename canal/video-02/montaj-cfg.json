@@ -1,0 +1,584 @@
+{
+ "tmp": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/build2",
+ "out": "/home/user/youtube-/canal/final/who-said-roar-video-02.mp4",
+ "intro": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/intro.mp4",
+ "music": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/b7617b1a-Baby_Animals_Playing_-_Joel_Cummins.mp3",
+ "runde_dir": "/home/user/youtube-/canal/video-02/imagini",
+ "animale_dir": "/home/user/youtube-/canal/video-02/imagini/suprapuneri/animale",
+ "intro_text": "/home/user/youtube-/canal/video-02/imagini/suprapuneri/intro-who-said-roar.png",
+ "voice": {
+  "P-00-intro-1": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/40ae1cf9-ElevenLabs_2026-10-12T07_05_11_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+  "P-00-intro-2": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/bff01062-P-00-intro-2.mp3",
+  "N-00-countdown": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9bb4bc3f-N-00-countdown.mp3"
+ },
+ "rounds": [
+  {
+   "nr": 1,
+   "label": "01-lion",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/1.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/0f51ab72-N-01-round.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/b95ecace-P-01-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-01-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/054c5899-P-01-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/af4133a9-pwlpl-powerful-lion-roar-sound-effect-high-quality-sfx-444190.mp3",
+   "s1": [
+    0,
+    2.6
+   ],
+   "s2": [
+    0,
+    2.6
+   ],
+   "s3": [
+    0,
+    2.2
+   ]
+  },
+  {
+   "nr": 2,
+   "label": "02-elephant",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/2.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/6f460735-N-02-round.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/410de4b4-P-02-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-02-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a68c7383-P-02-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/027f53b4-dragon-studio-elephant-trumpeting-494313.mp3",
+   "s1": [
+    0,
+    1.55
+   ],
+   "s2": [
+    0,
+    1.55
+   ],
+   "s3": [
+    0,
+    1.55
+   ]
+  },
+  {
+   "nr": 3,
+   "label": "03-monkey",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/3.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/c9e84e7f-N-03-round.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a71bc78f-P-03-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-03-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9f99705d-P-03-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/417a422b-u_zpj3vbdres-monkey-128368.mp3",
+   "s1": [
+    0.4,
+    2.65
+   ],
+   "s2": [
+    0.4,
+    2.65
+   ],
+   "s3": [
+    0.4,
+    2.6
+   ]
+  },
+  {
+   "nr": 4,
+   "label": "04-tiger",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/4.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/60ce78e6-N-04-round.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/05dab984-P-04-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-04-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/c6618cdb-ElevenLabs_2026-09-29T12_35_45_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/3da4b909-dffdv-tiger-attack-195840.mp3",
+   "s1": [
+    0.05,
+    2.8
+   ],
+   "s2": [
+    0.05,
+    2.8
+   ],
+   "s3": [
+    0.05,
+    2.25
+   ]
+  },
+  {
+   "nr": 5,
+   "label": "05-wolf",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/5.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/8b45eb7c-ElevenLabs_2026-09-29T12_39_07_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/0652fd43-ElevenLabs_2026-09-29T17_12_46_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-05-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/3d971b41-ElevenLabs_2026-09-29T12_36_52_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/ac91bfc9-universfield-wolf-howl-140235.mp3",
+   "s1": [
+    0.45,
+    3.2
+   ],
+   "s2": [
+    0.45,
+    3.2
+   ],
+   "s3": [
+    0.45,
+    2.6500000000000004
+   ]
+  },
+  {
+   "nr": 6,
+   "label": "06-bear",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/6.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/94fb8f6d-ElevenLabs_2026-09-29T12_40_12_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/b95ecace-P-01-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-06-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/328dcb9c-ElevenLabs_2026-09-29T17_12_24_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a9d4ab1c-universfield-bear-growl-191995.mp3",
+   "s1": [
+    0.05,
+    1.1
+   ],
+   "s2": [
+    0.05,
+    1.1
+   ],
+   "s3": [
+    0.05,
+    1.1
+   ]
+  },
+  {
+   "nr": 7,
+   "label": "07-snake",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/7.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/69083911-ElevenLabs_2026-09-29T17_03_09_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/410de4b4-P-02-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-07-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/054c5899-P-01-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/aa984a06-freesound_community-snake-hiss-95241.mp3",
+   "s1": [
+    0.35,
+    2.9
+   ],
+   "s2": [
+    0.35,
+    2.9
+   ],
+   "s3": [
+    0.35,
+    2.5500000000000003
+   ]
+  },
+  {
+   "nr": 8,
+   "label": "08-hippo",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/8.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/5e6e2bd3-ElevenLabs_2026-09-29T17_04_33_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a71bc78f-P-03-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-08-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a68c7383-P-02-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/4ae14555-freesound_community-hippos-33576.mp3",
+   "s1": [
+    4.7,
+    7.45
+   ],
+   "s2": [
+    4.7,
+    7.45
+   ],
+   "s3": [
+    4.7,
+    6.9
+   ]
+  },
+  {
+   "nr": 9,
+   "label": "09-parrot",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/9.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9472ebab-ElevenLabs_2026-09-29T17_05_34_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/05dab984-P-04-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-09-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9f99705d-P-03-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/014cbbe3-the-vampires-monster-cockatiel-singing-sounds-425289.mp3",
+   "s1": [
+    45.25,
+    47.95
+   ],
+   "s2": [
+    45.25,
+    47.95
+   ],
+   "s3": [
+    45.25,
+    47.45
+   ]
+  },
+  {
+   "nr": 10,
+   "label": "10-zebra",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/10.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/1495420b-ElevenLabs_2026-09-29T17_06_46_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/0652fd43-ElevenLabs_2026-09-29T17_12_46_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-10-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/c6618cdb-ElevenLabs_2026-09-29T12_35_45_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/88ec8a9d-cartoon_music-zebra-whinnying-555100.mp3",
+   "s1": [
+    1.2,
+    3.95
+   ],
+   "s2": [
+    1.2,
+    3.95
+   ],
+   "s3": [
+    1.2,
+    3.4000000000000004
+   ]
+  },
+  {
+   "nr": 11,
+   "label": "11-gorilla",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/11.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/c0a49faf-ElevenLabs_2026-09-29T17_09_14_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9d8f1953-ElevenLabs_2026-09-29T17_15_00_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-11-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/3d971b41-ElevenLabs_2026-09-29T12_36_52_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/8999dafb-flutie8211-gorilla-roar-523007.mp3",
+   "s1": [
+    1.2,
+    3.6
+   ],
+   "s2": [
+    1.2,
+    3.6
+   ],
+   "s3": [
+    1.2,
+    3.4000000000000004
+   ]
+  },
+  {
+   "nr": 12,
+   "label": "12-hyena",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/12.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/1199abb4-ElevenLabs_2026-09-29T17_09_57_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/410de4b4-P-02-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-12-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/328dcb9c-ElevenLabs_2026-09-29T17_12_24_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/e1f8b3cd-dragon-studio-hyena-laugh-1-515980.mp3",
+   "s1": [
+    0,
+    1.35
+   ],
+   "s2": [
+    0,
+    1.35
+   ],
+   "s3": [
+    0,
+    1.35
+   ]
+  },
+  {
+   "nr": 13,
+   "label": "13-crocodile",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/13.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/c673c612-ElevenLabs_2026-09-29T19_53_51_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a71bc78f-P-03-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-13-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/054c5899-P-01-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/593676ef-dragon-studio-crocodile-hissing-372480.mp3",
+   "s1": [
+    0.55,
+    1.6
+   ],
+   "s2": [
+    0.55,
+    1.6
+   ],
+   "s3": [
+    0.55,
+    1.6
+   ]
+  },
+  {
+   "nr": 14,
+   "label": "14-woodpecker",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/14.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a19f353b-ElevenLabs_2026-09-29T19_54_30_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/05dab984-P-04-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-14-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a68c7383-P-02-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/c29ca45d-nematoki-woodpecker-drumming-1-287910.mp3",
+   "s1": [
+    6.5,
+    9.15
+   ],
+   "s2": [
+    6.5,
+    9.15
+   ],
+   "s3": [
+    6.5,
+    8.7
+   ]
+  },
+  {
+   "nr": 15,
+   "label": "15-fox",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/15.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/0a696613-ElevenLabs_2026-09-29T19_56_45_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/0652fd43-ElevenLabs_2026-09-29T17_12_46_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-15-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9f99705d-P-03-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/991e0afa-freesound_community-fox-scream-in-the-forest-26634.mp3",
+   "s1": [
+    10.65,
+    13.4
+   ],
+   "s2": [
+    10.65,
+    13.4
+   ],
+   "s3": [
+    10.65,
+    12.850000000000001
+   ]
+  },
+  {
+   "nr": 16,
+   "label": "16-deer",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/16.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/6e35aaee-ElevenLabs_2026-09-29T19_58_02_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/b95ecace-P-01-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-16-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/c6618cdb-ElevenLabs_2026-09-29T12_35_45_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/6bdfb9eb-dragon-studio-deer-grunt-472371.mp3",
+   "s1": [
+    0.2,
+    1.0
+   ],
+   "s2": [
+    0.2,
+    1.0
+   ],
+   "s3": [
+    0.2,
+    1.0
+   ]
+  },
+  {
+   "nr": 17,
+   "label": "17-rhino",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/17.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/34d11fc1-N-17-round.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/410de4b4-P-02-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-17-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/3d971b41-ElevenLabs_2026-09-29T12_36_52_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9cc73eec-sondangsirait419-badak-220048.mp3",
+   "s1": [
+    0,
+    2.11
+   ],
+   "s2": [
+    0,
+    2.11
+   ],
+   "s3": [
+    0,
+    2.11
+   ]
+  },
+  {
+   "nr": 18,
+   "label": "18-camel",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/18.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/e2f8f610-ElevenLabs_2026-09-29T20_01_01_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a71bc78f-P-03-question.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-18-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/328dcb9c-ElevenLabs_2026-09-29T17_12_24_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/ac7e2d54-ammarimohamed6-camel-sound-123309.mp3",
+   "s1": [
+    1.9,
+    4.65
+   ],
+   "s2": [
+    1.9,
+    4.65
+   ],
+   "s3": [
+    1.9,
+    4.1
+   ]
+  },
+  {
+   "nr": 19,
+   "label": "19-flamingo",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/19.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/095e016e-ElevenLabs_2026-09-29T20_01_52_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/9d8f1953-ElevenLabs_2026-09-29T17_15_00_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-19-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/054c5899-P-01-praise.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/639d0c1a-bubaida-birdscall-2-392188.mp3",
+   "s1": [
+    7.7,
+    10.45
+   ],
+   "s2": [
+    7.7,
+    10.45
+   ],
+   "s3": [
+    7.7,
+    9.9
+   ]
+  },
+  {
+   "nr": 20,
+   "label": "20-eagle",
+   "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/20.mp4",
+   "sound": [
+    0,
+    1
+   ],
+   "voice": {
+    "round": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/ee29c420-ElevenLabs_2026-09-29T20_02_37_narator_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "question": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/42955e7e-ElevenLabs_2026-09-29T19_47_29_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+    "answer": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2voices/N-20-answer.mp3",
+    "praise": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/a61f57e0-ElevenLabs_2026-09-29T19_47_52_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+   },
+   "sfx": "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/e82ecf85-u_jfkxueyart-eagle-281163.mp3",
+   "s1": [
+    0.1,
+    1.6
+   ],
+   "s2": [
+    0.1,
+    1.6
+   ],
+   "s3": [
+    0.1,
+    1.6
+   ]
+  }
+ ],
+ "final": {
+  "clip": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/v2/fix/final.mp4",
+  "lines": [
+   "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/004cad86-ElevenLabs_2026-09-29T19_51_11_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+   "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/dfe8e1e1-ElevenLabs_2026-09-29T19_51_32_pip_gen_sp90_s45_sb75_se30_b_m2.mp3",
+   "/root/.claude/uploads/57eeb2af-5218-5815-9c30-1db477c1a629/7eacaa81-ElevenLabs_2026-10-12T07_06_12_pip_gen_sp90_s45_sb75_se30_b_m2.mp3"
+  ]
+ }
+}
