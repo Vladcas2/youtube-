@@ -19,6 +19,8 @@ out = os.path.join(ROOT, f"runda-{nr:02d}")
 im = Image.open(os.path.join(out, "cadru-0.png")).convert("RGB")
 w, h = im.size
 prompt = [{"type": "point", "data": p, "label": 1} for p in pos] + [{"type": "point", "data": p, "label": 0} for p in neg]
+if os.environ.get("SAM_BOX"):  # opțional: dreptunghi x0,y0,x1,y1 în jurul obiectului (merge mai bine la vehicule)
+    prompt.append({"type": "rectangle", "data": [int(v) for v in os.environ["SAM_BOX"].split(",")], "label": 1})
 m = np.array(remove(im, session=new_session("sam"), only_mask=True, sam_prompt=prompt)) > 127
 # completăm cu modelele obișnuite în zona animalului (capul/fața le scapă uneori lui SAM);
 # dacă fundalul se lipește de animal (acoperiș, frunză), rulează cu al 4-lea argument „doar-sam”
