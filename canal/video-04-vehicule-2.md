@@ -10,6 +10,7 @@
 - **Trailer de 5 s la început** (îl montez eu din clipurile tale): 4 vehicule apar rapid cu sunetul lor → Pip: „Can you guess them all?”. La Video 3, 55% plecau înainte de primul vehicul.
 - **Silueta 5 s (nu 8) la primele 3 runde**, ca acțiunea să înceapă repede.
 - **Runda 10 = BONUS ROUND** cu camionul-monstru: la jumătate (unde pleacau copiii) vine ceva spectaculos.
+- **Numărătoarea 3-2-1** (nu 5-4-3-2-1), ca rundele să fie mai alerte.
 - **Fără sirene, fără sunete slabe** (la Video 3 copiii plecau la ambulanță și bicicletă). Sunetele puternice sunt la început și la mijloc.
 
 ---
@@ -37,7 +38,7 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | 15 | go-kart | kart | `go kart` | mediu |
 | 16 | hovercraft | aeroglisor | `hovercraft` | greu |
 | 17 | snowmobile | snowmobil | `snowmobile` | greu |
-| 18 | tuk-tuk | tuk-tuk | `tuk tuk / auto rickshaw` | greu |
+| 18 | roller coaster | roller coaster | `roller coaster click / rollercoaster ride (fără țipete)` | greu |
 | 19 | street sweeper | mașină de măturat | `street sweeper` | greu |
 | 20 | fire boat | navă de pompieri | `fireboat / ship horn water spray` | greu |
 
@@ -351,16 +352,16 @@ Static camera. The snowmobile stays in exactly the same place in the frame the w
 
 ---
 
-### RUNDA 18 — tuk-tuk (tuk-tuk)
-Sunet: `tuk tuk / auto rickshaw`
+### RUNDA 18 — roller coaster (roller coaster)
+Sunet: `roller coaster click / rollercoaster ride (fără țipete)`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A colorful yellow-and-green cartoon tuk-tuk auto rickshaw with three wheels and a canopy roof, side view facing right, standing on a sunny street, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the tuk-tuk is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a park bench on the left, pointing at the vehicle with one wing, beak open in surprise. Background: sunny cartoon city street with colorful low buildings, a few round trees, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A colorful cartoon roller coaster car with red seats and yellow wheels, side view facing right, at the top of a big curved track loop, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the roller coaster is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on the track fence on the left, pointing at the vehicle with one wing, beak open in surprise. Background: cartoon amusement park with colorful flags and a ferris wheel far away, clear light blue sky, bright light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-Static camera. The tuk-tuk stays in exactly the same place in the frame the whole time, it does not drive or move away. The tuk-tuk putters and honks its funny horn twice, it rocks gently on its three wheels. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+Static camera. The roller coaster stays in exactly the same place in the frame the whole time, it does not drive or move away. The roller coaster car clicks forward a tiny bit at the top of the hill, its wheels clack on the track, little flags flutter. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -432,7 +433,7 @@ They're BUMPER CARS!
 It's a GO-KART!
 It's a HOVERCRAFT!
 It's a SNOWMOBILE!
-It's a TUK-TUK!
+It's a ROLLER COASTER!
 It's a STREET SWEEPER!
 It's a FIRE BOAT!
 ```
