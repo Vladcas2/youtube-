@@ -22,18 +22,18 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 |---|---|---|---|---|
 | 1 | school bus | autobuz școlar | `school bus horn / bus brakes` | ușor |
 | 2 | big truck | camion | `truck air horn` | ușor |
-| 3 | dump truck | basculantă | `dump truck / rocks dumping` | ușor |
+| 3 | bullet train | tren de mare viteză | `bullet train / high speed train` | ușor |
 | 4 | tram | tramvai | `tram bell / streetcar` | ușor |
 | 5 | speedboat | barcă cu motor | `speedboat / motorboat` | ușor |
-| 6 | bulldozer | buldozer | `bulldozer` | mediu |
+| 6 | propeller plane | avion cu elice | `propeller plane / small plane engine` | mediu |
 | 7 | subway train | metrou | `subway train / metro` | mediu |
 | 8 | tow truck | mașină de tractare | `tow truck winch / reversing beep` | mediu |
 | 9 | fighter jet | avion de vânătoare | `fighter jet flyby` | mediu |
 | 10 | monster truck | camion-monstru | `monster truck engine` | mediu |
 | 11 | scooter | scuter | `moped / scooter` | mediu |
-| 12 | forklift | stivuitor | `forklift reversing beep` | mediu |
+| 12 | horse carriage | trăsură | `horse carriage / horse hooves on cobblestone` | mediu |
 | 13 | jet ski | jet ski | `jet ski` | mediu |
-| 14 | crane | macara | `crane / construction crane` | mediu |
+| 14 | bumper cars | mașinuțe tamponate | `bumper cars` | mediu |
 | 15 | go-kart | kart | `go kart` | mediu |
 | 16 | hovercraft | aeroglisor | `hovercraft` | greu |
 | 17 | snowmobile | snowmobil | `snowmobile` | greu |
@@ -41,7 +41,9 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | 19 | street sweeper | mașină de măturat | `street sweeper` | greu |
 | 20 | fire boat | navă de pompieri | `fireboat / ship horn water spray` | greu |
 
-**Rezerve:** `steamroller` (compactor), `jeep`, `dune buggy`, `quad bike` (ATV), `double decker bus`.
+**Rezerve:** `seaplane` (hidroavion), `jeep`, `quad bike` (ATV), `double decker bus`, `cable car` (telecabină).
+
+🚧 **Utilajele de construcții (basculantă, buldozer, macara, stivuitor, compactor, încărcător…) le păstrăm pentru un videoclip separat doar cu construcții.**
 
 ⚠️ Fără sirene și fără sunete slabe: graficul de la Video 3 arată că acolo pleacă copiii.
 
@@ -137,16 +139,16 @@ Static camera. The big truck stays in exactly the same place in the frame the wh
 
 ---
 
-### RUNDA 3 — dump truck (basculantă)
-Sunet: `dump truck / rocks dumping`
+### RUNDA 3 — bullet train (tren de mare viteză)
+Sunet: `bullet train / high speed train`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A big orange cartoon dump truck with a raised bed full of rocks, side view facing right, standing still at a construction site, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the dump truck is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a small pile of bricks on the left, waving one wing. Background: cartoon construction site with dirt mounds and orange cones, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A sleek white-and-blue cartoon bullet train with a long pointy nose, side view facing right, standing on a raised track, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the bullet train is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a road sign post on the left, waving one wing. Background: green countryside with rolling hills, a red barn far away, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-Static camera. The dump truck stays in exactly the same place in the frame the whole time, it does not drive or move away. The dump truck tips its bed and the rocks rumble and tumble out, dust rises. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+Static camera. The bullet train stays in exactly the same place in the frame the whole time, it does not drive or move away. The bullet train blows its horn and whooshes in place, its lights blink, a gust of wind ruffles the grass. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -179,16 +181,16 @@ Static camera. The speedboat stays in exactly the same place in the frame the wh
 
 ---
 
-### RUNDA 6 — bulldozer (buldozer)
-Sunet: `bulldozer`
+### RUNDA 6 — propeller plane (avion cu elice)
+Sunet: `propeller plane / small plane engine`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A big yellow cartoon bulldozer with a wide front blade and black tracks, side view facing right, standing still on a dirt construction site, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the bulldozer is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a small pile of bricks on the left, pointing at the vehicle with one wing, beak open in surprise. Background: cartoon construction site with dirt mounds and orange cones, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A small bright red cartoon propeller plane with a big spinning propeller on its nose, side view facing right, flying in the sky, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the propeller plane is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a small round cloud on the left, pointing at the vehicle with one wing, beak open in surprise. Background: wide clear light blue sky with a few soft white clouds, green hills far below, bright light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-Static camera. The bulldozer stays in exactly the same place in the frame the whole time, it does not drive or move away. The bulldozer's engine rumbles, it pushes its blade a tiny bit forward and back, dirt crumbles. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+Static camera. The propeller plane stays in exactly the same place in the frame the whole time, it does not drive or move away. The propeller spins fast and the engine buzzes loudly, the little plane wiggles its wings in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -263,16 +265,16 @@ Static camera. The scooter stays in exactly the same place in the frame the whol
 
 ---
 
-### RUNDA 12 — forklift (stivuitor)
-Sunet: `forklift reversing beep`
+### RUNDA 12 — horse carriage (trăsură)
+Sunet: `horse carriage / horse hooves on cobblestone`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A small orange cartoon forklift carrying a wooden crate on its forks, side view facing right, standing in a warehouse, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the forklift is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a stack of boxes on the left, pointing at the vehicle with one wing, beak open in surprise. Background: bright cartoon warehouse with shelves of boxes, warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A pretty white cartoon horse pulling a red-and-gold carriage with big wheels, side view facing right, standing on a cobblestone street, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the horse carriage is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a lamp post on the left, pointing at the vehicle with one wing, beak open in surprise. Background: old-town cartoon street with cobblestones and colorful houses, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-Static camera. The forklift stays in exactly the same place in the frame the whole time, it does not drive or move away. The forklift beeps, its forks lift the crate up and down, its orange light blinks. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+Static camera. The horse carriage stays in exactly the same place in the frame the whole time, it does not drive or move away. The horse stamps its hooves clip-clop in place and shakes its mane, the carriage bell jingles. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -291,16 +293,16 @@ Static camera. The jet ski stays in exactly the same place in the frame the whol
 
 ---
 
-### RUNDA 14 — crane (macara)
-Sunet: `crane / construction crane`
+### RUNDA 14 — bumper cars (mașinuțe tamponate)
+Sunet: `bumper cars`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A tall yellow cartoon construction crane with a long arm and a hook holding a steel beam, at a construction site, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the crane is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a small pile of bricks on the left, clapping its wings happily. Background: cartoon construction site with dirt mounds and orange cones, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. Two colorful cartoon bumper cars, one red and one blue, with tall poles on the back, gently bumping into each other on a shiny floor, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the bumper cars is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a fence rail on the left, clapping its wings happily. Background: cartoon fun fair with colorful lights and a ferris wheel far away, bright evening light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-Static camera. The crane stays in exactly the same place in the frame the whole time, it does not drive or move away. The crane's hook goes up with a clanking chain, the beam swings gently, warning beeps sound. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+Static camera. The bumper cars stays in exactly the same place in the frame the whole time, it does not drive or move away. The two bumper cars bump softly into each other and bounce back, sparks twinkle at the top of the poles. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -413,18 +415,18 @@ Restul le refolosesc de la Video 1 („Round one!” … „Round twenty!”, nu
 ```
 It's a SCHOOL BUS!
 It's a BIG TRUCK!
-It's a DUMP TRUCK!
+It's a BULLET TRAIN!
 It's a TRAM!
 It's a SPEEDBOAT!
-It's a BULLDOZER!
+It's a PROPELLER PLANE!
 It's a SUBWAY TRAIN!
 It's a TOW TRUCK!
 It's a FIGHTER JET!
 It's a MONSTER TRUCK!
 It's a SCOOTER!
-It's a FORKLIFT!
+It's a HORSE CARRIAGE!
 It's a JET SKI!
-It's a CRANE!
+They're BUMPER CARS!
 It's a GO-KART!
 It's a HOVERCRAFT!
 It's a SNOWMOBILE!
