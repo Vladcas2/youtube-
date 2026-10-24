@@ -103,9 +103,9 @@ Ce am învățat la Video 2 (deja în prompturi):
 ### INTRO
 (Altă scenă decât la Video 3: Pip pe un camion mare, pe o autostradă cu multe vehicule.) ✅ Imaginea e deja făcută.
 
-**Clip (5 secunde):**
+**Clip:**
 ```
-Static camera. The owl bounces gently on the truck roof, waves one wing twice and looks at the camera, the truck stays in place, its headlights blink. Smooth cartoon animation, no morphing, keep the style unchanged, the owl keeps its headphones on.
+5-second video. Static camera. The owl bounces gently on the truck roof, waves one wing twice and looks at the camera, the truck stays in place, its headlights blink. Smooth cartoon animation, no morphing, keep the style unchanged, the owl keeps its headphones on.
 ```
 
 ---
@@ -119,7 +119,7 @@ Wide horizontal 16:9 landscape composition. A big friendly yellow cartoon school
 ```
 **Clip:**
 ```
-Static camera. The school bus stays in exactly the same place in the frame the whole time, it does not drive or move away. The school bus honks, its doors swing open and closed with a hiss, it bounces gently. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The school bus stays in exactly the same place in the frame the whole time, it does not drive or move away. The school bus honks, its doors swing open and closed with a hiss, it bounces gently. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -133,7 +133,7 @@ Wide horizontal 16:9 landscape composition. A huge shiny blue cartoon semi truck
 ```
 **Clip:**
 ```
-Static camera. The big truck stays in exactly the same place in the frame the whole time, it does not drive or move away. The truck pulls its loud air horn, puffs of smoke come out of the exhaust pipes, it shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The big truck stays in exactly the same place in the frame the whole time, it does not drive or move away. The truck pulls its loud air horn, puffs of smoke come out of the exhaust pipes, it shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -147,7 +147,7 @@ Wide horizontal 16:9 landscape composition. A sleek white-and-blue cartoon bulle
 ```
 **Clip:**
 ```
-Static camera. The bullet train stays in exactly the same place in the frame the whole time, it does not drive or move away. The bullet train blows its horn and whooshes in place, its lights blink, a gust of wind ruffles the grass. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The bullet train stays in exactly the same place in the frame the whole time, it does not drive or move away. The bullet train blows its horn and whooshes in place, its lights blink, a gust of wind ruffles the grass. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -161,7 +161,7 @@ Wide horizontal 16:9 landscape composition. A cheerful red-and-cream cartoon tra
 ```
 **Clip:**
 ```
-Static camera. The tram stays in exactly the same place in the frame the whole time, it does not drive or move away. The tram rings its bell ding-ding twice, its little roof pole sparks softly, it rocks gently on the rails. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The tram stays in exactly the same place in the frame the whole time, it does not drive or move away. The tram rings its bell ding-ding twice, its little roof pole sparks softly, it rocks gently on the rails. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -175,7 +175,7 @@ Wide horizontal 16:9 landscape composition. A sleek white-and-red cartoon speedb
 ```
 **Clip:**
 ```
-Static camera. The speedboat stays in exactly the same place in the frame the whole time, it does not drive or move away. The speedboat revs its motor, white spray splashes behind it, it bobs in place on the waves. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The speedboat stays in exactly the same place in the frame the whole time, it does not drive or move away. The speedboat revs its motor, white spray splashes behind it, it bobs in place on the waves. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -189,7 +189,7 @@ Wide horizontal 16:9 landscape composition. A small bright red cartoon propeller
 ```
 **Clip:**
 ```
-Static camera. The propeller plane stays in exactly the same place in the frame the whole time, it does not drive or move away. The propeller spins fast and the engine buzzes loudly, the little plane wiggles its wings in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The propeller plane stays in exactly the same place in the frame the whole time, it does not drive or move away. The propeller spins fast and the engine buzzes loudly, the little plane wiggles its wings in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -203,7 +203,7 @@ Wide horizontal 16:9 landscape composition. A shiny silver-and-blue cartoon subw
 ```
 **Clip:**
 ```
-Static camera. The subway train stays in exactly the same place in the frame the whole time, it does not drive or move away. The subway train whooshes and its doors slide open and closed with a chime, its lights blink. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The subway train stays in exactly the same place in the frame the whole time, it does not drive or move away. The subway train whooshes and its doors slide open and closed with a chime, its lights blink. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -217,7 +217,7 @@ Wide horizontal 16:9 landscape composition. A bright yellow cartoon tow truck wi
 ```
 **Clip:**
 ```
-Static camera. The tow truck stays in exactly the same place in the frame the whole time, it does not drive or move away. The tow truck beeps, its orange light flashes and the hook winch turns, it bounces gently. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The tow truck stays in exactly the same place in the frame the whole time, it does not drive or move away. The tow truck beeps, its orange light flashes and the hook winch turns, it bounces gently. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -231,7 +231,7 @@ Wide horizontal 16:9 landscape composition. A sleek gray cartoon fighter jet wit
 ```
 **Clip:**
 ```
-Static camera. The fighter jet stays in exactly the same place in the frame the whole time, it does not drive or move away. The jet roars loudly, a white streak of air forms behind it, it tilts its wings in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The fighter jet stays in exactly the same place in the frame the whole time, it does not drive or move away. The jet roars loudly, a white streak of air forms behind it, it tilts its wings in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -245,7 +245,7 @@ Wide horizontal 16:9 landscape composition. A giant bright green cartoon monster
 ```
 **Clip:**
 ```
-Static camera. The monster truck stays in exactly the same place in the frame the whole time, it does not drive or move away. The monster truck revs its huge engine, bounces high on its giant wheels and lands, dust flies. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The monster truck stays in exactly the same place in the frame the whole time, it does not drive or move away. The monster truck revs its huge engine, bounces high on its giant wheels and lands, dust flies. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -259,7 +259,7 @@ Wide horizontal 16:9 landscape composition. A cute mint-green cartoon moped scoo
 ```
 **Clip:**
 ```
-Static camera. The scooter stays in exactly the same place in the frame the whole time, it does not drive or move away. The scooter buzzes its little engine, beeps its horn, a tiny puff of smoke pops out. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The scooter stays in exactly the same place in the frame the whole time, it does not drive or move away. The scooter buzzes its little engine, beeps its horn, a tiny puff of smoke pops out. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -273,7 +273,7 @@ Wide horizontal 16:9 landscape composition. A pretty white cartoon horse pulling
 ```
 **Clip:**
 ```
-Static camera. The horse carriage stays in exactly the same place in the frame the whole time, it does not drive or move away. The horse stamps its hooves clip-clop in place and shakes its mane, the carriage bell jingles. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The horse carriage stays in exactly the same place in the frame the whole time, it does not drive or move away. The horse stamps its hooves clip-clop in place and shakes its mane, the carriage bell jingles. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -287,7 +287,7 @@ Wide horizontal 16:9 landscape composition. A shiny yellow-and-blue cartoon jet 
 ```
 **Clip:**
 ```
-Static camera. The jet ski stays in exactly the same place in the frame the whole time, it does not drive or move away. The jet ski buzzes loudly, a spray of water shoots out behind it, it bobs in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The jet ski stays in exactly the same place in the frame the whole time, it does not drive or move away. The jet ski buzzes loudly, a spray of water shoots out behind it, it bobs in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -301,7 +301,7 @@ Wide horizontal 16:9 landscape composition. A cheerful bright green cartoon ride
 ```
 **Clip:**
 ```
-Static camera. The lawn mower stays in exactly the same place in the frame the whole time, it does not drive or move away. The lawn mower buzzes loudly, little bits of cut grass fly out from the side, it shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The lawn mower stays in exactly the same place in the frame the whole time, it does not drive or move away. The lawn mower buzzes loudly, little bits of cut grass fly out from the side, it shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -315,7 +315,7 @@ Wide horizontal 16:9 landscape composition. A tiny red cartoon go-kart with fat 
 ```
 **Clip:**
 ```
-Static camera. The go-kart stays in exactly the same place in the frame the whole time, it does not drive or move away. The go-kart's little engine whines, it shakes in place and small speed lines appear behind it. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The go-kart stays in exactly the same place in the frame the whole time, it does not drive or move away. The go-kart's little engine whines, it shakes in place and small speed lines appear behind it. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -329,7 +329,7 @@ Wide horizontal 16:9 landscape composition. A friendly cartoon wooden pirate shi
 ```
 **Clip:**
 ```
-Static camera. The pirate ship stays in exactly the same place in the frame the whole time, it does not drive or move away. The ship bell rings ding-ding, the wooden hull creaks, the sails flap in the wind, small waves splash. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The pirate ship stays in exactly the same place in the frame the whole time, it does not drive or move away. The ship bell rings ding-ding, the wooden hull creaks, the sails flap in the wind, small waves splash. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -343,7 +343,7 @@ Wide horizontal 16:9 landscape composition. A shiny red cartoon snowmobile with 
 ```
 **Clip:**
 ```
-Static camera. The snowmobile stays in exactly the same place in the frame the whole time, it does not drive or move away. The snowmobile's engine buzzes, snow sprays from behind its track, it shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The snowmobile stays in exactly the same place in the frame the whole time, it does not drive or move away. The snowmobile's engine buzzes, snow sprays from behind its track, it shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -357,7 +357,7 @@ Wide horizontal 16:9 landscape composition. A colorful cartoon roller coaster ca
 ```
 **Clip:**
 ```
-Static camera. The roller coaster stays in exactly the same place in the frame the whole time, it does not drive or move away. The roller coaster car clicks forward a tiny bit at the top of the hill, its wheels clack on the track, little flags flutter. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The roller coaster stays in exactly the same place in the frame the whole time, it does not drive or move away. The roller coaster car clicks forward a tiny bit at the top of the hill, its wheels clack on the track, little flags flutter. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -371,7 +371,7 @@ Wide horizontal 16:9 landscape composition. A friendly white-and-orange cartoon 
 ```
 **Clip:**
 ```
-Static camera. The street sweeper stays in exactly the same place in the frame the whole time, it does not drive or move away. The round brushes spin and swish, the engine hums, a little dust cloud swirls. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The street sweeper stays in exactly the same place in the frame the whole time, it does not drive or move away. The round brushes spin and swish, the engine hums, a little dust cloud swirls. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -385,7 +385,7 @@ Wide horizontal 16:9 landscape composition. A big red cartoon fire boat with wat
 ```
 **Clip:**
 ```
-Static camera. The fire boat stays in exactly the same place in the frame the whole time, it does not drive or move away. The fire boat blows its horn and shoots tall arcs of water from its cannons, rainbows sparkle in the spray. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The fire boat stays in exactly the same place in the frame the whole time, it does not drive or move away. The fire boat blows its horn and shoots tall arcs of water from its cannons, rainbows sparkle in the spray. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -397,7 +397,7 @@ Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby
 ```
 **Clip:**
 ```
-Static camera, no zoom, no camera movement. Keep exactly the same vehicles as in the image, no new vehicles appear. The owl bounces gently and waves both wings, the vehicles' lights blink happily, a few colorful confetti pieces fall slowly. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera, no zoom, no camera movement. Keep exactly the same vehicles as in the image, no new vehicles appear. The owl bounces gently and waves both wings, the vehicles' lights blink happily, a few colorful confetti pieces fall slowly. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 Total: 22 de imagini + 22 de clipuri + 1 imagine pentru thumbnail.
