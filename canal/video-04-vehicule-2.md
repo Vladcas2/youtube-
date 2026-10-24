@@ -34,9 +34,9 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | 11 | scooter | scuter | `moped / scooter` | mediu |
 | 12 | horse carriage | trăsură | `horse carriage / horse hooves on cobblestone` | mediu |
 | 13 | jet ski | jet ski | `jet ski` | mediu |
-| 14 | bumper cars | mașinuțe tamponate | `bumper cars` | mediu |
+| 14 | lawn mower | mașină de tuns iarba | `lawn mower / ride on mower` | mediu |
 | 15 | go-kart | kart | `go kart` | mediu |
-| 16 | hovercraft | aeroglisor | `hovercraft` | greu |
+| 16 | pirate ship | corabie de pirați | `pirate ship / wooden ship creaking / ship bell` | greu |
 | 17 | snowmobile | snowmobil | `snowmobile` | greu |
 | 18 | roller coaster | roller coaster | `roller coaster click / rollercoaster ride (fără țipete)` | greu |
 | 19 | street sweeper | mașină de măturat | `street sweeper` | greu |
@@ -101,12 +101,8 @@ Ce am învățat la Video 2 (deja în prompturi):
 - alege **5 secunde**: la 8–10 s AI-ul începe să inventeze (dispar lucruri, cad căștile).
 
 ### INTRO
-(Altă scenă decât la Video 3: Pip pe un camion mare, pe o autostradă cu multe vehicule.)
+(Altă scenă decât la Video 3: Pip pe un camion mare, pe o autostradă cu multe vehicule.) ✅ Imaginea e deja făcută.
 
-**Imagine:**
-```
-Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on the roof of a big shiny blue truck cab and waving one wing at the viewer, a busy cartoon highway behind with a yellow school bus, a red-and-cream tram and a small red propeller plane in the sky, clear light blue sky, bright morning light, medium shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words in the image.
-```
 **Clip (5 secunde):**
 ```
 Static camera. The owl bounces gently on the truck roof, waves one wing twice and looks at the camera, the truck stays in place, its headlights blink. Smooth cartoon animation, no morphing, keep the style unchanged, the owl keeps its headphones on.
@@ -296,16 +292,16 @@ Static camera. The jet ski stays in exactly the same place in the frame the whol
 
 ---
 
-### RUNDA 14 — bumper cars (mașinuțe tamponate)
-Sunet: `bumper cars`
+### RUNDA 14 — lawn mower (mașină de tuns iarba)
+Sunet: `lawn mower / ride on mower`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. Two colorful cartoon bumper cars, one red and one blue, with tall poles on the back, gently bumping into each other on a shiny floor, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the bumper cars is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a fence rail on the left, clapping its wings happily. Background: cartoon fun fair with colorful lights and a ferris wheel far away, bright evening light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A cheerful bright green cartoon ride-on lawn mower with a little seat and steering wheel, side view facing right, on a sunny green lawn with freshly cut stripes, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the lawn mower is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a garden fence on the left, clapping its wings happily. Background: sunny cartoon backyard with a small house, flowers and a tree, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-Static camera. The bumper cars stays in exactly the same place in the frame the whole time, it does not drive or move away. The two bumper cars bump softly into each other and bounce back, sparks twinkle at the top of the poles. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+Static camera. The lawn mower stays in exactly the same place in the frame the whole time, it does not drive or move away. The lawn mower buzzes loudly, little bits of cut grass fly out from the side, it shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -324,16 +320,16 @@ Static camera. The go-kart stays in exactly the same place in the frame the whol
 
 ---
 
-### RUNDA 16 — hovercraft (aeroglisor)
-Sunet: `hovercraft`
+### RUNDA 16 — pirate ship (corabie de pirați)
+Sunet: `pirate ship / wooden ship creaking / ship bell`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A big friendly orange cartoon hovercraft with a black rubber skirt and a big fan on the back, side view facing right, floating over the water, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the hovercraft is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden dock post on the left, sitting calmly with both wings folded, big smile. Background: calm blue lake with green trees on the shore, clear light blue sky, bright light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A friendly cartoon wooden pirate ship with big white sails and a smiling skull-free flag with a star, side view facing right, floating on gentle waves, the whole vehicle clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the pirate ship is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a floating barrel on the left, sitting calmly with both wings folded, big smile. Background: sunny cartoon sea with a small island and palm trees far away, clear light blue sky, bright light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-Static camera. The hovercraft stays in exactly the same place in the frame the whole time, it does not drive or move away. The big fan on the back spins and roars, spray and air blow out under the skirt, it floats in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+Static camera. The pirate ship stays in exactly the same place in the frame the whole time, it does not drive or move away. The ship bell rings ding-ding, the wooden hull creaks, the sails flap in the wind, small waves splash. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -429,9 +425,9 @@ It's a MONSTER TRUCK!
 It's a SCOOTER!
 It's a HORSE CARRIAGE!
 It's a JET SKI!
-They're BUMPER CARS!
+It's a LAWN MOWER!
 It's a GO-KART!
-It's a HOVERCRAFT!
+It's a PIRATE SHIP!
 It's a SNOWMOBILE!
 It's a ROLLER COASTER!
 It's a STREET SWEEPER!
