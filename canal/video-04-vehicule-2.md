@@ -10,7 +10,6 @@
 - **Trailer de 5 s la început** (îl montez eu din clipurile tale): 4 vehicule apar rapid cu sunetul lor → Pip: „Can you guess them all?”. La Video 3, 55% plecau înainte de primul vehicul.
 - **Silueta 5 s (nu 8) la primele 3 runde**, ca acțiunea să înceapă repede.
 - **Runda 10 = BONUS ROUND** cu camionul-monstru: la jumătate (unde pleacau copiii) vine ceva spectaculos.
-- **Numărătoarea 3-2-1** (nu 5-4-3-2-1), ca rundele să fie mai alerte.
 - **Fără sirene, fără sunete slabe** (la Video 3 copiii plecau la ambulanță și bicicletă). Sunetele puternice sunt la început și la mijloc.
 
 ---
@@ -101,11 +100,13 @@ Ce am învățat la Video 2 (deja în prompturi):
 - alege **5 secunde**: la 8–10 s AI-ul începe să inventeze (dispar lucruri, cad căștile).
 
 ### INTRO
-(Altă scenă decât la Video 3: Pip pe un camion mare, pe o autostradă cu multe vehicule.) ✅ Imaginea e deja făcută.
-
+**Imagine:**
+```
+Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, wearing a tiny yellow construction helmet over the headphones, sitting on top of a traffic light pole and waving one wing at the viewer, a sunny cartoon city street below with a small red car, a yellow school bus and a green train far away, clear light blue sky, bright morning light, medium shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. No text, no letters, no words in the image.
+```
 **Clip:**
 ```
-5-second video. Static camera. The owl bounces gently on the truck roof, waves one wing twice and looks at the camera, the truck stays in place, its headlights blink. Smooth cartoon animation, no morphing, keep the style unchanged, the owl keeps its headphones on.
+Static camera. The owl bounces gently on the traffic light, waves one wing twice and looks at the camera, the traffic light blinks green. Smooth cartoon animation, no morphing, keep the style unchanged.
 ```
 
 ---
