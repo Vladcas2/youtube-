@@ -393,7 +393,7 @@ Wide horizontal 16:9 landscape composition. A big red cartoon fire boat with wat
 ### FINAL
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, wearing a shiny gold medal, sitting on top of a red fire truck in the middle of a happy parade of cartoon vehicles (a red car, a police car, a green train, a yellow helicopter in the sky, a red tractor, a pink ice cream truck), confetti falling, sunny city street, warm sunset light, wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. No text, no letters, no words in the image.
+Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, wearing a shiny gold medal, sitting on the roof of a big blue monster truck with huge wheels in the middle of a happy parade of cartoon vehicles (a yellow school bus, an orange tow truck, a red go-kart, a small mint-green scooter, a red propeller plane in the sky), confetti falling, sunny city street, warm sunset light, wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. No text, no letters, no words in the image.
 ```
 **Clip:**
 ```
