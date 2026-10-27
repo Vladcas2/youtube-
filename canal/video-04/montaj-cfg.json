@@ -1,0 +1,449 @@
+{
+ "tmp": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/build4",
+ "out": "/home/user/youtube-/canal/video-04/../who-said-honk-video-04-1080p.mp4",
+ "intro": "/home/user/youtube-/canal/video-04/materiale/clipuri/00-intro.mp4",
+ "intro_text": "/home/user/youtube-/canal/video-04/imagini/suprapuneri/intro-who-said-honk.png",
+ "music": "/home/user/youtube-/canal/video-04/materiale/muzica/Baby_Animals_Playing_-_Joel_Cummins.mp3",
+ "runde_dir": "/home/user/youtube-/canal/video-04/imagini",
+ "animale_dir": "/home/user/youtube-/canal/video-04/imagini/suprapuneri/animale",
+ "fast_rounds": 3,
+ "trailer": {
+  "rounds": [
+   10,
+   9,
+   16,
+   5
+  ],
+  "slot": 1.25,
+  "from": 0.8
+ },
+ "voice": {
+  "trailer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-can-you-guess-them-all.mp3",
+  "intro-1": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-who-said-honk-honk.mp3",
+  "intro-2": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-put-on-your-ears.mp3",
+  "countdown": "/home/user/youtube-/canal/video-04/materiale/voci-noi/N-00-countdown-321.mp3"
+ },
+ "countdown_words": [
+  [
+   0.05,
+   0.8
+  ],
+  [
+   0.88,
+   1.65
+  ],
+  [
+   1.84,
+   2.87
+  ]
+ ],
+ "rounds": [
+  {
+   "nr": 1,
+   "label": "01-school-bus",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/01-school-bus.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/01-school-bus.mp3",
+   "s1": [
+    21.55,
+    23.75
+   ],
+   "s3": [
+    21.55,
+    23.75
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-01-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-01-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-1.mp3"
+   }
+  },
+  {
+   "nr": 2,
+   "label": "02-big-truck",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/02-big-truck.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/02-big-truck.mp3",
+   "s1": [
+    0.0,
+    1.44
+   ],
+   "s3": [
+    0.0,
+    1.44
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-02-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-02-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3"
+   }
+  },
+  {
+   "nr": 3,
+   "label": "03-bullet-train",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/03-bullet-train.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/03-bullet-train.mp3",
+   "s1": [
+    8.55,
+    10.75
+   ],
+   "s3": [
+    8.55,
+    10.75
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-03-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-03-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-3.mp3"
+   }
+  },
+  {
+   "nr": 4,
+   "label": "04-tram",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/04-tram.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/04-tram.mp3",
+   "s1": [
+    8.9,
+    11.5
+   ],
+   "s3": [
+    9.5,
+    11.7
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-04-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-04-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-4.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-1.mp3"
+   },
+   "clip_len": 5.5
+  },
+  {
+   "nr": 5,
+   "label": "05-speedboat",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/05-speedboat.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/05-speedboat.mp3",
+   "s1": [
+    3.1,
+    5.7
+   ],
+   "s3": [
+    3.35,
+    5.55
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-05-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-05-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-5.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   }
+  },
+  {
+   "nr": 6,
+   "label": "06-propeller-plane",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/06-propeller-plane.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/06-propeller-plane.mp3",
+   "s1": [
+    5.85,
+    8.45
+   ],
+   "s3": [
+    6.15,
+    8.35
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-06-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-06-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-6.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-3.mp3"
+   }
+  },
+  {
+   "nr": 7,
+   "label": "07-subway-train",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/07-subway-train.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/07-subway-train.mp3",
+   "s1": [
+    5.5,
+    8.1
+   ],
+   "s3": [
+    5.7,
+    7.9
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-07-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-07-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-1.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 8,
+   "label": "08-tow-truck",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/08-tow-truck.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/08-tow-truck.mp3",
+   "s1": [
+    1.2,
+    3.8
+   ],
+   "s3": [
+    1.55,
+    3.75
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-08-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-08-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-1.mp3"
+   }
+  },
+  {
+   "nr": 9,
+   "label": "09-fighter-jet",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/09-fighter-jet.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/09-fighter-jet.mp3",
+   "s1": [
+    3.85,
+    6.45
+   ],
+   "s3": [
+    4.2,
+    6.4
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-09-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-09-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-3.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   }
+  },
+  {
+   "nr": 10,
+   "label": "10-monster-truck",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/10-monster-truck.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/10-monster-truck.mp3",
+   "s1": [
+    0.1,
+    2.7
+   ],
+   "s3": [
+    0.1,
+    2.3
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-10-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-10-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-4.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-3.mp3"
+   }
+  },
+  {
+   "nr": 11,
+   "label": "11-scooter",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/11-scooter.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/11-scooter.mp3",
+   "s1": [
+    5.7,
+    8.3
+   ],
+   "s3": [
+    5.7,
+    7.9
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-11-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-11-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-5.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 12,
+   "label": "12-horse-carriage",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/12-horse-carriage.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/12-horse-carriage.mp3",
+   "s1": [
+    2.75,
+    5.35
+   ],
+   "s3": [
+    2.95,
+    5.15
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-12-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-12-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-6.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-1.mp3"
+   }
+  },
+  {
+   "nr": 13,
+   "label": "13-jet-ski",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/13-jet-ski.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/13-jet-ski.mp3",
+   "s1": [
+    8.75,
+    11.35
+   ],
+   "s3": [
+    8.15,
+    10.35
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-13-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-13-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-1.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   }
+  },
+  {
+   "nr": 14,
+   "label": "14-lawn-mower",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/14-lawn-mower.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/14-lawn-mower.mp3",
+   "s1": [
+    15.9,
+    18.5
+   ],
+   "s3": [
+    15.95,
+    18.15
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-14-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-14-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-3.mp3"
+   }
+  },
+  {
+   "nr": 15,
+   "label": "15-go-kart",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/15-go-kart.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/15-go-kart.mp3",
+   "s1": [
+    1.85,
+    4.45
+   ],
+   "s3": [
+    0.85,
+    3.05
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-15-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-15-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-3.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 16,
+   "label": "16-pirate-ship",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/16-pirate-ship.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/sunete/16-pirate-ship.mp3",
+   "s1": [
+    0.15,
+    2.7
+   ],
+   "s3": [
+    0.4,
+    2.6
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-16-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-16-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-4.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-5.mp3"
+   }
+  },
+  {
+   "nr": 17,
+   "label": "17-snowmobile",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/17-snowmobile.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/17-snowmobile.mp3",
+   "s1": [
+    5.0,
+    7.6
+   ],
+   "s3": [
+    5.1,
+    7.3
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-17-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-17-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-5.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   }
+  },
+  {
+   "nr": 18,
+   "label": "18-roller-coaster",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/18-roller-coaster.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/18-roller-coaster.mp3",
+   "s1": [
+    36.55,
+    39.15
+   ],
+   "s3": [
+    36.1,
+    38.3
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-18-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-18-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-6.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-5.mp3"
+   }
+  },
+  {
+   "nr": 19,
+   "label": "19-street-sweeper",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/19-street-sweeper.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/19-street-sweeper.mp3",
+   "s1": [
+    5.65,
+    8.25
+   ],
+   "s3": [
+    5.75,
+    7.95
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-19-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-19-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-7.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 20,
+   "label": "20-fire-boat",
+   "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/20-fire-boat.mp4",
+   "sfx": "/home/user/youtube-/canal/video-04/materiale/sunete/20-fire-boat.mp3",
+   "s1": [
+    0.2,
+    2.8
+   ],
+   "s3": [
+    0.2,
+    2.4
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-20-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/raspunsuri/N-20-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-7.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-5.mp3"
+   }
+  }
+ ],
+ "final": {
+  "clip": "/home/user/youtube-/canal/video-04/materiale/clipuri/99-final.mp4",
+  "text": "/home/user/youtube-/canal/video-04/../video-03/imagini/suprapuneri/final-you-did-it.png",
+  "lines": [
+   "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-you-did-it.mp3",
+   "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-super-listener.mp3",
+   "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-see-you-next-time.mp3"
+  ]
+ }
+}
