@@ -8,7 +8,7 @@ from PIL import Image
 from scipy import ndimage as nd
 from rembg import remove, new_session
 
-FFMPEG = "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
+FFMPEG = __import__("imageio_ffmpeg").get_ffmpeg_exe()
 ROOT = os.path.join(os.path.dirname(__file__), "..", "canal", "imagini")
 OVL = os.path.join(ROOT, "suprapuneri")  # cartonașele „Round N”, numărătoarea și „?” sunt comune
 ROOT = os.environ.get("RUNDE_DIR", ROOT)  # Video 2+: RUNDE_DIR=canal/video-02/imagini

@@ -4,7 +4,7 @@ Folosire: python3 shorts.py <cfg.json> <director_iesire> [nr_runda ...]
 Structura (~22 s): silueta + sunet x2 → întrebarea lui Pip → numărătoarea → dezvăluirea + răspuns + laudă → îndemn la videoclipul lung.
 """
 import subprocess, os, json, sys, re
-FF = "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
+FF = __import__("imageio_ffmpeg").get_ffmpeg_exe()
 HERE = os.path.dirname(os.path.abspath(__file__))
 IMG = os.path.join(HERE, "..", "canal", "imagini")
 OVL = os.path.join(IMG, "suprapuneri")

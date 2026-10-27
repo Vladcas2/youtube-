@@ -1,6 +1,6 @@
 """Montează intro + rundele disponibile într-un clip de previzualizare (voce + muzică)."""
 import subprocess, os, json, sys
-FF = "/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2"
+FF = __import__("imageio_ffmpeg").get_ffmpeg_exe()
 HERE = os.path.dirname(os.path.abspath(__file__))
 IMG = os.path.join(HERE, "..", "canal", "imagini")
 OVL = os.path.join(IMG, "suprapuneri")
