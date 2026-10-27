@@ -16,7 +16,7 @@ def dur(f):
     h, m, sec = re.search(r"Duration: (\d+):(\d+):([\d.]+)", o).groups()
     return int(h) * 3600 + int(m) * 60 + float(sec)
 def clip_in(r):  # clipul de răspuns: tăiat (tramvaiul pleacă), apoi ultimul cadru ținut
-    return f"trim=0:{r.get('clip_len', 10)},setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration=8,trim=0:10,setpts=PTS-STARTPTS"
+    return f"trim=0:{r.get('clip_len', 10)},setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration=8,trim=0:10,setpts=PTS-STARTPTS,fps=30"
 
 # ---------- trailer: 4 dezvăluiri rapide ----------
 TR = cfg["trailer"]; TS = TR["slot"]; TLEN = TS * len(TR["rounds"])
