@@ -25,7 +25,7 @@ w, h = im.size
 crop = im.crop(box)
 # două modele: unul general, unul pentru desene animate; unim măștile
 m = np.zeros(crop.size[::-1], bool)
-for name in ("isnet-general-use", "isnet-anime"):
+for name in os.environ.get("MODELE", "isnet-general-use,isnet-anime").split(","):  # MODELE=u2net când modelul anime greșește
     m |= np.array(remove(crop, session=new_session(name), only_mask=True)) > 60
 k = max(5, w // 240)  # netezire proporțională cu rezoluția
 m = nd.binary_fill_holes(nd.binary_closing(m, structure=np.ones((k, k))))
