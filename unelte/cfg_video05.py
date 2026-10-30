@@ -28,6 +28,8 @@ for n, v in enumerate(VEH, 1):
          "voice": {"round": f"{R4}/runde/N-{n:02d}-round.mp3", "answer": f"{M}/voci-noi/raspunsuri/N-{n:02d}-answer.mp3",
                    "praise": f"{R4}/pip/P-lauda-{P[n]}.mp3"}}
     if n in Q: r["voice"]["question"] = f"{R4}/pip/P-intrebare-{Q[n]}.mp3"
+    if v == "hammer": r["boomerang"] = 5.5      # după 5,6 s ciocanul dispare și apare Pip în locul lui
+    if v == "nail-gun": r["boomerang"] = 4.6    # după 4,8 s pistolul de cuie zboară din cadru
     rounds.append(r)
 
 cfg = {

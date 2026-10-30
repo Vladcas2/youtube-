@@ -18,6 +18,13 @@ def dur(f):
 def clip_in(r):  # clipul de răspuns: tăiat (tramvaiul pleacă), apoi ultimul cadru ținut
     return f"trim=0:{r.get('clip_len', 10)},setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration=8,trim=0:10,setpts=PTS-STARTPTS,fps=30"
 
+# clipurile care se strică spre final (AI-ul face să dispară obiectul): păstrăm doar începutul, înainte-înapoi
+for r in cfg["rounds"]:
+    if r.get("boomerang"):
+        out = f"{TMP}/boomerang-{r['nr']:02d}.mp4"
+        run(["-i", r["clip"], "-filter_complex", f"[0:v]trim=0:{r['boomerang']},setpts=PTS-STARTPTS,{V},split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0"] + ENC + [out])
+        r["clip"] = out
+
 # ---------- trailer: 4 dezvăluiri rapide ----------
 TR = cfg["trailer"]; TS = TR["slot"]; TLEN = TS * len(TR["rounds"])
 byn = {r["nr"]: r for r in cfg["rounds"]}
