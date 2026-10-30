@@ -1,4 +1,4 @@
-"""Video 4: trailer de 5 s + intro + 20 runde (siluetă 5 s la primele 3, numărătoare 3-2-1, runda 10 = bonus) + final.
+"""Video 4+: trailer de 5 s + intro + 20 runde (siluetă 5 s la primele 3, numărătoare 3-2-1, runda 10 = bonus) + final.
 
 Folosire: monteaza_v4.py cfg.json   (cfg-ul îl face cfg_video04.py)
 """
@@ -33,9 +33,14 @@ run(ins + ["-filter_complex", fc, "-t", str(TLEN)] + ENC + [f"{TMP}/00a.mp4"])
 # ---------- intro ----------
 IV = cfg["voice"]
 ILEN = round(0.15 + dur(IV["intro-1"]) + 0.15 + dur(IV["intro-2"]) + 0.2, 2)
-run(["-i", cfg["intro"], "-loop", "1", "-framerate", "30", "-i", cfg["intro_text"],
-     "-filter_complex", f"[0:v]trim=0:{ILEN},setpts=PTS-STARTPTS,{V}[i];[1:v]format=rgba,scale=1920:1080[t];[i][t]overlay=0:0:shortest=1,format=yuv420p",
-     "-t", str(ILEN)] + ENC + [f"{TMP}/00b.mp4"])
+ins = ["-i", cfg["intro"], "-loop", "1", "-framerate", "30", "-i", cfg["intro_text"]]
+fc = f"[0:v]trim=0:{ILEN},setpts=PTS-STARTPTS,{V}[i];[1:v]format=rgba,scale=1920:1080[t];[i][t]overlay=0:0:shortest=1[it]"
+SB = cfg.get("subscribe")  # butonul „Subscribe” după hook: intră și iese cu fade
+if SB:
+    a, b = SB["start"], SB["end"]
+    ins += ["-loop", "1", "-framerate", "30", "-t", str(ILEN), "-i", SB["img"]]
+    fc += f";[2:v]format=rgba,scale=1920:1080,fade=t=in:st={a}:d=0.25:alpha=1,fade=t=out:st={b - 0.3}:d=0.3:alpha=1[sb];[it][sb]overlay=0:0:shortest=1[is]"
+run(ins + ["-filter_complex", fc + (";[is]format=yuv420p" if SB else ";[it]format=yuv420p"), "-t", str(ILEN)] + ENC + [f"{TMP}/00b.mp4"])
 
 # ---------- runde ----------
 for r in cfg["rounds"]:

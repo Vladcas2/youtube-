@@ -27,11 +27,22 @@ crop = im.crop(box)
 m = np.zeros(crop.size[::-1], bool)
 for name in os.environ.get("MODELE", "isnet-general-use,isnet-anime").split(","):  # MODELE=u2net când modelul anime greșește
     m |= np.array(remove(crop, session=new_session(name), only_mask=True)) > 60
+if os.environ.get("GRABCUT"):  # GRABCUT=1: rafinăm masca după culori (obiecte subțiri, rupte de model)
+    import cv2
+    a = np.array(crop)[..., ::-1].copy()
+    gm = np.where(m, cv2.GC_PR_FGD, cv2.GC_PR_BGD).astype("uint8")
+    gm[:3, :] = gm[-3:, :] = cv2.GC_BGD; gm[:, :3] = gm[:, -3:] = cv2.GC_BGD
+    cv2.grabCut(a, gm, None, np.zeros((1, 65), np.float64), np.zeros((1, 65), np.float64), 6, cv2.GC_INIT_WITH_MASK)
+    m = (gm == cv2.GC_FGD) | (gm == cv2.GC_PR_FGD)
 k = max(5, w // 240)  # netezire proporțională cu rezoluția
 m = nd.binary_fill_holes(nd.binary_closing(m, structure=np.ones((k, k))))
 m = nd.binary_opening(m, structure=np.ones((3, 3)))
 lab, n = nd.label(m)
-m = lab == (np.argmax(nd.sum(m, lab, range(1, n + 1))) + 1)
+sz = nd.sum(m, lab, range(1, n + 1))
+if os.environ.get("TOATE"):  # TOATE=1: păstrăm toate bucățile mari (obiect rupt în două de model)
+    m = np.isin(lab, [i + 1 for i, v in enumerate(sz) if v > 0.03 * m.size])
+else:
+    m = lab == (np.argmax(sz) + 1)
 full = np.zeros((h, w), bool)
 full[box[1]:box[3], box[0]:box[2]] = m
 if len(sys.argv) > 4:  # opțional: zonă x0,y0,x1,y1 unde adăugăm pixelii portocalii/roz (cioc, labe, coadă de porc) scăpați de model
@@ -39,7 +50,7 @@ if len(sys.argv) > 4:  # opțional: zonă x0,y0,x1,y1 unde adăugăm pixelii por
     a = np.array(im).astype(int)[y0:y1, x0:x1]
     orange = (a[..., 0] > 190) & (a[..., 1] > 90) & (a[..., 1] < 200) & (a[..., 2] < 110) & (a[..., 0] - a[..., 2] > 110)
     pink = (a[..., 0] > 215) & (a[..., 1] > 130) & (a[..., 1] < 205) & (a[..., 2] > 130) & (a[..., 2] < 210) & (a[..., 0] - a[..., 1] > 25)
-    orange |= pink
+    orange |= pink | ((a[..., 0] > 150) & (a[..., 1] < 90) & (a[..., 2] < 90))  # + roșu (roabă)
     full[y0:y1, x0:x1] |= nd.binary_closing(orange, structure=np.ones((5, 5)))
     full = nd.binary_fill_holes(full)
 cy, cx = nd.center_of_mass(full)
