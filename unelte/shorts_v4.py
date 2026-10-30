@@ -58,7 +58,7 @@ for r in cfg["rounds"]:
     for k in range(3, 0, -1): ins += ["-loop", "1", "-framerate", "30", "-t", "1", "-i", f"{d}/3-numaratoare-{k}.png"]
     ins += ["-i", clip, "-loop", "1", "-framerate", "30", "-i", f"{ANIMALE}/{r['label']}.png"]
     fc = "".join(f"[{i}:v]{V}[s{i}];" for i in range(4)) + "".join(f"[s{i}]" for i in range(4)) + "concat=n=4:v=1:a=0,fps=30,settb=AVTB[sil];" + \
-         f"[4:v]trim=0:{CLIP},setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration={CLIP + END},trim=0:{CLIP + END},setpts=PTS-STARTPTS,fps=30,settb=AVTB[c];" + \
+         f"[4:v]trim=0:{min(CLIP, r.get('clip_len', CLIP))},setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration={CLIP + END},trim=0:{CLIP + END},setpts=PTS-STARTPTS,fps=30,settb=AVTB[c];" + \
          f"[sil][c]xfade=transition=fade:duration=0.5:offset={SIL + CD - 0.5}[q];[5:v]format=rgba,scale=1920:1080[nm];" + \
          f"[q][nm]overlay=0:0:shortest=1:enable='gte(t,{SIL + CD + 0.2})',format=yuv420p"
     run(ins + ["-filter_complex", fc, "-t", str(TOTAL), "-an", "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", f"{TMP}/h{n:02d}.mp4"])
