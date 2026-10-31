@@ -1,7 +1,7 @@
 # Încărcare pe YouTube: Video 5
 
 **Fișierul:** `canal/who-said-rumble-video-05-1080p.mp4` (1920×1080, 8:00)
-**Thumbnail:** `canal/video-05/thumbnail/who-said-rumble.jpg` (1280×720)
+**Thumbnail:** `canal/video-05/thumbnail/varianta-excavator.jpg` (stilul care a mers la Video 4: scenă din video + siluetă + „?”, fără text). Dacă ai testare A/B: pune și `who-said-rumble.jpg`.
 
 ## Titlu
 ```
