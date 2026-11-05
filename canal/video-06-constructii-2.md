@@ -36,11 +36,11 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | 9 | pickaxe | târnăcop | `pickaxe / pickaxe hitting stone` | mediu |
 | 10 | giant digger | excavatorul gigant | `bucket wheel excavator / giant mining machine` | mediu |
 | 11 | welding torch | aparat de sudură | `welding sound / arc welding` | mediu |
-| 12 | toolbox | cutie de scule | `toolbox drop / metal drop` | mediu |
+| 12 | staple gun | capsator | `staple gun` | mediu |
 | 13 | alarm | alarmă de șantier | `alarm / factory horn` | mediu |
 | 14 | plate compactor | placă compactoare | `plate compactor` | mediu |
 | 15 | freight train | tren de marfă | `freight train / train cars coupling` | mediu |
-| 16 | staple gun | capsator | `staple gun` | greu |
+| 16 | toolbox | cutie de scule | `toolbox drop / metal drop` | greu |
 | 17 | snowplow | plug de zăpadă | `snowplow scraping / snow plow` | greu |
 | 18 | air compressor | compresor de aer | `air compressor` | greu |
 | 19 | leaf blower | suflantă de frunze | `leaf blower` | greu |
@@ -249,16 +249,16 @@ Wide horizontal 16:9 landscape composition. A cartoon welding machine with a tor
 
 ---
 
-### RUNDA 12 — toolbox (cutie de scule)
-Sunet: `toolbox drop / metal drop`
+### RUNDA 12 — staple gun (capsator)
+Sunet: `staple gun`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A big red cartoon metal toolbox tipping off the edge of a workbench, with a wrench, a screwdriver and a hammer flying out of it in the air, side view, the whole toolbox clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the toolbox is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden crate on the left, pointing at the machine with one wing, beak open in surprise. Background: sunny cartoon workshop corner of a construction site with a wooden workbench, planks and a toolbox, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A red cartoon staple gun pressing staples into a wooden board on a workbench, side view facing right, the whole staple gun clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the staple gun is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a toolbox on the left, pointing at the machine with one wing, beak open in surprise. Background: sunny cartoon workshop corner of a construction site with a wooden workbench, planks and a toolbox, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-5-second video. Static camera. The toolbox stays in exactly the same place in the frame the whole time, it does not drive or move away. The toolbox falls to the floor with a loud metal crash and the tools bounce and clatter around it. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The staple gun stays in exactly the same place in the frame the whole time, it does not drive or move away. The staple gun clacks clack-clack, little staples appear in the board, the board stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -305,16 +305,16 @@ Wide horizontal 16:9 landscape composition. A long cartoon freight train with a 
 
 ---
 
-### RUNDA 16 — staple gun (capsator)
-Sunet: `staple gun`
+### RUNDA 16 — toolbox (cutie de scule)
+Sunet: `toolbox drop / metal drop`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A red cartoon staple gun pressing staples into a wooden board on a workbench, side view facing right, the whole staple gun clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the staple gun is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a toolbox on the left, sitting calmly with both wings folded, big smile. Background: sunny cartoon workshop corner of a construction site with a wooden workbench, planks and a toolbox, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A big red cartoon metal toolbox tipping off the edge of a workbench, with a wrench, a screwdriver and a hammer flying out of it in the air, side view, the whole toolbox clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the toolbox is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden crate on the left, sitting calmly with both wings folded, big smile. Background: sunny cartoon workshop corner of a construction site with a wooden workbench, planks and a toolbox, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-5-second video. Static camera. The staple gun stays in exactly the same place in the frame the whole time, it does not drive or move away. The staple gun clacks clack-clack, little staples appear in the board, the board stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The toolbox stays in exactly the same place in the frame the whole time, it does not drive or move away. The toolbox falls to the floor with a loud metal crash and the tools bounce and clatter around it. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -408,11 +408,11 @@ It's a PRESSURE WASHER!
 It's a PICKAXE!
 It's a GIANT DIGGER!
 It's a WELDING TORCH!
-It's a TOOLBOX!
+It's a STAPLE GUN!
 It's an ALARM!
 It's a PLATE COMPACTOR!
 It's a FREIGHT TRAIN!
-It's a STAPLE GUN!
+It's a TOOLBOX!
 It's a SNOWPLOW!
 It's an AIR COMPRESSOR!
 It's a LEAF BLOWER!
