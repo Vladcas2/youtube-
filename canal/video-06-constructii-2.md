@@ -14,7 +14,7 @@
 - **Utilajele mari amestecate cu uneltele** (la Video 5 uneltele grupate la final au ținut puțin mai slab).
 - **Fiecare sunet e diferit**: motoarele utilajelor sună cam la fel (un huruit), așa că la utilaje căutăm **ce face** (pietre care cad, șenile care zăngăne, tambur care se învârte, claxon, bip de marșarier), nu motorul. Am pus și unelte, care au sunete foarte clare.
 - **Vocile**: naratorul pentru runde, numărătoarea, întrebările și laudele lui Pip le refolosesc de la Video 4, iar finalul „You did it! All twenty machines!” de la Video 5. **Trebuie doar 21 de voci noi.**
-- **3 clipuri le ai deja** (făcute la Video 5 ca rezervă): încărcător frontal, foreză, placă compactoare (rundele 5, 9, 14). **Trebuie doar 19 clipuri noi.**
+- **2 clipuri le ai deja** (făcute la Video 5 ca rezervă): încărcător frontal și placă compactoare (rundele 5 și 14). **Trebuie doar 20 de clipuri noi.**
 
 
 ---
@@ -33,7 +33,7 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | 6 | saw | fierăstrău de mână | `hand saw cutting wood` | mediu |
 | 7 | semi truck | camion cu remorcă | `truck air brakes / semi truck air horn` | mediu |
 | 8 | pressure washer | aparat de spălat cu presiune | `pressure washer spraying` | mediu |
-| 9 | drilling rig | foreză | `drilling rig / rock drill` | mediu |
+| 9 | pickaxe | târnăcop | `pickaxe / pickaxe hitting stone` | mediu |
 | 10 | giant digger | excavatorul gigant | `bucket wheel excavator / giant mining machine` | mediu |
 | 11 | welding torch | aparat de sudură | `welding sound / arc welding` | mediu |
 | 12 | toolbox | cutie de scule | `toolbox drop / metal drop` | mediu |
@@ -207,16 +207,16 @@ Wide horizontal 16:9 landscape composition. A yellow cartoon pressure washer mac
 
 ---
 
-### RUNDA 9 — drilling rig (foreză)
-Sunet: `drilling rig / rock drill`
+### RUNDA 9 — pickaxe (târnăcop)
+Sunet: `pickaxe / pickaxe hitting stone`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A tall orange cartoon drilling rig truck with a long spinning drill going into the ground, side view facing right, standing still, the whole drilling rig clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the drilling rig is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a big rock on the left, waving one wing. Background: sunny cartoon rocky quarry with big gray and tan rocks, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A big cartoon pickaxe with a wooden handle and a shiny metal head striking a big gray rock, with little sparks where it hits, side view, the whole pickaxe clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the pickaxe is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a big rock on the left, waving one wing. Background: sunny cartoon rocky quarry with big gray and tan rocks, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-5-second video. Static camera. The drilling rig stays in exactly the same place in the frame the whole time, it does not drive or move away. The drill spins and rattles loudly, dust and little rocks fly out at the bottom, the rig stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The pickaxe stays in exactly the same place in the frame the whole time, it does not drive or move away. The pickaxe swings and hits the rock with a bright metal ting-ting, little rock chips and sparks fly, the rock stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -385,7 +385,7 @@ Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby
 5-second video. Static camera, no zoom, no camera movement. Keep exactly the same machines as in the image, no new machines appear. The owl bounces gently and waves both wings, the machines' lights blink happily, the excavator arm waves once, a few colorful confetti pieces fall slowly. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
-Total: 19 imagini + 19 clipuri noi (rundele 5, 9, 14 le am deja) + 1 imagine pentru thumbnail.
+Total: 20 de imagini + 20 de clipuri noi (rundele 5 și 14 le am deja) + 1 imagine pentru thumbnail.
 
 ---
 
@@ -405,7 +405,7 @@ It's a WHEEL LOADER!
 It's a SAW!
 It's a SEMI TRUCK!
 It's a PRESSURE WASHER!
-It's a DRILLING RIG!
+It's a PICKAXE!
 It's a GIANT DIGGER!
 It's a WELDING TORCH!
 It's a TOOLBOX!
@@ -427,7 +427,7 @@ Who said CRASH?
 
 ## 5. Ce îmi trimiți (spui „gata” la final)
 1. Cele 20 de sunete
-2. Clipurile: intro, runde 1–20 (fără 5, 9, 14, pe care le am), final
+2. Clipurile: intro, runde 1–20 (fără 5 și 14, pe care le am), final
 3. Cele 21 de voci noi
 4. Imaginea pentru thumbnail (ca fișier)
 
