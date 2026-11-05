@@ -20,7 +20,7 @@ descarcă-l din conversație. Se poate reface oricând cu `unelte/compilatie.py`
 
 0:00 Construction sounds (Who Said Rumble Rumble?)
 3:48 Vehicle sounds (Who Said Beep Beep?)
-7:36 Vehicle sounds 2 (Who Said Honk Honk?)
+7:37 Vehicle sounds 2 (Who Said Honk Honk?)
 
 Music: "Baby Animals Playing" by Joel Cummins (YouTube Audio Library)
 
