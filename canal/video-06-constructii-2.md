@@ -26,9 +26,9 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | # | Utilaj | Română | Cauți | Dificultate |
 |---|---|---|---|---|
 | 1 | rock breaker | ciocan hidraulic | `hydraulic breaker / hydraulic hammer rock` | ușor |
-| 2 | sledgehammer | baros | `sledgehammer hitting wall / sledgehammer concrete` | ușor |
+| 2 | big hammer | baros | `sledgehammer hitting wall / hammer hit` | ușor |
 | 3 | recycling truck | camion de reciclare | `glass bottles recycling truck / glass crash` | ușor |
-| 4 | tower crane | macara-turn | `tower crane horn / crane chain` | ușor |
+| 4 | tower crane | macara-turn | `reversing beep / crane warning beep` | ușor |
 | 5 | wheel loader | încărcător frontal | `wheel loader dumping gravel / gravel pouring` | ușor |
 | 6 | saw | fierăstrău de mână | `hand saw cutting wood` | mediu |
 | 7 | semi truck | camion cu remorcă | `truck air brakes / semi truck air horn` | mediu |
@@ -36,8 +36,8 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | 9 | drilling rig | foreză | `drilling rig / rock drill` | mediu |
 | 10 | giant digger | excavatorul gigant | `bucket wheel excavator / giant mining machine` | mediu |
 | 11 | welding torch | aparat de sudură | `welding sound / arc welding` | mediu |
-| 12 | scissor lift | platformă foarfecă | `scissor lift beeping / scissor lift` | mediu |
-| 13 | tape measure | ruletă | `tape measure / tape measure retract` | mediu |
+| 12 | toolbox | cutie de scule | `toolbox drop / metal drop` | mediu |
+| 13 | alarm | alarmă de șantier | `alarm / factory horn` | mediu |
 | 14 | plate compactor | placă compactoare | `plate compactor` | mediu |
 | 15 | freight train | tren de marfă | `freight train / train cars coupling` | mediu |
 | 16 | staple gun | capsator | `staple gun` | greu |
@@ -109,16 +109,16 @@ Wide horizontal 16:9 landscape composition. A big yellow cartoon excavator with 
 
 ---
 
-### RUNDA 2 — sledgehammer (baros)
-Sunet: `sledgehammer hitting wall / sledgehammer concrete`
+### RUNDA 2 — big hammer (baros)
+Sunet: `sledgehammer hitting wall / hammer hit`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A big cartoon sledgehammer with a long wooden handle and a heavy gray head smashing an old brick wall, side view facing right, the whole sledgehammer clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the sledgehammer is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden crate on the left, clapping its wings happily. Background: sunny cartoon demolition site with an old brick wall, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A big cartoon sledgehammer with a long wooden handle and a heavy gray head smashing an old brick wall, side view facing right, the whole big hammer clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the big hammer is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden crate on the left, clapping its wings happily. Background: sunny cartoon demolition site with an old brick wall, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-5-second video. Static camera. The sledgehammer stays in exactly the same place in the frame the whole time, it does not drive or move away. The sledgehammer swings and hits the wall with a heavy thump, a few bricks fall and dust puffs out. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The big hammer stays in exactly the same place in the frame the whole time, it does not drive or move away. The sledgehammer swings and hits the wall with a heavy thump, a few bricks fall and dust puffs out. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -138,7 +138,7 @@ Wide horizontal 16:9 landscape composition. A bright green cartoon recycling tru
 ---
 
 ### RUNDA 4 — tower crane (macara-turn)
-Sunet: `tower crane horn / crane chain`
+Sunet: `reversing beep / crane warning beep`
 
 **Imagine:**
 ```
@@ -146,7 +146,7 @@ Wide horizontal 16:9 landscape composition. A very tall yellow cartoon tower cra
 ```
 **Clip:**
 ```
-5-second video. Static camera. The tower crane stays in exactly the same place in the frame the whole time, it does not drive or move away. The crane horn beeps, the chain rattles and the pallet of bricks lifts up a little and sways gently, the crane stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The tower crane stays in exactly the same place in the frame the whole time, it does not drive or move away. The crane beeps a loud warning beep-beep-beep, the chain rattles and the pallet of bricks lifts up a little and sways gently, the crane stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -249,30 +249,30 @@ Wide horizontal 16:9 landscape composition. A cartoon welding machine with a tor
 
 ---
 
-### RUNDA 12 — scissor lift (platformă foarfecă)
-Sunet: `scissor lift beeping / scissor lift`
+### RUNDA 12 — toolbox (cutie de scule)
+Sunet: `toolbox drop / metal drop`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. An orange cartoon scissor lift with a criss-cross folding base and a small platform with a railing, side view facing right, standing still next to a half-built wall, the whole scissor lift clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the scissor lift is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a stack of boxes on the left, pointing at the machine with one wing, beak open in surprise. Background: sunny cartoon city construction site with a tall half-built building and scaffolding, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A big red cartoon metal toolbox tipping off the edge of a workbench, with a wrench, a screwdriver and a hammer flying out of it in the air, side view, the whole toolbox clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the toolbox is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden crate on the left, pointing at the machine with one wing, beak open in surprise. Background: sunny cartoon workshop corner of a construction site with a wooden workbench, planks and a toolbox, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-5-second video. Static camera. The scissor lift stays in exactly the same place in the frame the whole time, it does not drive or move away. The scissor lift beeps beep-beep-beep and slowly rises up a little with a hydraulic hiss, it stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The toolbox stays in exactly the same place in the frame the whole time, it does not drive or move away. The toolbox falls to the floor with a loud metal crash and the tools bounce and clatter around it. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
 
-### RUNDA 13 — tape measure (ruletă)
-Sunet: `tape measure / tape measure retract`
+### RUNDA 13 — alarm (alarmă de șantier)
+Sunet: `alarm / factory horn`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A big cartoon yellow tape measure with its metal tape pulled out across a wooden plank on a workbench, side view, the whole tape measure clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the tape measure is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a toolbox on the left, holding one wing to its ear, listening with a curious smile. Background: sunny cartoon workshop corner of a construction site with a wooden workbench, planks and a toolbox, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A big cartoon warning alarm on a tall pole at a construction site, a round red siren with a bright flashing orange light on top, front view, the whole alarm clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the alarm is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on an orange traffic cone on the left, holding one wing to its ear, listening with a curious smile. Background: sunny cartoon construction site with dirt mounds, orange traffic cones and a half-built house far away, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-5-second video. Static camera. The tape measure stays in exactly the same place in the frame the whole time, it does not drive or move away. The metal tape slides back into the tape measure with a fast zip and a loud click, the plank stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The alarm stays in exactly the same place in the frame the whole time, it does not drive or move away. The alarm wails loudly and its orange light spins and flashes, the pole stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -398,7 +398,7 @@ Restul le refolosesc („Round one!” … „Round twenty!”, „Bonus round!�
 **Naratorul (20):**
 ```
 It's a ROCK BREAKER!
-It's a SLEDGEHAMMER!
+It's a BIG HAMMER!
 It's a RECYCLING TRUCK!
 It's a TOWER CRANE!
 It's a WHEEL LOADER!
@@ -408,8 +408,8 @@ It's a PRESSURE WASHER!
 It's a DRILLING RIG!
 It's a GIANT DIGGER!
 It's a WELDING TORCH!
-It's a SCISSOR LIFT!
-It's a TAPE MEASURE!
+It's a TOOLBOX!
+It's an ALARM!
 It's a PLATE COMPACTOR!
 It's a FREIGHT TRAIN!
 It's a STAPLE GUN!
