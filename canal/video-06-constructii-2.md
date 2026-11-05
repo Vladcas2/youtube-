@@ -14,7 +14,7 @@
 - **Utilajele mari amestecate cu uneltele** (la Video 5 uneltele grupate la final au ținut puțin mai slab).
 - **Fiecare sunet e diferit**: motoarele utilajelor sună cam la fel (un huruit), așa că la utilaje căutăm **ce face** (pietre care cad, șenile care zăngăne, tambur care se învârte, claxon, bip de marșarier), nu motorul. Am pus și unelte, care au sunete foarte clare.
 - **Vocile**: naratorul pentru runde, numărătoarea, întrebările și laudele lui Pip le refolosesc de la Video 4, iar finalul „You did it! All twenty machines!” de la Video 5. **Trebuie doar 21 de voci noi.**
-- **4 clipuri le ai deja** (făcute la Video 5 ca rezervă): încărcător frontal, foreză, placă compactoare, pompă de beton (rundele 5, 9, 14, 18). **Trebuie doar 18 clipuri noi.**
+- **3 clipuri le ai deja** (făcute la Video 5 ca rezervă): încărcător frontal, foreză, placă compactoare (rundele 5, 9, 14). **Trebuie doar 19 clipuri noi.**
 
 
 ---
@@ -42,7 +42,7 @@ Pe **Pixabay** → Sound Effects (rezervă: **freesound.org**, filtrul *Creative
 | 15 | freight train | tren de marfă | `freight train / train cars coupling` | mediu |
 | 16 | staple gun | capsator | `staple gun` | greu |
 | 17 | snowplow | plug de zăpadă | `snowplow scraping / snow plow` | greu |
-| 18 | concrete pump | pompă de beton | `concrete pump truck` | greu |
+| 18 | air compressor | compresor de aer | `air compressor` | greu |
 | 19 | leaf blower | suflantă de frunze | `leaf blower` | greu |
 | 20 | concrete saw | mașină de tăiat beton | `concrete saw cutting` | greu |
 
@@ -333,16 +333,16 @@ Wide horizontal 16:9 landscape composition. A big orange cartoon snowplow truck 
 
 ---
 
-### RUNDA 18 — concrete pump (pompă de beton)
-Sunet: `concrete pump truck`
+### RUNDA 18 — air compressor (compresor de aer)
+Sunet: `air compressor`
 
 **Imagine:**
 ```
-Wide horizontal 16:9 landscape composition. A big white-and-blue cartoon concrete pump truck with a long folding boom arm reaching up, side view facing right, standing still, the whole concrete pump clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the concrete pump is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a stack of cement bags on the left, pointing at the machine with one wing, beak open in surprise. Background: sunny cartoon city construction site with a tall half-built building and scaffolding, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A red cartoon air compressor on two small wheels with a round tank, a pressure gauge and a coiled yellow air hose, side view facing right, standing still on a construction site, the whole air compressor clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the air compressor is the main subject in the center-right of the frame, small musical notes floating near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a stack of cement bags on the left, pointing at the machine with one wing, beak open in surprise. Background: sunny cartoon construction site with dirt mounds, orange traffic cones and a half-built house far away, clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 **Clip:**
 ```
-5-second video. Static camera. The concrete pump stays in exactly the same place in the frame the whole time, it does not drive or move away. The pump thumps rhythmically thump-thump and the long boom arm moves a tiny bit, the truck shakes gently in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
+5-second video. Static camera. The air compressor stays in exactly the same place in the frame the whole time, it does not drive or move away. The compressor motor rattles brrrr, then lets out a loud pssshhh of air, the hose wiggles, the compressor stays in place. The owl on the left claps its wings once and bounces happily, keeping its headphones on. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
 ---
@@ -385,7 +385,7 @@ Wide horizontal 16:9 landscape composition. Pip, a small round coral-orange baby
 5-second video. Static camera, no zoom, no camera movement. Keep exactly the same machines as in the image, no new machines appear. The owl bounces gently and waves both wings, the machines' lights blink happily, the excavator arm waves once, a few colorful confetti pieces fall slowly. Smooth cartoon animation, no morphing, keep the style and characters unchanged.
 ```
 
-Total: 18 imagini + 18 clipuri noi (rundele 5, 9, 14, 18 le am deja) + 1 imagine pentru thumbnail.
+Total: 19 imagini + 19 clipuri noi (rundele 5, 9, 14 le am deja) + 1 imagine pentru thumbnail.
 
 ---
 
@@ -414,7 +414,7 @@ It's a PLATE COMPACTOR!
 It's a FREIGHT TRAIN!
 It's a STAPLE GUN!
 It's a SNOWPLOW!
-It's a CONCRETE PUMP!
+It's an AIR COMPRESSOR!
 It's a LEAF BLOWER!
 It's a CONCRETE SAW!
 ```
@@ -427,7 +427,7 @@ Who said CRASH?
 
 ## 5. Ce îmi trimiți (spui „gata” la final)
 1. Cele 20 de sunete
-2. Clipurile: intro, runde 1–20 (fără 5, 9, 14, 18, pe care le am), final
+2. Clipurile: intro, runde 1–20 (fără 5, 9, 14, pe care le am), final
 3. Cele 21 de voci noi
 4. Imaginea pentru thumbnail (ca fișier)
 
