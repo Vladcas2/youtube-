@@ -1,6 +1,6 @@
 # Încărcare pe YouTube: Compilația 1 (60 de sunete)
 
-**Fișierul:** `who-said-that-60-sounds.mp4` (1920×1080, ~24 min). E prea mare pentru GitHub, așa că nu e în repo:
+**Fișierul:** `who-said-that-60-sounds.mp4` (1920×1080, ~23 min, numărătoarea 3-2-1 peste tot). E prea mare pentru GitHub, așa că nu e în repo:
 descarcă-l din conversație. Se poate reface oricând cu `unelte/compilatie.py`.
 **Thumbnail:** `canal/compilatie-01/thumbnail-60.jpg` (stilul cu 14,7% CTR + cercul „60 SOUNDS!”)
 
@@ -20,7 +20,7 @@ descarcă-l din conversație. Se poate reface oricând cu `unelte/compilatie.py`
 
 0:00 Construction sounds (Who Said Rumble Rumble?)
 7:49 Vehicle sounds (Who Said Beep Beep?)
-16:12 Vehicle sounds 2 (Who Said Honk Honk?)
+15:32 Vehicle sounds 2 (Who Said Honk Honk?)
 
 Music: "Baby Animals Playing" by Joel Cummins (YouTube Audio Library)
 
