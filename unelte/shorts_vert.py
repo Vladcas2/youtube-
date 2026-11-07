@@ -15,9 +15,6 @@ TMP = os.path.join(cfg["tmp"], "shorts-vert"); os.makedirs(TMP, exist_ok=True)
 V = "scale=1920:1080,fps=30,format=yuv420p,setsar=1"
 LISTEN, CD, REVEAL = 3.0, 3.0, 5.0
 TOTAL = LISTEN + CD + REVEAL
-CW = 1300                      # cât din lățimea cadrului 1920 păstrăm (vehiculul întreg)
-IH = round(1080 * 1080 / CW / 2) * 2  # înălțimea imaginii în Short
-BAND = (1920 - IH) // 2
 YEL, BROWN, WHITE = (255, 210, 63, 255), (59, 42, 32, 255), (255, 255, 255, 255)
 
 def run(a): subprocess.run([FF, "-loglevel", "error", "-y"] + a, check=True)
@@ -29,7 +26,7 @@ def level(f, tr):
     o = subprocess.run([FF, "-i", f, "-af", af, "-f", "null", "-"], capture_output=True, text=True).stderr
     return float(re.search(r"mean_volume: (-?[\d.]+)", o).group(1)), float(re.search(r"max_volume: (-?[\d.]+)", o).group(1))
 
-def layer(path, items, bands=False):
+def layer(path, items, bands=False, BAND=0):
     """Strat 1080x1920: benzile galbene (opțional) + texte centrate (text, y, mărime, culoare)."""
     im = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
@@ -47,23 +44,28 @@ def layer(path, items, bands=False):
         ImageDraw.Draw(im).text((540, y), txt, font=f, fill=col, anchor="mm", stroke_width=size // 9, stroke_fill=BROWN)
     im.save(path)
 
-top_y, bot_y = BAND // 2 - 10, 1920 - BAND // 2 - 10
-layer(f"{TMP}/bands.png", [("WHO SAID", top_y - 75, 130, WHITE), ("THAT?", top_y + 80, 160, WHITE)], bands=True)
-layer(f"{TMP}/listen.png", [("LISTEN...", bot_y, 150, WHITE)])
-for k in (3, 2, 1):
-    layer(f"{TMP}/cd{k}.png", [(str(k), bot_y, 300, WHITE)])
-
-def center_x(n):
+def veh_x(n):
+    """Marginile vehiculului (din siluetă), în pixelii cadrului 1920."""
     s = np.array(Image.open(f"{cfg['runde_dir']}/runda-{n:02d}/silueta-fara-semn.png").convert("RGB")).astype(int)
     xs = np.nonzero(np.abs(s - [22, 20, 24]).sum(2) < 6)[1] * 1920 / s.shape[1]
-    return (xs.min() + xs.max()) / 2
+    return xs.min(), xs.max()
 
 byn = {r["nr"]: r for r in cfg["rounds"]}
 for n in want:
     r = byn[n]; v = r["voice"]; d = f"{cfg['runde_dir']}/runda-{n:02d}"
     name = r["label"].split("-", 1)[1].replace("-", " ").upper()
-    layer(f"{TMP}/name{n:02d}.png", [(name, bot_y, 175 if len(name) <= 10 else (140 if len(name) <= 12 else 112), YEL)])
-    x0 = int(min(max(center_x(n) - CW / 2, 0), 1920 - CW))
+    # încadrare: Pip (mereu în stânga) + vehiculul întreg; cât mai mare, dar nimic tăiat
+    vx0, vx1 = veh_x(n)
+    x0 = 0; x1 = int(min(1920, vx1 + 70))
+    CW = max(1200, x1 - x0); CW -= CW % 2
+    IH = round(1080 * 1080 / CW / 2) * 2; BAND = (1920 - IH) // 2
+    top_y, bot_y = BAND // 2 - 10, 1920 - BAND // 2 - 10
+    sc = min(1.0, BAND / 560)  # texte mai mici dacă benzile sunt înguste
+    layer(f"{TMP}/bands{n:02d}.png", [("WHO SAID", top_y - int(75 * sc), int(130 * sc), WHITE), ("THAT?", top_y + int(80 * sc), int(160 * sc), WHITE)], bands=True, BAND=BAND)
+    layer(f"{TMP}/listen{n:02d}.png", [("LISTEN...", bot_y, int(150 * sc), WHITE)])
+    for k in (3, 2, 1):
+        layer(f"{TMP}/cd{k}-{n:02d}.png", [(str(k), bot_y, int(300 * sc), WHITE)])
+    layer(f"{TMP}/name{n:02d}.png", [(name, bot_y, int((175 if len(name) <= 10 else (140 if len(name) <= 12 else 112)) * sc), YEL)])
     clip, ctrim = r["clip"], 10
     if r.get("boomerang"):  # vezi monteaza_v4: partea bună, înainte-înapoi
         clip = f"{TMP}/boomerang-{n:02d}.mp4"
@@ -80,9 +82,9 @@ for n in want:
         fc += f"[{4 + i}:v]format=rgba[k{k}];[{last}][k{k}]overlay=0:0:shortest=1:enable='between(t,{a},{a + 0.999})'[w{k}];"; last = f"w{k}"
     fc += f"[7:v]format=rgba[nm];[{last}][nm]overlay=0:0:shortest=1:enable='gte(t,{LISTEN + CD + 0.1})',format=yuv420p[v]"
     vin = ["-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{d}/2-silueta.png", "-i", clip,
-           "-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{TMP}/bands.png",
-           "-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{TMP}/listen.png"] + \
-          sum((["-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{TMP}/cd{k}.png"] for k in (3, 2, 1)), []) + \
+           "-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{TMP}/bands{n:02d}.png",
+           "-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{TMP}/listen{n:02d}.png"] + \
+          sum((["-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{TMP}/cd{k}-{n:02d}.png"] for k in (3, 2, 1)), []) + \
           ["-loop", "1", "-framerate", "30", "-t", str(TOTAL), "-i", f"{TMP}/name{n:02d}.png"]
     # sunet: vehiculul din prima clipă, 3-2-1, răspuns, vehiculul din nou
     L = min(LISTEN - 0.1, r["s1"][1] - r["s1"][0])
