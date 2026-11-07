@@ -39,7 +39,7 @@ run(ins + ["-filter_complex", fc, "-t", str(TLEN)] + ENC + [f"{TMP}/00a.mp4"])
 
 # ---------- intro ----------
 IV = cfg["voice"]
-ILEN = round(0.15 + dur(IV["intro-1"]) + 0.15 + dur(IV["intro-2"]) + 0.2, 2)
+ILEN = round(0.15 + dur(IV["intro-1"]) + (0.15 + dur(IV["intro-2"]) if IV.get("intro-2") else 0) + 0.3, 2)  # Video 6+: fără intro-2
 ins = ["-i", cfg["intro"], "-loop", "1", "-framerate", "30", "-i", cfg["intro_text"]]
 fc = f"[0:v]trim=0:{ILEN},setpts=PTS-STARTPTS,{V}[i];[1:v]format=rgba,scale=1920:1080[t];[i][t]overlay=0:0:shortest=1[it]"
 SB = cfg.get("subscribe")  # butonul „Subscribe” după hook: intră și iese cu fade
@@ -95,7 +95,8 @@ for i, n in enumerate(TR["rounds"]):
     r = byn[n]; a = r["s3"][0]
     ev.append((r["sfx"], i * TS, -4 if i == len(TR["rounds"]) - 1 else 0, [a, a + TS - 0.05], True))
 ev.append((IV["trailer"], TLEN - dur(IV["trailer"]) - 0.1, 2, None, False))
-ev += [(IV["intro-1"], TLEN + 0.15, 0, None, False), (IV["intro-2"], TLEN + 0.3 + dur(IV["intro-1"]), 0, None, False)]
+ev.append((IV["intro-1"], TLEN + 0.15, 0, None, False))
+if IV.get("intro-2"): ev.append((IV["intro-2"], TLEN + 0.3 + dur(IV["intro-1"]), 0, None, False))
 cw = cfg["countdown_words"]  # „three / two / one” pe câte o cifră
 R0 = TLEN + ILEN
 starts, chapters = [], []

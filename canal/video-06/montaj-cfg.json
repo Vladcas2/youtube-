@@ -1,0 +1,454 @@
+{
+ "tmp": "/tmp/claude-0/-home-user-youtube-/57eeb2af-5218-5815-9c30-1db477c1a629/scratchpad/build6",
+ "out": "/home/user/youtube-/canal/video-06/../who-said-crash-video-06-1080p.mp4",
+ "intro": "/home/user/youtube-/canal/video-06/materiale/clipuri/00-intro.mp4",
+ "intro_text": "/home/user/youtube-/canal/video-06/imagini/suprapuneri/intro-who-said-crash.png",
+ "music": "/home/user/youtube-/canal/video-04/materiale/voci-noi/../muzica/Baby_Animals_Playing_-_Joel_Cummins.mp3",
+ "runde_dir": "/home/user/youtube-/canal/video-06/imagini",
+ "animale_dir": "/home/user/youtube-/canal/video-06/imagini/suprapuneri/animale",
+ "fast_rounds": 3,
+ "trailer": {
+  "rounds": [
+   10,
+   3,
+   7,
+   1
+  ],
+  "slot": 1.25,
+  "from": 0.8
+ },
+ "voice": {
+  "trailer": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-can-you-guess-them-all.mp3",
+  "intro-1": "/home/user/youtube-/canal/video-06/materiale/voci-noi/pip/P-who-said-crash.mp3",
+  "countdown": "/home/user/youtube-/canal/video-04/materiale/voci-noi/N-00-countdown-321.mp3"
+ },
+ "subscribe": {
+  "img": "/home/user/youtube-/canal/video-06/imagini/suprapuneri/subscribe.png",
+  "start": 0.2,
+  "end": 2.0
+ },
+ "countdown_words": [
+  [
+   0.05,
+   0.8
+  ],
+  [
+   0.88,
+   1.65
+  ],
+  [
+   1.84,
+   2.87
+  ]
+ ],
+ "rounds": [
+  {
+   "nr": 1,
+   "label": "01-rock-breaker",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/01-rock-breaker.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/01-rock-breaker.mp3",
+   "s1": [
+    10.85,
+    13.05
+   ],
+   "s3": [
+    10.85,
+    13.05
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-01-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-01-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-1.mp3"
+   }
+  },
+  {
+   "nr": 2,
+   "label": "02-big-hammer",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/02-big-hammer.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/02-big-hammer.mp3",
+   "s1": [
+    0.35,
+    2.55
+   ],
+   "s3": [
+    0.35,
+    2.55
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-02-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-02-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3"
+   }
+  },
+  {
+   "nr": 3,
+   "label": "03-recycling-truck",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/03-recycling-truck.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/03-recycling-truck.mp3",
+   "s1": [
+    0.05,
+    2.25
+   ],
+   "s3": [
+    0.05,
+    2.25
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-03-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-03-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-3.mp3"
+   }
+  },
+  {
+   "nr": 4,
+   "label": "04-tower-crane",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/04-tower-crane.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/04-tower-crane.mp3",
+   "s1": [
+    1.2,
+    3.8
+   ],
+   "s3": [
+    1.55,
+    3.75
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-04-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-04-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-4.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-1.mp3"
+   }
+  },
+  {
+   "nr": 5,
+   "label": "05-wheel-loader",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/05-wheel-loader.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/05-wheel-loader.mp3",
+   "s1": [
+    12.65,
+    15.25
+   ],
+   "s3": [
+    12.85,
+    15.05
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-05-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-05-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-5.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   }
+  },
+  {
+   "nr": 6,
+   "label": "06-saw",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/06-saw.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/06-saw.mp3",
+   "s1": [
+    5.3,
+    7.9
+   ],
+   "s3": [
+    5.3,
+    7.5
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-06-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-06-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-6.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-3.mp3"
+   }
+  },
+  {
+   "nr": 7,
+   "label": "07-semi-truck",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/07-semi-truck.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/07-semi-truck.mp3",
+   "s1": [
+    12.2,
+    14.8
+   ],
+   "s3": [
+    12.2,
+    14.4
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-07-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-07-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-1.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 8,
+   "label": "08-pressure-washer",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/08-pressure-washer.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/08-pressure-washer.mp3",
+   "s1": [
+    0.8,
+    3.4
+   ],
+   "s3": [
+    0.9,
+    3.1
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-08-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-08-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-1.mp3"
+   }
+  },
+  {
+   "nr": 9,
+   "label": "09-pickaxe",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/09-pickaxe.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/09-pickaxe.mp3",
+   "s1": [
+    0.6,
+    3.2
+   ],
+   "s3": [
+    1.1,
+    3.3
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-09-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-09-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-3.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   }
+  },
+  {
+   "nr": 10,
+   "label": "10-giant-digger",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/10-giant-digger.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/10-giant-digger.mp3",
+   "s1": [
+    2.25,
+    4.85
+   ],
+   "s3": [
+    2.25,
+    4.45
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-10-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-10-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-4.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-3.mp3"
+   }
+  },
+  {
+   "nr": 11,
+   "label": "11-welding-torch",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/11-welding-torch.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/11-welding-torch.mp3",
+   "s1": [
+    0.95,
+    3.55
+   ],
+   "s3": [
+    0.95,
+    3.15
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-11-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-11-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-5.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 12,
+   "label": "12-staple-gun",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/12-staple-gun.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/12-staple-gun.mp3",
+   "s1": [
+    0.0,
+    0.72
+   ],
+   "s3": [
+    0.0,
+    0.72
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-12-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-12-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-6.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-1.mp3"
+   }
+  },
+  {
+   "nr": 13,
+   "label": "13-alarm",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/13-alarm.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/13-alarm.mp3",
+   "s1": [
+    9.7,
+    12.3
+   ],
+   "s3": [
+    5.25,
+    7.45
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-13-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-13-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-1.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   }
+  },
+  {
+   "nr": 14,
+   "label": "14-plate-compactor",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/14-plate-compactor.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/14-plate-compactor.mp3",
+   "s1": [
+    2.6,
+    5.2
+   ],
+   "s3": [
+    2.6,
+    4.8
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-14-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-14-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-3.mp3"
+   }
+  },
+  {
+   "nr": 15,
+   "label": "15-freight-train",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/15-freight-train.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/15-freight-train.mp3",
+   "s1": [
+    14.3,
+    16.9
+   ],
+   "s3": [
+    14.3,
+    16.5
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-15-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-15-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-3.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 16,
+   "label": "16-toolbox",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/16-toolbox.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/16-toolbox.mp3",
+   "s1": [
+    0.0,
+    2.35
+   ],
+   "s3": [
+    0.05,
+    2.25
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-16-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-16-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-4.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-5.mp3"
+   },
+   "boomerang": 5.5
+  },
+  {
+   "nr": 17,
+   "label": "17-snowplow",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/17-snowplow.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/17-snowplow.mp3",
+   "s1": [
+    4.2,
+    6.8
+   ],
+   "s3": [
+    4.75,
+    6.95
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-17-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-17-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-5.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-2.mp3"
+   },
+   "boomerang": 7.0
+  },
+  {
+   "nr": 18,
+   "label": "18-air-compressor",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/18-air-compressor.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/18-air-compressor.mp3",
+   "s1": [
+    1.8,
+    4.4
+   ],
+   "s3": [
+    3.7,
+    5.9
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-18-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-18-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-6.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-5.mp3"
+   }
+  },
+  {
+   "nr": 19,
+   "label": "19-leaf-blower",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/19-leaf-blower.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/19-leaf-blower.mp3",
+   "s1": [
+    50.35,
+    52.95
+   ],
+   "s3": [
+    50.65,
+    52.85
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-19-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-19-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-7.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-4.mp3"
+   }
+  },
+  {
+   "nr": 20,
+   "label": "20-concrete-saw",
+   "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/20-concrete-saw.mp4",
+   "sfx": "/home/user/youtube-/canal/video-06/materiale/sunete/20-concrete-saw.mp3",
+   "s1": [
+    150.55,
+    153.15
+   ],
+   "s3": [
+    150.95,
+    153.15
+   ],
+   "voice": {
+    "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-20-round.mp3",
+    "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-20-answer.mp3",
+    "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-7.mp3",
+    "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-5.mp3"
+   }
+  }
+ ],
+ "final": {
+  "clip": "/home/user/youtube-/canal/video-06/materiale/clipuri/99-final.mp4",
+  "text": "/home/user/youtube-/canal/video-06/imagini/suprapuneri/final-you-did-it.png",
+  "lines": [
+   "/home/user/youtube-/canal/video-06/../video-05/materiale/voci-noi/pip/P-you-did-it-machines.mp3",
+   "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-super-listener.mp3",
+   "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-see-you-next-time.mp3"
+  ]
+ }
+}
