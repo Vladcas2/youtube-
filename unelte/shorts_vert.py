@@ -62,7 +62,7 @@ byn = {r["nr"]: r for r in cfg["rounds"]}
 for n in want:
     r = byn[n]; v = r["voice"]; d = f"{cfg['runde_dir']}/runda-{n:02d}"
     name = r["label"].split("-", 1)[1].replace("-", " ").upper()
-    layer(f"{TMP}/name{n:02d}.png", [(name, bot_y, 175 if len(name) <= 10 else 140, YEL)])
+    layer(f"{TMP}/name{n:02d}.png", [(name, bot_y, 175 if len(name) <= 10 else (140 if len(name) <= 12 else 112), YEL)])
     x0 = int(min(max(center_x(n) - CW / 2, 0), 1920 - CW))
     clip, ctrim = r["clip"], 10
     if r.get("boomerang"):  # vezi monteaza_v4: partea bună, înainte-înapoi
