@@ -86,16 +86,34 @@ def card_seg(text, voice, name):
     run(["-loop", "1", "-framerate", "30", "-t", str(L), "-i", f"{TMP}/{name}.jpg", "-vf", f"{V},fade=t=in:st=0:d=0.3,fade=t=out:st={L - 0.3}:d=0.3", "-t", str(L)] + ENC + [f"{TMP}/{name}.mp4"])
     segs.append(f"{TMP}/{name}.mp4"); ev.append((voice, T + 0.3, None, False)); start = T; T += L
     return start
-c4 = json.load(open(f"{C}/video-04/montaj-cfg.json"))
-more = [{"n": r["label"].split("-", 1)[1], "clip": r["clip"], "boomerang": r.get("clip_len") and r["clip_len"] - 0.1,
-         "label": f"{c4['animale_dir']}/{r['label']}.png", "sfx": r["sfx"], "snd": r["s3"], "answer": r["voice"]["answer"]} for r in c4["rounds"]]
+def src_item(label_name, voice):
+    r = src2[label_name]
+    return {"n": label_name, "clip": r["clip"], "boomerang": r.get("boomerang") or (r.get("clip_len") and r["clip_len"] - 0.1),
+            "label": f"{r['animale']}/{r['label']}.png", "sfx": r["sfx"], "snd": r["s3"], "voice": voice}
+src2 = {}
+for v in ("video-04", "video-05", "video-06"):
+    cfg = json.load(open(f"{C}/{v}/montaj-cfg.json"))
+    for r in cfg["rounds"]:
+        src2[r["label"].split("-", 1)[1]] = dict(r, animale=cfg["animale_dir"])
+L7 = f"{M7}/voci-noi/lung"
+VEH = ["school-bus", "big-truck", "bullet-train", "tram", "speedboat", "propeller-plane", "subway-train", "tow-truck", "fighter-jet",
+       "monster-truck", "scooter", "horse-carriage", "jet-ski", "lawn-mower", "go-kart", "pirate-ship", "snowmobile", "roller-coaster",
+       "street-sweeper", "fire-boat", "freight-train"]
+TOOLS = ["big-hammer", "saw", "circular-saw", "nail-gun", "staple-gun", "pickaxe", "shovel", "wheelbarrow", "toolbox", "welding-torch",
+         "angle-grinder", "pressure-washer", "air-compressor", "leaf-blower", "alarm"]
+def section(lst, offset, tag):
+    global T
+    for k, n in enumerate(lst, 1):
+        it = src_item(n, f"{L7}/L-{offset + k:02d}-{n}.mp3")
+        out, L, vd, sl = item_seg(offset + k + 100, it, it["voice"], tag=tag)
+        segs.append(out)
+        ev.append((it["voice"], T + 0.3, None, False))
+        ev.append((it["sfx"], T + 0.3 + vd + 0.25, [it["snd"][0], it["snd"][0] + sl], True))
+        T += L
 MORE = card_seg("MORE VEHICLES!", f"{R4}/P-lauda-2.mp3", "45")
-for k, it in enumerate(more, 1):
-    out, L, vd, sl = item_seg(100 + k, it, it["answer"], slmax=2.2, pad=0.5, tag="m")
-    segs.append(out)
-    ev.append((it["answer"], T + 0.3, None, False))
-    ev.append((it["sfx"], T + 0.3 + vd + 0.25, [it["snd"][0], it["snd"][0] + sl], True))
-    T += L
+section(VEH, 0, "m")
+TOOLSAT = card_seg("NOW, TOOLS!", f"{P}/P-tools.mp3", "47")
+section(TOOLS, len(VEH), "t")
 
 # recapitulare: „LET'S SEE THEM AGAIN!” → fiecare utilaj scurt: „It's a …!” + sunetul
 RECAP = card_seg("LET'S SEE THEM AGAIN!", f"{P}/P-doing-great.mp3", "50")
@@ -145,5 +163,5 @@ out = f"{C}/learn-construction-video-07-1080p.mp4"
 run(["-i", f"{TMP}/video.mp4", "-i", f"{TMP}/audio.m4a", "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-crf", "24", "-preset", "medium",
      "-c:a", "copy", "-shortest", "-movflags", "+faststart", out])
 def mmss(s): return f"{int(s // 60)}:{int(s % 60):02d}"
-print("capitole:\n" + "".join(f"{mmss(it['T'] if k > 1 else 0)} {it['n'].replace('-', ' ').title()}\n" for k, it in enumerate(items, 1)) + f"{mmss(MORE)} More vehicles!\n{mmss(RECAP)} Let's see them again!\n{mmss(T)} Bye bye!")
+print("capitole:\n" + "".join(f"{mmss(it['T'] if k > 1 else 0)} {it['n'].replace('-', ' ').title()}\n" for k, it in enumerate(items, 1)) + f"{mmss(MORE)} More vehicles!\n{mmss(TOOLSAT)} Tools!\n{mmss(RECAP)} Let's see them again!\n{mmss(T)} Bye bye!")
 print("gata:", out, "durata:", round(total, 2))
