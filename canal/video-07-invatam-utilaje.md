@@ -58,3 +58,58 @@ Fără siluetă de data asta (nu e quiz): Pip cu cască în mijlocul a 3–4 uti
 ```
 YouTube thumbnail for toddlers, wide 16:9, 2D cartoon children's illustration, bold and super colorful, simple composition readable at small size. In the center, Pip, a small round coral-orange baby owl with a cream face, huge sparkling mint-green eyes, tiny orange beak open in a big happy smile, oversized teal headphones and a tiny yellow construction hard hat, waving both wings. Around Pip, big and colorful: a yellow excavator on the left, an orange dump truck on the right, a tall yellow crane behind, a cement mixer with a striped drum in front. Bright sunny construction site, saturated blue sky. Soft cel shading, clean thick dark-brown outlines, rounded cute shapes. No text, no letters, no numbers.
 ```
+
+---
+
+## Varianta lungă (11–12 min): 37 de voci noi
+
+Structura: **24 de utilaje** (gata) → **„MORE VEHICLES!” 21 de vehicule** → **„TOOLS!” 15 unelte** → recapitulare scurtă → final.
+
+**Naratorul, vehicule (21):**
+```
+This is a SCHOOL BUS! It takes children to school!
+This is a BIG TRUCK! It carries heavy loads!
+This is a BULLET TRAIN! It goes super fast!
+This is a TRAM! It rides on rails in the city!
+This is a SPEEDBOAT! It zooms across the water!
+This is a PROPELLER PLANE! Its propeller spins round and round!
+This is a SUBWAY TRAIN! It goes under the ground!
+This is a TOW TRUCK! It pulls broken cars!
+This is a FIGHTER JET! It flies very, very fast!
+This is a MONSTER TRUCK! It has giant wheels!
+This is a SCOOTER! It goes beep beep in the city!
+This is a HORSE CARRIAGE! A horse pulls it along!
+This is a JET SKI! It splashes on the waves!
+This is a LAWN MOWER! It cuts the grass!
+This is a GO-KART! It races on the track!
+This is a PIRATE SHIP! It sails on the sea!
+This is a SNOWMOBILE! It rides on the snow!
+This is a ROLLER COASTER! It goes up and down!
+This is a STREET SWEEPER! It cleans the street!
+This is a FIRE BOAT! It sprays water high in the air!
+This is a FREIGHT TRAIN! It carries lots of cargo!
+```
+
+**Naratorul, unelte (15):**
+```
+This is a BIG HAMMER! It knocks down walls!
+This is a SAW! It cuts wood!
+This is a CIRCULAR SAW! Its round blade cuts planks!
+This is a NAIL GUN! It shoots nails into wood!
+This is a STAPLE GUN! It goes clack, clack!
+This is a PICKAXE! It breaks hard rocks!
+This is a SHOVEL! It digs in the dirt!
+This is a WHEELBARROW! It carries sand!
+This is a TOOLBOX! It keeps all the tools!
+This is a WELDING TORCH! It joins metal with sparks!
+This is an ANGLE GRINDER! It cuts metal pipes!
+This is a PRESSURE WASHER! It washes away the mud!
+This is an AIR COMPRESSOR! It pumps air!
+This is a LEAF BLOWER! It blows the leaves away!
+This is an ALARM! It says, be careful!
+```
+
+**Pip (1):**
+```
+Now let's learn some tools!
+```
