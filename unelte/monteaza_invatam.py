@@ -69,18 +69,36 @@ for k, it in enumerate(items, 1):
     ev.append((it["sfx"], T + 0.3 + vd + 0.25, [it["snd"][0], it["snd"][0] + sl], True))
     it["T"] = T; T += L
 
-# recapitulare: „LET'S SEE THEM AGAIN!” → fiecare utilaj scurt: „It's a …!” + sunetul
+# partea a 2-a: „MORE VEHICLES!” cu cele 20 de vehicule de la Video 4 („It's a …!” + sunetul)
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-card = Image.open(f"{V7}/thumbnail/thumbnail-curat.jpg").convert("RGBA").resize((1920, 1080))
 F = ImageFont.truetype(os.path.join(HERE, "fonturi", "fredoka-latin-700-normal.woff"), 150)
-sh = Image.new("RGBA", card.size, (0, 0, 0, 0))
-ImageDraw.Draw(sh).text((960, 108), "LET'S SEE THEM AGAIN!", font=F, fill=(0, 0, 0, 130), anchor="mm", stroke_width=16, stroke_fill=(0, 0, 0, 130))
-card.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
-ImageDraw.Draw(card).text((960, 100), "LET'S SEE THEM AGAIN!", font=F, fill=(255, 210, 63, 255), anchor="mm", stroke_width=16, stroke_fill=(59, 42, 32))
-card.convert("RGB").save(f"{TMP}/card-again.jpg")
-CLEN = round(0.3 + dur(f"{P}/P-doing-great.mp3") + 0.6, 2)
-run(["-loop", "1", "-framerate", "30", "-t", str(CLEN), "-i", f"{TMP}/card-again.jpg", "-vf", f"{V},fade=t=in:st=0:d=0.3,fade=t=out:st={CLEN - 0.3}:d=0.3", "-t", str(CLEN)] + ENC + [f"{TMP}/50.mp4"])
-segs.append(f"{TMP}/50.mp4"); ev.append((f"{P}/P-doing-great.mp3", T + 0.3, None, False)); RECAP = T; T += CLEN
+def card_img(text, out):
+    card = Image.open(f"{V7}/thumbnail/thumbnail-curat.jpg").convert("RGBA").resize((1920, 1080))
+    sh = Image.new("RGBA", card.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).text((960, 108), text, font=F, fill=(0, 0, 0, 130), anchor="mm", stroke_width=16, stroke_fill=(0, 0, 0, 130))
+    card.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
+    ImageDraw.Draw(card).text((960, 100), text, font=F, fill=(255, 210, 63, 255), anchor="mm", stroke_width=16, stroke_fill=(59, 42, 32))
+    card.convert("RGB").save(out)
+def card_seg(text, voice, name):
+    global T
+    card_img(text, f"{TMP}/{name}.jpg")
+    L = round(0.3 + dur(voice) + 0.6, 2)
+    run(["-loop", "1", "-framerate", "30", "-t", str(L), "-i", f"{TMP}/{name}.jpg", "-vf", f"{V},fade=t=in:st=0:d=0.3,fade=t=out:st={L - 0.3}:d=0.3", "-t", str(L)] + ENC + [f"{TMP}/{name}.mp4"])
+    segs.append(f"{TMP}/{name}.mp4"); ev.append((voice, T + 0.3, None, False)); start = T; T += L
+    return start
+c4 = json.load(open(f"{C}/video-04/montaj-cfg.json"))
+more = [{"n": r["label"].split("-", 1)[1], "clip": r["clip"], "boomerang": r.get("clip_len") and r["clip_len"] - 0.1,
+         "label": f"{c4['animale_dir']}/{r['label']}.png", "sfx": r["sfx"], "snd": r["s3"], "answer": r["voice"]["answer"]} for r in c4["rounds"]]
+MORE = card_seg("MORE VEHICLES!", f"{R4}/P-lauda-2.mp3", "45")
+for k, it in enumerate(more, 1):
+    out, L, vd, sl = item_seg(100 + k, it, it["answer"], slmax=2.2, pad=0.5, tag="m")
+    segs.append(out)
+    ev.append((it["answer"], T + 0.3, None, False))
+    ev.append((it["sfx"], T + 0.3 + vd + 0.25, [it["snd"][0], it["snd"][0] + sl], True))
+    T += L
+
+# recapitulare: „LET'S SEE THEM AGAIN!” → fiecare utilaj scurt: „It's a …!” + sunetul
+RECAP = card_seg("LET'S SEE THEM AGAIN!", f"{P}/P-doing-great.mp3", "50")
 for k, it in enumerate(items, 1):
     out, L, vd, sl = item_seg(k, it, it["answer"], slmax=1.8, pad=0.35, start=2.0, tag="r")
     segs.append(out)
@@ -125,5 +143,5 @@ out = f"{C}/learn-construction-video-07-1080p.mp4"
 run(["-i", f"{TMP}/video.mp4", "-i", f"{TMP}/audio.m4a", "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-crf", "24", "-preset", "medium",
      "-c:a", "copy", "-shortest", "-movflags", "+faststart", out])
 def mmss(s): return f"{int(s // 60)}:{int(s % 60):02d}"
-print("capitole:\n" + "".join(f"{mmss(it['T'] if k > 1 else 0)} {it['n'].replace('-', ' ').title()}\n" for k, it in enumerate(items, 1)) + f"{mmss(RECAP)} Let's see them again!\n{mmss(T)} Bye bye!")
+print("capitole:\n" + "".join(f"{mmss(it['T'] if k > 1 else 0)} {it['n'].replace('-', ' ').title()}\n" for k, it in enumerate(items, 1)) + f"{mmss(MORE)} More vehicles!\n{mmss(RECAP)} Let's see them again!\n{mmss(T)} Bye bye!")
 print("gata:", out, "durata:", round(total, 2))
