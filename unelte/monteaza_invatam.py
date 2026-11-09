@@ -118,7 +118,9 @@ for f in lines:
     ev.append((f, t, None, False)); t += dur(f) + 0.5
 total = T + FLEN
 open(f"{TMP}/list.txt", "w").write("".join(f"file '{s}'\n" for s in segs))
-run(["-f", "concat", "-safe", "0", "-i", f"{TMP}/list.txt", "-vf", "fps=30,format=yuv420p"] + ENC + [f"{TMP}/video.mp4"])  # re-encodare: intro-ul (zoompan) are alt timebase și pierdea finalul
+ins_v = sum((["-i", f] for f in segs), [])  # filtrul concat decodează fiecare bucată separat (demuxerul concat dădea cadre negre)
+run(ins_v + ["-filter_complex", "".join(f"[{i}:v]fps=30,format=yuv420p,setsar=1[v{i}];" for i in range(len(segs))) + "".join(f"[v{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=0[v]",
+             "-map", "[v]"] + ENC + [f"{TMP}/video.mp4"])
 
 # ---------- audio ----------
 def level(f, tr):
