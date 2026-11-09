@@ -28,6 +28,8 @@ for n, v in enumerate(VEH, 1):
          "voice": {"round": f"{R4}/runde/N-{n:02d}-round.mp3", "answer": f"{M}/voci-noi/raspunsuri/N-{n:02d}-answer.mp3",
                    "praise": f"{R4}/pip/P-lauda-{P[n]}.mp3"}}
     if n in Q: r["voice"]["question"] = f"{R4}/pip/P-intrebare-{Q[n]}.mp3"
+    if v == "big-hammer": r["boomerang"] = 4.5  # după ~5 s ciocanul cade jos, la ~7 s dispare Pip
+    if v == "pressure-washer": r["boomerang"] = 5.5  # la ~7,5 s dispare Pip de pe con
     if v == "toolbox": r["boomerang"] = 5.5     # după ~6 s cutia se golește, la ~7,5 s dispare Pip
     if v == "snowplow": r["boomerang"] = 7.0    # la ~7,5 s Pip „se scufundă” în zăpadă
     rounds.append(r)

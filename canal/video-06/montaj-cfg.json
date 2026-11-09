@@ -78,7 +78,8 @@
     "round": "/home/user/youtube-/canal/video-04/materiale/voci-noi/runde/N-02-round.mp3",
     "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-02-answer.mp3",
     "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3"
-   }
+   },
+   "boomerang": 4.5
   },
   {
    "nr": 3,
@@ -197,7 +198,8 @@
     "answer": "/home/user/youtube-/canal/video-06/materiale/voci-noi/raspunsuri/N-08-answer.mp3",
     "praise": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-lauda-2.mp3",
     "question": "/home/user/youtube-/canal/video-04/materiale/voci-noi/pip/P-intrebare-1.mp3"
-   }
+   },
+   "boomerang": 5.5
   },
   {
    "nr": 9,
