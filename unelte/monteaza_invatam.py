@@ -12,7 +12,7 @@ C = os.path.abspath(os.path.join(HERE, "..", "canal"))
 V7 = f"{C}/video-07"; M7 = f"{V7}/materiale"
 TMP = sys.argv[1] if len(sys.argv) > 1 else "/tmp/build7"; os.makedirs(TMP, exist_ok=True)
 V = "scale=1920:1080,fps=30,format=yuv420p,setsar=1"
-ENC = ["-an", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast"]
+ENC = ["-an", "-r", "30", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", "-video_track_timescale", "15360"]
 def run(a): subprocess.run([FF, "-loglevel", "error", "-y"] + a, check=True)
 def dur(f):
     o = subprocess.run([FF, "-i", f], capture_output=True, text=True).stderr
@@ -81,7 +81,7 @@ for f in lines:
     ev.append((f, t, None, False)); t += dur(f) + 0.5
 total = T + FLEN
 open(f"{TMP}/list.txt", "w").write("".join(f"file '{s}'\n" for s in segs))
-run(["-f", "concat", "-safe", "0", "-i", f"{TMP}/list.txt", "-c", "copy", f"{TMP}/video.mp4"])
+run(["-f", "concat", "-safe", "0", "-i", f"{TMP}/list.txt", "-vf", "fps=30,format=yuv420p"] + ENC + [f"{TMP}/video.mp4"])  # re-encodare: intro-ul (zoompan) are alt timebase și pierdea finalul
 
 # ---------- audio ----------
 def level(f, tr):
