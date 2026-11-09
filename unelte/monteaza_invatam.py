@@ -1,7 +1,7 @@
 """Video 7: „Learn Construction Vehicles” (fără ghicit). Refolosește clipurile și sunetele de la Video 5 și 6.
 
 Fiecare utilaj: clipul + numele pe ecran → naratorul („This is a … ! It …!”) → sunetul real → următorul.
-Intro: imaginea de thumbnail + Pip „Let's learn…” + butonul Subscribe; la jumătate Pip „You're doing great!”;
+Intro: imaginea de thumbnail + Pip „Let's learn…” + butonul Subscribe; apoi recapitulare scurtă („Let's see them again!”);
 final: parada de la Video 6 + „Which one is your favorite?” + „See you next time!”.
 Folosire: monteaza_invatam.py <tmp>
 """
@@ -31,7 +31,8 @@ items = []
 for i, n in enumerate(ORDER, 1):
     r = src[n]
     items.append({"n": n, "clip": r["clip"], "boomerang": r.get("boomerang"), "label": f"{r['animale']}/{r['label']}.png",
-                  "sfx": r["sfx"], "snd": r["s3"], "voice": f"{M7}/voci-noi/raspunsuri/N-{i:02d}-{n}.mp3"})
+                  "sfx": r["sfx"], "snd": r["s3"], "voice": f"{M7}/voci-noi/raspunsuri/N-{i:02d}-{n}.mp3",
+                  "answer": r["voice"]["answer"]})  # „It's a …!” de la Video 5/6, pentru recapitulare
 P = f"{M7}/voci-noi/pip"; R4 = f"{C}/video-04/materiale/voci-noi/pip"
 
 # ---------- segmente video ----------
@@ -46,28 +47,46 @@ run(["-loop", "1", "-framerate", "30", "-t", str(ILEN), "-i", f"{V7}/thumbnail/t
      "-t", str(ILEN)] + ENC + [f"{TMP}/00.mp4"])
 segs.append(f"{TMP}/00.mp4"); ev.append((f"{P}/P-lets-learn.mp3", 0.3, None, False)); T += ILEN
 
-def item_seg(k, it, extra_pip=None):
+def item_seg(k, it, voice, slmax=2.6, pad=0.7, start=0.0, tag=""):
     """Un utilaj: clip + nume; vocea la 0,3 s, sunetul după voce; durata = cât e nevoie."""
-    vd = dur(it["voice"]); s0, s1 = it["snd"]; sl = min(2.6, s1 - s0)
-    L = round(0.3 + vd + 0.25 + sl + 0.7 + (dur(extra_pip) + 0.4 if extra_pip else 0), 2)
+    vd = dur(voice); s0, s1 = it["snd"]; sl = min(slmax, s1 - s0)
+    L = round(0.3 + vd + 0.25 + sl + pad, 2)
     clip = it["clip"]
     if it["boomerang"]:
         clip = f"{TMP}/boom-{k:02d}.mp4"
-        run(["-i", it["clip"], "-filter_complex", f"[0:v]trim=0:{it['boomerang']},setpts=PTS-STARTPTS,{V},split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0", "-an", clip])
-    out = f"{TMP}/{k:02d}.mp4"
+        if not os.path.exists(clip):
+            run(["-i", it["clip"], "-filter_complex", f"[0:v]trim=0:{it['boomerang']},setpts=PTS-STARTPTS,{V},split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0", "-an", clip])
+    out = f"{TMP}/{tag}{k:02d}.mp4"
     run(["-stream_loop", "-1", "-i", clip, "-loop", "1", "-framerate", "30", "-t", str(L), "-i", it["label"],
-         "-filter_complex", f"[0:v]trim=0:{L},setpts=PTS-STARTPTS,{V},fade=t=in:st=0:d=0.25[c];[1:v]format=rgba,scale=1920:1080,fade=t=in:st=0.2:d=0.2:alpha=1[t];"
+         "-filter_complex", f"[0:v]trim={start}:{start + L},setpts=PTS-STARTPTS,{V},fade=t=in:st=0:d=0.25[c];[1:v]format=rgba,scale=1920:1080,fade=t=in:st=0.2:d=0.2:alpha=1[t];"
          f"[c][t]overlay=0:0:shortest=1,fade=t=out:st={L - 0.25}:d=0.25,format=yuv420p", "-t", str(L)] + ENC + [out])
     return out, L, vd, sl
 
 for k, it in enumerate(items, 1):
-    extra = f"{P}/P-doing-great.mp3" if k == 12 else None
-    out, L, vd, sl = item_seg(k, it, extra)
+    out, L, vd, sl = item_seg(k, it, it["voice"])
     segs.append(out)
     ev.append((it["voice"], T + 0.3, None, False))
     ev.append((it["sfx"], T + 0.3 + vd + 0.25, [it["snd"][0], it["snd"][0] + sl], True))
-    if extra: ev.append((extra, T + 0.3 + vd + 0.25 + sl + 0.5, None, False))
     it["T"] = T; T += L
+
+# recapitulare: „LET'S SEE THEM AGAIN!” → fiecare utilaj scurt: „It's a …!” + sunetul
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+card = Image.open(f"{V7}/thumbnail/thumbnail-curat.jpg").convert("RGBA").resize((1920, 1080))
+F = ImageFont.truetype(os.path.join(HERE, "fonturi", "fredoka-latin-700-normal.woff"), 150)
+sh = Image.new("RGBA", card.size, (0, 0, 0, 0))
+ImageDraw.Draw(sh).text((960, 108), "LET'S SEE THEM AGAIN!", font=F, fill=(0, 0, 0, 130), anchor="mm", stroke_width=16, stroke_fill=(0, 0, 0, 130))
+card.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
+ImageDraw.Draw(card).text((960, 100), "LET'S SEE THEM AGAIN!", font=F, fill=(255, 210, 63, 255), anchor="mm", stroke_width=16, stroke_fill=(59, 42, 32))
+card.convert("RGB").save(f"{TMP}/card-again.jpg")
+CLEN = round(0.3 + dur(f"{P}/P-doing-great.mp3") + 0.6, 2)
+run(["-loop", "1", "-framerate", "30", "-t", str(CLEN), "-i", f"{TMP}/card-again.jpg", "-vf", f"{V},fade=t=in:st=0:d=0.3,fade=t=out:st={CLEN - 0.3}:d=0.3", "-t", str(CLEN)] + ENC + [f"{TMP}/50.mp4"])
+segs.append(f"{TMP}/50.mp4"); ev.append((f"{P}/P-doing-great.mp3", T + 0.3, None, False)); RECAP = T; T += CLEN
+for k, it in enumerate(items, 1):
+    out, L, vd, sl = item_seg(k, it, it["answer"], slmax=1.8, pad=0.35, start=2.0, tag="r")
+    segs.append(out)
+    ev.append((it["answer"], T + 0.3, None, False))
+    ev.append((it["sfx"], T + 0.3 + vd + 0.25, [it["snd"][0], it["snd"][0] + sl], True))
+    T += L
 
 # final: parada de la Video 6
 fin = f"{C}/video-06/materiale/clipuri/99-final.mp4"
@@ -106,5 +125,5 @@ out = f"{C}/learn-construction-video-07-1080p.mp4"
 run(["-i", f"{TMP}/video.mp4", "-i", f"{TMP}/audio.m4a", "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-crf", "24", "-preset", "medium",
      "-c:a", "copy", "-shortest", "-movflags", "+faststart", out])
 def mmss(s): return f"{int(s // 60)}:{int(s % 60):02d}"
-print("capitole:\n" + "".join(f"{mmss(it['T'] if k > 1 else 0)} {it['n'].replace('-', ' ').title()}\n" for k, it in enumerate(items, 1)) + f"{mmss(T)} Bye bye!")
+print("capitole:\n" + "".join(f"{mmss(it['T'] if k > 1 else 0)} {it['n'].replace('-', ' ').title()}\n" for k, it in enumerate(items, 1)) + f"{mmss(RECAP)} Let's see them again!\n{mmss(T)} Bye bye!")
 print("gata:", out, "durata:", round(total, 2))
