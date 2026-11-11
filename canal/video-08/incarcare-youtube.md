@@ -1,7 +1,7 @@
 # Încărcare pe YouTube: Video 8
 
 **Fișierul:** `canal/who-said-ding-dong-video-08-1080p.mp4` (1920×1080, 7:55)
-**Thumbnail:** `canal/video-08/thumbnail/who-said-ding-dong.jpg` (scris „WHO SAID DING DONG?” ca la Video 3–4, soneria în siluetă + „20”). Pentru testare A/B: `thumbnail-sonerie-2.jpg` (fără scris) sau `who-said-ding-dong-usa.jpg`.
+**Thumbnail:** `canal/video-08/thumbnail/thumbnail-sonerie-2.jpg` (fără scris, soneria în siluetă + „20”; scor mai bun în vidIQ și la fel ca Video 5, cu 14,7% CTR). Pentru testare A/B: `who-said-ding-dong.jpg` (cu scris).
 
 ## Titlu
 ```
