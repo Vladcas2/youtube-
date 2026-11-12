@@ -10,3 +10,4 @@
 - Silueta din imaginea desenată, un singur sunet lung (~5 s; mai scurt la rundele 1–3), 3-2-1.
 - Dezvăluirea: cartonaș cu video-ul real care crește din siluetă, Pip decupat (`canal/imagini/pip/pip-decupat.png`) în stânga jos, numele dedesubt.
 - Proba: `canal/video-09/proba/proba-runda-drum.mp4` (script `unelte/proba_real.py`).
+- 04 trumpet: vocea de la 16:48:03 spune TRUMPET (verificat de tine; recunoașterea o încurca cu TROMBONE).
