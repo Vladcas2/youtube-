@@ -70,7 +70,8 @@ w("Folosește `canal/pip-intreg.png` ca referință pentru Pip. **Instrumentul �
 for i, a in enumerate(A):
     nr, en, ro, art, snd, vid, desc, place, bg = a
     w(f"### {nr}. {en.upper()} ({ro}){' — BONUS' if nr == 10 else ''}\n```")
-    w(f"Wide horizontal 16:9 landscape composition. {desc}, the whole {en} clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the {en} is the main subject in the center-right of the frame, small musical notes floating near it. {PIP}, {place}, {G[i % len(G)]}. Background: {bg}, medium-wide shot. {STYLE}. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.")
+    be = "are" if art == "they" else "is"
+    w(f"Wide horizontal 16:9 landscape composition. {desc}, the whole {en} clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the {en} {be} the main subject in the center-right of the frame, small musical notes floating near it. {PIP}, {place}, {G[i % len(G)]}. Background: {bg}, medium-wide shot. {STYLE}. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.")
     w("```\n")
 w("---\n\n## Intro și final (imagine + clip de 5 s, ca până acum)\n")
 w("### INTRO\n**Imagine:**\n```")
