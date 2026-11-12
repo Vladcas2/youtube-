@@ -29,7 +29,6 @@ def mask(box, pos, neg):
     m = nd.binary_fill_holes(nd.binary_closing(m, np.ones((7, 7))))
     lab, k = nd.label(m); return lab == (np.argmax(nd.sum(m, lab, range(1, k + 1))) + 1)
 obj = mask([883, 345, 1632, 989], [[1248, 768], [1250, 470]], [])
-pip = mask([215, 225, 800, 800], [[461, 480], [451, 672], [509, 262], [259, 538], [730, 403]], [[499, 912]])  # + puncte pe căști (arcul de sus)
 # 1) silueta cu „?”
 a = np.array(im); a[obj] = [22, 20, 24]; sil = Image.fromarray(a).convert("RGBA")
 q = Image.open(f"{R}/imagini/suprapuneri/semn-intrebare.png"); q = q.crop(q.getbbox())
@@ -41,14 +40,14 @@ for k in (3, 2, 1):
     c.convert("RGB").save(f"{TMP}/cd{k}.png")
 # 2) fundalul dezvăluirii: desenul estompat, cartonaș alb, Pip decupat în stânga jos
 CW, CH = 1240, 698; X0, Y0 = 610, 70                    # video-ul real în cartonaș
-bg = im.filter(ImageFilter.GaussianBlur(14)).convert("RGBA")
-bg.alpha_composite(Image.new("RGBA", (W, H), (255, 240, 205, 70)))
+bg = im.filter(ImageFilter.GaussianBlur(30)).convert("RGBA")  # estompat tare: Pip din desen nu se mai vede dublu
+bg.alpha_composite(Image.new("RGBA", (W, H), (255, 240, 205, 120)))
 sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
 card = Image.new("RGBA", (CW + 32, CH + 32), (0, 0, 0, 0))
 ImageDraw.Draw(card).rounded_rectangle((0, 0, CW + 31, CH + 31), 46, fill=(255, 255, 255, 255)); card.save(f"{TMP}/card.png")
-pc = Image.new("RGBA", (W, H), (0, 0, 0, 0)); pc.paste(im, mask=Image.fromarray((pip * 255).astype("uint8")))
-pc = pc.crop(pc.getbbox()); s = 520 / pc.height; pc = pc.resize((int(pc.width * s), 520), Image.LANCZOS)
-bg.alpha_composite(pc, (10, H - 520 - 10))  # Pip nu atinge cartonașul
+pc = Image.open(f"{R}/imagini/pip/pip-decupat.png").convert("RGBA")  # Pip decupat o singură dată, același în toate rundele
+s = 470 / pc.height; pc = pc.resize((int(pc.width * s), 470), Image.LANCZOS)
+bg.alpha_composite(pc, (10, H - 470 - 20))  # Pip nu atinge cartonașul
 bg.convert("RGB").save(f"{TMP}/reveal-bg.png")
 mk = Image.new("L", (CW, CH), 0); ImageDraw.Draw(mk).rounded_rectangle((0, 0, CW - 1, CH - 1), 32, fill=255); mk.save(f"{TMP}/mask.png")
 nm = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(nm); f = ImageFont.truetype(FONT, 170)
