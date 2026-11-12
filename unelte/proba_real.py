@@ -44,9 +44,8 @@ CW, CH = 1240, 698; X0, Y0 = 560, 70                    # video-ul real în cart
 bg = im.filter(ImageFilter.GaussianBlur(14)).convert("RGBA")
 bg.alpha_composite(Image.new("RGBA", (W, H), (255, 240, 205, 70)))
 sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-ImageDraw.Draw(sh).rounded_rectangle((X0 - 16 + 10, Y0 - 16 + 16, X0 + CW + 16 + 10, Y0 + CH + 16 + 16), 46, fill=(0, 0, 0, 110))
-bg.alpha_composite(sh.filter(ImageFilter.GaussianBlur(14)))
-ImageDraw.Draw(bg).rounded_rectangle((X0 - 16, Y0 - 16, X0 + CW + 16, Y0 + CH + 16), 46, fill=(255, 255, 255, 255))
+card = Image.new("RGBA", (CW + 32, CH + 32), (0, 0, 0, 0))
+ImageDraw.Draw(card).rounded_rectangle((0, 0, CW + 31, CH + 31), 46, fill=(255, 255, 255, 255)); card.save(f"{TMP}/card.png")
 pc = Image.new("RGBA", (W, H), (0, 0, 0, 0)); pc.paste(im, mask=Image.fromarray((pip * 255).astype("uint8")))
 pc = pc.crop(pc.getbbox()); s = 560 / pc.height; pc = pc.resize((int(pc.width * s), 560), Image.LANCZOS)
 bg.alpha_composite(pc, (30, H - 560 - 10)); bg.convert("RGB").save(f"{TMP}/reveal-bg.png")
@@ -64,16 +63,19 @@ fc = (f"[0:v]fps=30,format=yuv420p[a];[1:v]fps=30,format=yuv420p[b];[2:v]fps=30,
       f"[a][b][c][d]concat=n=4:v=1:a=0[lc];"
       f"[5:v]trim={off}:{off + REVEAL},setpts=PTS-STARTPTS,fps=30,scale={CW}:{CH}:force_original_aspect_ratio=increase,crop={CW}:{CH},format=rgba[rv];"
       f"[6:v]format=gray,scale={CW}:{CH}[mk];[rv][mk]alphamerge[rvm];"
-      f"[4:v]fps=30,format=rgba[bg];[bg][rvm]overlay={X0}:{Y0}[r1];"
+      f"[8:v]format=rgba[cw];[cw][rvm]overlay=16:16[card];"
+      f"[card]scale=w='trunc(iw*(0.3+0.7*min(1,t/0.4))/2)*2':h='trunc(ih*(0.3+0.7*min(1,t/0.4))/2)*2':eval=frame[cs];"
+      f"[4:v]fps=30,format=rgba[bg];"
+      f"[bg][cs]overlay=x='{cx}+({X0 + CW // 2}-{cx})*min(1,t/0.4)-overlay_w/2':y='{cy}+({Y0 + CH // 2}-{cy})*min(1,t/0.4)-overlay_h/2'[r1];"
       f"[7:v]format=rgba,fade=t=in:st=0.6:d=0.3:alpha=1[nm];[r1][nm]overlay=0:0,"
-      f"zoompan=z='if(lte(on,10),1.6-0.06*on,1)':x='iw/2-(iw/zoom/2)+(1-1/zoom)*{cx - W // 2}':y='ih/2-(ih/zoom/2)+(1-1/zoom)*{cy - H // 2}':d=1:s={W}x{H}:fps=30,"
-      f"fade=t=in:st=0:d=0.25:color=white,format=yuv420p[rev];"
+      f"fade=t=in:st=0:d=0.2:color=white,format=yuv420p[rev];"
       f"[lc][rev]concat=n=2:v=1:a=0,format=yuv420p[v]")
 vin = ["-loop", "1", "-framerate", "30", "-t", str(LISTEN), "-i", f"{TMP}/sil.png"] + \
       sum((["-loop", "1", "-framerate", "30", "-t", "1", "-i", f"{TMP}/cd{k}.png"] for k in (3, 2, 1)), []) + \
       ["-loop", "1", "-framerate", "30", "-t", str(REVEAL), "-i", f"{TMP}/reveal-bg.png", "-i", REAL,
        "-loop", "1", "-framerate", "30", "-t", str(REVEAL), "-i", f"{TMP}/mask.png",
-       "-loop", "1", "-framerate", "30", "-t", str(REVEAL), "-i", f"{TMP}/name.png"]
+       "-loop", "1", "-framerate", "30", "-t", str(REVEAL), "-i", f"{TMP}/name.png",
+       "-loop", "1", "-framerate", "30", "-t", str(REVEAL), "-i", f"{TMP}/card.png"]
 cd = f"{R}/video-04/materiale/voci-noi/N-00-countdown-321.mp3"
 praise = f"{R}/video-04/materiale/voci-noi/pip/P-lauda-1.mp3"
 music = f"{R}/video-04/materiale/muzica/Baby_Animals_Playing_-_Joel_Cummins.mp3"
@@ -85,8 +87,8 @@ ain, afc, lab = [], "", []
 for i, (fl, st, tr, lvl) in enumerate(ev):
     g = lvl - mean(fl); tt = f"atrim={tr[0]}:{tr[1]},asetpts=PTS-STARTPTS,afade=t=out:st={tr[1] - tr[0] - 0.4}:d=0.4," if tr else ""
     ain += ["-i", fl]; ms = int(st * 1000)
-    afc += f"[{8 + i}:a]{tt}aformat=sample_rates=48000:channel_layouts=stereo,volume={g:.1f}dB,adelay={ms}|{ms}[e{i}];"; lab.append(f"[e{i}]")
-mi = 8 + len(ev)
+    afc += f"[{9 + i}:a]{tt}aformat=sample_rates=48000:channel_layouts=stereo,volume={g:.1f}dB,adelay={ms}|{ms}[e{i}];"; lab.append(f"[e{i}]")
+mi = 9 + len(ev)
 afc += f"[{mi}:a]atrim=0:{TOT},asetpts=PTS-STARTPTS,aformat=sample_rates=48000:channel_layouts=stereo,volume='0.05+0.03*gte(t,{T0})':eval=frame[mu];"
 afc += "".join(lab) + f"[mu]amix=inputs={len(lab) + 1}:normalize=0:duration=longest,atrim=0:{TOT},alimiter=limit=0.89[a]"
 run(vin + ain + ["-stream_loop", "-1", "-i", music, "-filter_complex", fc + ";" + afc, "-map", "[v]", "-map", "[a]", "-t", str(TOT),
