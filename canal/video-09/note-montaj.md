@@ -11,3 +11,4 @@
 - Dezvăluirea: cartonaș cu video-ul real care crește din siluetă, Pip decupat (`canal/imagini/pip/pip-decupat.png`) în stânga jos, numele dedesubt.
 - Proba: `canal/video-09/proba/proba-runda-drum.mp4` (script `unelte/proba_real.py`).
 - 04 trumpet: vocea de la 16:48:03 spune TRUMPET (verificat de tine; recunoașterea o încurca cu TROMBONE).
+- 20 bagpipes (video real): decupat din 4K (crop 1440x810 la 1200,260) ca să se vadă cimpoiul de aproape.
