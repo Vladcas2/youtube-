@@ -49,7 +49,7 @@ mk = Image.new("L", (CW, CH), 0); ImageDraw.Draw(mk).rounded_rectangle((0, 0, CW
 rounds = []
 for n in WANT:
     en = INS[n - 1]; d = f"{V9}/imagini/runda-{n:02d}"
-    r = {"nr": n, "en": en, "dir": d, "sfx": f"{M}/sunete/{n:02d}-{en}.mp3", "rev": f"{M}/video-real/{n:02d}-{en}.mp4",
+    r = {"nr": n, "en": en, "dir": d, "sfx": f"{M}/sunete/{n:02d}-{en}.mp3", "rev": f"{M}/video-real/{n:02d}-{en}" + ("-aproape" if n == 9 else "") + ".mp4",
          "round": f"{R4}/runde/N-{n:02d}-round.mp3", "answer": f"{M}/voci-noi/raspunsuri/N-{n:02d}-answer.mp3",
          "praise": f"{R4}/pip/P-lauda-{P[n]}.mp3", "question": f"{R4}/pip/P-intrebare-{Q[n]}.mp3" if n in Q else None}
     fast = n <= 3
@@ -74,7 +74,7 @@ def round_video(r):
     ins = sum((["-loop", "1", "-framerate", "30", "-t", str(t), "-i", f"{d}/{f}"] for f, t in parts), [])
     k = len(parts)
     if n in DRAWN:   # clipul desenat: doar partea cu instrumentul (dreapta), ca să nu apară Pip de două ori
-        cx_, cy_ = {6: (0.44, 0.40), 10: (0.42, 0.10), 12: (0.43, 0.30), 13: (0.43, 0.15)}[n]  # doar instrumentul, fără Pip din desen
+        cx_, cy_ = {6: (0.47, 0.40), 10: (0.42, 0.10), 12: (0.43, 0.30), 13: (0.43, 0.15)}[n]  # doar instrumentul, fără Pip din desen
         src = f"crop=iw*0.56:ih*0.56:iw*{cx_}:ih*{cy_},scale={CW}:{CH}"; off = 0.3
     else:
         src = f"scale={CW}:{CH}:force_original_aspect_ratio=increase,crop={CW}:{CH}"; off = min(0.5, max(0, dur(r["rev"]) - REV))
