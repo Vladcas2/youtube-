@@ -12,3 +12,4 @@
 - Proba: `canal/video-09/proba/proba-runda-drum.mp4` (script `unelte/proba_real.py`).
 - 04 trumpet: vocea de la 16:48:03 spune TRUMPET (verificat de tine; recunoașterea o încurca cu TROMBONE).
 - 20 bagpipes (video real): decupat din 4K (crop 1440x810 la 1200,260) ca să se vadă cimpoiul de aproape.
+- 06, 10, 12, 13 (xilofon, gong, muzicuță, triunghi): la dezvăluire sunt clipuri DESENATE (nu video real). În cartonaș se decupează partea cu instrumentul (dreapta), ca să nu apară Pip de două ori.
