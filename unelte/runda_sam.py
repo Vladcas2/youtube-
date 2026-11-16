@@ -32,7 +32,11 @@ for name in (() if len(sys.argv) > 4 and sys.argv[4] == "doar-sam" else ("isnet-
 m[y0:y1, x0:x1] |= extra
 m = nd.binary_fill_holes(nd.binary_closing(m, structure=np.ones((5, 5))))
 lab, n = nd.label(m)
-m = lab == (np.argmax(nd.sum(m, lab, range(1, n + 1))) + 1)
+sz = nd.sum(m, lab, range(1, n + 1))
+if os.environ.get("TOATE"):  # TOATE=1: păstrăm toate bucățile mari (ex. două talgere separate)
+    m = np.isin(lab, [i + 1 for i, v in enumerate(sz) if v > 0.15 * max(sz)])
+else:
+    m = lab == (np.argmax(sz) + 1)
 cy, cx = nd.center_of_mass(m)
 sil = Image.composite(Image.new("RGB", (w, h), (22, 20, 24)), im, Image.fromarray((m * 255).astype("uint8")))
 sil.save(os.path.join(out, "silueta-fara-semn.png"))

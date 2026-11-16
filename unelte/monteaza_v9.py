@@ -105,16 +105,33 @@ run(["-i", f"{M}/clipuri/00-intro.mp4", "-loop", "1", "-framerate", "30", "-i", 
      "-filter_complex", f"[0:v]trim=0:{ILEN},setpts=PTS-STARTPTS,{V}[i];[1:v]format=rgba[t];[i][t]overlay=0:0:shortest=1[it];"
      f"[2:v]format=rgba,fade=t=in:st=0.2:d=0.25:alpha=1,fade=t=out:st={ILEN - 0.3}:d=0.3:alpha=1[sb];[it][sb]overlay=0:0:shortest=1,format=yuv420p",
      "-t", str(ILEN)] + ENC + [f"{TMP}/intro.mp4"])
-segs = [f"{TMP}/intro.mp4"] + [round_video(r) for r in rounds]
+TRN, TS = [10, 4, 9, 15], 1.25
+TLEN = TS * len(TRN) if FULL else 0
+if FULL:
+    ins = sum((["-loop", "1", "-framerate", "30", "-t", str(TS), "-i", f"{V9}/imagini/runda-{n:02d}/2-silueta.png"] for n in TRN), [])
+    run(ins + ["-filter_complex", "".join(f"[{i}:v]{V}[t{i}];" for i in range(len(TRN))) + "".join(f"[t{i}]" for i in range(len(TRN))) + f"concat=n={len(TRN)}:v=1:a=0"] + ENC + [f"{TMP}/trailer.mp4"])
+segs = ([f"{TMP}/trailer.mp4"] if FULL else []) + [f"{TMP}/intro.mp4"] + [round_video(r) for r in rounds]
+FLEN = 11.0
+FIN = [f"{M}/voci-noi/pip/P-you-did-it-instruments.mp3", f"{R4}/pip/P-super-listener.mp3", f"{R4}/pip/P-see-you-next-time.mp3"]
+if FULL:
+    run(["-i", f"{M}/clipuri/99-final.mp4", "-loop", "1", "-framerate", "30", "-i", f"{V9}/imagini/suprapuneri/final-you-did-it.png",
+         "-filter_complex", f"[0:v]trim=0:10,setpts=PTS-STARTPTS,{V},tpad=stop_mode=clone:stop_duration=1[c];[1:v]format=rgba,scale=1920:1080[t];"
+         f"[c][t]overlay=0:0:shortest=1:enable='between(t,0.4,8.5)',fade=t=out:st={FLEN - 1.5}:d=1.5,format=yuv420p", "-t", str(FLEN)] + ENC + [f"{TMP}/final.mp4"])
+    segs.append(f"{TMP}/final.mp4")
 
 # ---------- lipire (filtrul concat) ----------
 ins = sum((["-i", s] for s in segs), []); k = len(segs)
 run(ins + ["-filter_complex", "".join(f"[{i}:v]" for i in range(k)) + f"concat=n={k}:v=1:a=0[v]", "-map", "[v]"] + ENC + [f"{TMP}/video.mp4"])
 
 # ---------- sunet ----------
-ev = [(IP, 0.15, None, False)]
+ev = []
+if FULL:
+    byn = {r["nr"]: r for r in rounds}
+    for i, n in enumerate(TRN): ev.append((byn[n]["sfx"], i * TS, [byn[n]["s3"][0], byn[n]["s3"][0] + TS - 0.05], True))
+    ev.append((f"{R4}/pip/P-can-you-guess-them-all.mp3", TLEN - dur(f"{R4}/pip/P-can-you-guess-them-all.mp3") - 0.1, None, False))
+ev.append((IP, TLEN + 0.15, None, False))
 cw = [[0.05, 0.8], [0.88, 1.65], [1.84, 2.87]]
-R = ILEN; chapters = []
+R = TLEN + ILEN; chapters = []
 for r in rounds:
     chapters.append((R, r["nr"])); X = r["X"]
     ev += [(r["round"], R + 0.2, None, False), (r["sfx"], R + 2.3, r["s1"], True)]
@@ -124,6 +141,10 @@ for r in rounds:
     ev += [(r["answer"], R + X + 0.5, None, False), (r["sfx"], R + X + 0.6 + a + 0.1, r["s3"], True),
            (r["praise"], R + X + REV - dur(r["praise"]) - 0.3, None, False)]
     R += r["len"]
+if FULL:
+    t = R + 0.5
+    for f in FIN: ev.append((f, t, None, False)); t += dur(f) + 0.35
+    chapters.append((R, "final")); R += FLEN
 total = R
 def level(f, tr):
     af = (f"atrim={tr[0]}:{tr[1]}," if tr else "") + "volumedetect"
@@ -145,5 +166,5 @@ fc += "".join(lab) + f"[mu]amix=inputs={len(lab) + 1}:normalize=0:duration=longe
 run(ins + ["-stream_loop", "-1", "-i", f"{C}/video-04/materiale/muzica/Baby_Animals_Playing_-_Joel_Cummins.mp3", "-filter_complex", fc,
            "-map", "[a]", "-c:a", "aac", "-b:a", "160k", f"{TMP}/audio.m4a"])
 run(["-i", f"{TMP}/video.mp4", "-i", f"{TMP}/audio.m4a", "-c", "copy", "-shortest", "-movflags", "+faststart", OUT])
-print("capitole:"); [print(f"{int(t // 60)}:{int(t % 60):02d} Round {n}") for t, n in chapters]
+print("capitole:"); [print(f"{int(t // 60)}:{int(t % 60):02d} " + ("You did it!" if n == "final" else f"Round {n}" + (" (Bonus!)" if n == 10 else ""))) for t, n in chapters]
 print("gata:", OUT, round(total, 1))
