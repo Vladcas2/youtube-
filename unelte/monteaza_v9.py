@@ -74,8 +74,8 @@ def round_video(r):
     ins = sum((["-loop", "1", "-framerate", "30", "-t", str(t), "-i", f"{d}/{f}"] for f, t in parts), [])
     k = len(parts)
     if n in DRAWN:   # clipul desenat: doar partea cu instrumentul (dreapta), ca să nu apară Pip de două ori
-        cx_, cy_ = {6: (0.47, 0.40), 10: (0.42, 0.10), 12: (0.43, 0.30), 13: (0.43, 0.15)}[n]  # doar instrumentul, fără Pip din desen
-        src = f"crop=iw*0.56:ih*0.56:iw*{cx_}:ih*{cy_},scale={CW}:{CH}"; off = 0.3
+        cx_, cy_ = {6: (0.53, 0.53), 10: (0.42, 0.10), 12: (0.43, 0.30), 13: (0.43, 0.15)}[n]  # doar instrumentul, fără Pip din desen
+        cw_ = 0.45 if n == 6 else 0.56; src = f"crop=iw*{cw_}:ih*{cw_}:iw*{cx_}:ih*{cy_},scale={CW}:{CH}"; off = 0.3
     else:
         src = f"scale={CW}:{CH}:force_original_aspect_ratio=increase,crop={CW}:{CH}"; off = min(0.5, max(0, dur(r["rev"]) - REV))
     ins += ["-loop", "1", "-framerate", "30", "-t", str(REV), "-i", f"{TMP}/bg-{n:02d}.png", "-i", r["rev"],
