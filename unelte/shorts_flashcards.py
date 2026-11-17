@@ -56,6 +56,7 @@ bg.save(f"{TMP}/bg.png")
 
 def box(n):
     """Pătratul de decupat din clip (pixeli 1280x720), centrat pe obiect, din silueta rundei."""
+    if byn[n].get("box"): return tuple(byn[n]["box"])  # încadrare fixă (side, x0, y0) când Pip e prea aproape de obiect
     d = f"{cfg['runde_dir']}/runda-{n:02d}"
     s = np.array(Image.open(f"{d}/silueta-fara-semn.png").convert("RGB")).astype(int)
     c = np.array(Image.open(f"{d}/cadru-0.png").convert("RGB")).astype(int)
