@@ -54,7 +54,7 @@ Vocile pentru „Round 1…20”, numărătoare, întrebări și laude le refolo
 | 16 | panda | panda | `panda / giant panda sounds` | `panda / giant panda` | It's a PANDA! |
 | 17 | rhino | rinocer | `rhino / rhinoceros` | `rhino / rhinoceros` | It's a RHINO! |
 | 18 | koala | koala | `koala bellow / koala` | `koala` | It's a KOALA! |
-| 19 | kangaroo | cangur | `kangaroo` | `kangaroo / kangaroo jumping` | It's a KANGAROO! |
+| 19 | crow | cioară | `crow caw` | `crow / raven` | It's a CROW! |
 | 20 | donkey | măgar | `donkey bray / donkey hee haw` | `donkey / donkey braying` | It's a DONKEY! |
 
 **Rezerve:** `goat`, `donkey`, `owl`, `elephant`, `lion`, `frog`.
@@ -83,7 +83,7 @@ It's a ROOSTER!
 It's a PANDA!
 It's a RHINO!
 It's a KOALA!
-It's a KANGAROO!
+It's a CROW!
 It's a DONKEY!
 ```
 **Pip** (WST – Pip):
@@ -189,9 +189,9 @@ Wide horizontal 16:9 landscape composition. A big gray cartoon rhino with a big 
 Wide horizontal 16:9 landscape composition. A fluffy gray cartoon koala hugging a eucalyptus tree trunk, side view, the whole koala clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the koala is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a tree stump on the left, pointing at the animal with one wing, beak open in surprise. Background: sunny cartoon Australian bush with red earth, eucalyptus trees and a clear sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
-### 19. KANGAROO (cangur)
+### 19. CROW (cioară)
 ```
-Wide horizontal 16:9 landscape composition. A tall brown cartoon kangaroo standing on its big back legs, side view facing right, the whole kangaroo clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the kangaroo is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a rock on the left, holding one wing to its ear, listening with a curious smile. Background: sunny cartoon Australian bush with red earth, eucalyptus trees and a clear sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A shiny black cartoon crow standing on a tree branch with its beak open cawing, side view facing right, the whole crow clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the crow is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a tree stump on the left, holding one wing to its ear, listening with a curious smile. Background: sunny cartoon forest with tall green trees, ferns and soft sunbeams, warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
 ### 20. DONKEY (măgar)
