@@ -51,7 +51,7 @@ Vocile pentru „Round 1…20”, numărătoare, întrebări și laude le refolo
 | 13 | swan | lebădă | `swan / swan hiss` | `swan / swans` | It's a SWAN! |
 | 14 | bull | taur | `bull snort / bull` | `bull` | It's a BULL! |
 | 15 | rooster | cocoș | `rooster crow` | `rooster crowing` | It's a ROOSTER! |
-| 16 | panda | panda | `panda / giant panda sounds` | `panda / giant panda` | It's a PANDA! |
+| 16 | monkey | maimuță | `monkey sound / chimpanzee` | `monkey / chimpanzee` | It's a MONKEY! |
 | 17 | rhino | rinocer | `rhino / rhinoceros` | `rhino / rhinoceros` | It's a RHINO! |
 | 18 | squirrel | veveriță | `squirrel chatter` | `squirrel` | It's a SQUIRREL! |
 | 19 | crow | cioară | `crow caw` | `crow / raven` | It's a CROW! |
@@ -80,7 +80,7 @@ It's a CROCODILE!
 It's a SWAN!
 It's a BULL!
 It's a ROOSTER!
-It's a PANDA!
+It's a MONKEY!
 It's a RHINO!
 It's a SQUIRREL!
 It's a CROW!
@@ -174,9 +174,9 @@ Wide horizontal 16:9 landscape composition. A big strong brown cartoon bull with
 Wide horizontal 16:9 landscape composition. A proud cartoon rooster with a red comb and colorful tail standing on a hay bale, side view facing right, the whole rooster clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the rooster is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden fence post on the left, waving one wing. Background: sunny cartoon farm with a red barn, a wooden fence, green grass and a clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
-### 16. PANDA (panda)
+### 16. MONKEY (maimuță)
 ```
-Wide horizontal 16:9 landscape composition. A cute cartoon panda sitting and holding a bamboo stick, front view, the whole panda clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the panda is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a little rock on the left, sitting calmly with both wings folded, big smile. Background: cartoon bamboo forest with soft green light, peaceful, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A cute brown cartoon monkey hanging from a jungle vine with one arm, mouth open shouting oo-oo-aa-aa, side view facing right, the whole monkey clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the monkey is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a little rock on the left, sitting calmly with both wings folded, big smile. Background: sunny cartoon jungle with big green leaves, vines and soft sunbeams, warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
 ### 17. RHINO (rinocer)
