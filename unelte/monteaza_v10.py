@@ -22,7 +22,7 @@ DRAWN = set()                  # dezvăluire cu clip desenat (nu video real)
 SND_FROM = {}                     # cimpoiul: sunetul bun începe de la 5 s
 Q = {n: (5 if n in (16, 18, 20) else (n - 4) % 3 + 2) for n in range(4, 21)}   # fără întrebarea 1 („What vehicle is that?”)
 PG = f"{C}/voci-comune/pip"   # laude generale (cele de la Video 4 sunt despre vehicule)
-PRAISE = {n: (f"{R4}/pip/P-lauda-7.mp3" if n >= 19 else f"{PG}/P-lauda-generala-{(n - 1) % 5 + 1}.mp3") for n in range(1, 21)}
+PRAISE = {n: (f"{R4}/pip/P-lauda-7.mp3" if n >= 19 else f"{PG}/P-lauda-generala-{(n - 1) % 6 + 1}.mp3") for n in range(1, 21)}
 
 def run(a): subprocess.run([FF, "-loglevel", "error", "-y"] + a, check=True)
 def dur(f):
