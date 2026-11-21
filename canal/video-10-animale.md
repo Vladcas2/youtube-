@@ -53,7 +53,7 @@ Vocile pentru „Round 1…20”, numărătoare, întrebări și laude le refolo
 | 15 | rooster | cocoș | `rooster crow` | `rooster crowing` | It's a ROOSTER! |
 | 16 | panda | panda | `panda / giant panda sounds` | `panda / giant panda` | It's a PANDA! |
 | 17 | rhino | rinocer | `rhino / rhinoceros` | `rhino / rhinoceros` | It's a RHINO! |
-| 18 | koala | koala | `koala bellow / koala` | `koala` | It's a KOALA! |
+| 18 | squirrel | veveriță | `squirrel chatter` | `squirrel` | It's a SQUIRREL! |
 | 19 | crow | cioară | `crow caw` | `crow / raven` | It's a CROW! |
 | 20 | donkey | măgar | `donkey bray / donkey hee haw` | `donkey / donkey braying` | It's a DONKEY! |
 
@@ -82,7 +82,7 @@ It's a BULL!
 It's a ROOSTER!
 It's a PANDA!
 It's a RHINO!
-It's a KOALA!
+It's a SQUIRREL!
 It's a CROW!
 It's a DONKEY!
 ```
@@ -184,9 +184,9 @@ Wide horizontal 16:9 landscape composition. A cute cartoon panda sitting and hol
 Wide horizontal 16:9 landscape composition. A big gray cartoon rhino with a big horn standing in the grass, side view facing right, the whole rhino clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the rhino is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a rock on the left, bouncing happily. Background: sunny cartoon African savanna with golden grass, acacia trees and a clear sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
-### 18. KOALA (koala)
+### 18. SQUIRREL (veveriță)
 ```
-Wide horizontal 16:9 landscape composition. A fluffy gray cartoon koala hugging a eucalyptus tree trunk, side view, the whole koala clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the koala is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a tree stump on the left, pointing at the animal with one wing, beak open in surprise. Background: sunny cartoon Australian bush with red earth, eucalyptus trees and a clear sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A cute red-brown cartoon squirrel with a big fluffy tail sitting on a tree branch holding an acorn, side view facing right, the whole squirrel clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the squirrel is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a tree stump on the left, pointing at the animal with one wing, beak open in surprise. Background: sunny cartoon forest with tall green trees, ferns and soft sunbeams, warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
 ### 19. CROW (cioară)

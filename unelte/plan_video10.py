@@ -34,7 +34,7 @@ A = [
 (15, "rooster", "cocoș", "a", "rooster crow", "rooster crowing", "A proud cartoon rooster with a red comb and colorful tail standing on a hay bale, side view facing right", "sitting on a wooden fence post on the left", FARM),
 (16, "panda", "panda", "a", "panda / giant panda sounds", "panda / giant panda", "A cute cartoon panda sitting and holding a bamboo stick, front view", "sitting on a little rock on the left", BAMBOO),
 (17, "rhino", "rinocer", "a", "rhino / rhinoceros", "rhino / rhinoceros", "A big gray cartoon rhino with a big horn standing in the grass, side view facing right", "sitting on a rock on the left", SAVANNA),
-(18, "koala", "koala", "a", "koala bellow / koala", "koala", "A fluffy gray cartoon koala hugging a eucalyptus tree trunk, side view", "sitting on a tree stump on the left", AUSTRALIA),
+(18, "squirrel", "veveriță", "a", "squirrel chatter", "squirrel", "A cute red-brown cartoon squirrel with a big fluffy tail sitting on a tree branch holding an acorn, side view facing right", "sitting on a tree stump on the left", FOREST),
 (19, "crow", "cioară", "a", "crow caw", "crow / raven", "A shiny black cartoon crow standing on a tree branch with its beak open cawing, side view facing right", "sitting on a tree stump on the left", FOREST),
 (20, "donkey", "măgar", "a", "donkey bray / donkey hee haw", "donkey / donkey braying", "A friendly gray cartoon donkey with long ears and its mouth open braying, standing in the grass, side view facing right", "sitting on a wooden fence post on the left", FARM),
 ]
