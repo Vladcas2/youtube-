@@ -36,7 +36,7 @@ A = [
 (17, "rhino", "rinocer", "a", "rhino / rhinoceros", "rhino / rhinoceros", "A big gray cartoon rhino with a big horn standing in the grass, side view facing right", "sitting on a rock on the left", SAVANNA),
 (18, "koala", "koala", "a", "koala bellow / koala", "koala", "A fluffy gray cartoon koala hugging a eucalyptus tree trunk, side view", "sitting on a tree stump on the left", AUSTRALIA),
 (19, "kangaroo", "cangur", "a", "kangaroo", "kangaroo / kangaroo jumping", "A tall brown cartoon kangaroo standing on its big back legs, side view facing right", "sitting on a rock on the left", AUSTRALIA),
-(20, "giraffe", "girafă", "a", "giraffe hum / giraffe", "giraffe", "A very tall yellow cartoon giraffe with brown spots standing next to an acacia tree, side view facing right, the whole giraffe visible", "sitting on a rock on the left", SAVANNA),
+(20, "donkey", "măgar", "a", "donkey bray / donkey hee haw", "donkey / donkey braying", "A friendly gray cartoon donkey with long ears and its mouth open braying, standing in the grass, side view facing right", "sitting on a wooden fence post on the left", FARM),
 ]
 def answer(a):
     art, en = a[3], a[1].upper()

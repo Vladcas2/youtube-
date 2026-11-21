@@ -55,7 +55,7 @@ Vocile pentru „Round 1…20”, numărătoare, întrebări și laude le refolo
 | 17 | rhino | rinocer | `rhino / rhinoceros` | `rhino / rhinoceros` | It's a RHINO! |
 | 18 | koala | koala | `koala bellow / koala` | `koala` | It's a KOALA! |
 | 19 | kangaroo | cangur | `kangaroo` | `kangaroo / kangaroo jumping` | It's a KANGAROO! |
-| 20 | giraffe | girafă | `giraffe hum / giraffe` | `giraffe` | It's a GIRAFFE! |
+| 20 | donkey | măgar | `donkey bray / donkey hee haw` | `donkey / donkey braying` | It's a DONKEY! |
 
 **Rezerve:** `goat`, `donkey`, `owl`, `elephant`, `lion`, `frog`.
 
@@ -84,7 +84,7 @@ It's a PANDA!
 It's a RHINO!
 It's a KOALA!
 It's a KANGAROO!
-It's a GIRAFFE!
+It's a DONKEY!
 ```
 **Pip** (WST – Pip):
 ```
@@ -194,9 +194,9 @@ Wide horizontal 16:9 landscape composition. A fluffy gray cartoon koala hugging 
 Wide horizontal 16:9 landscape composition. A tall brown cartoon kangaroo standing on its big back legs, side view facing right, the whole kangaroo clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the kangaroo is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a rock on the left, holding one wing to its ear, listening with a curious smile. Background: sunny cartoon Australian bush with red earth, eucalyptus trees and a clear sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
-### 20. GIRAFFE (girafă)
+### 20. DONKEY (măgar)
 ```
-Wide horizontal 16:9 landscape composition. A very tall yellow cartoon giraffe with brown spots standing next to an acacia tree, side view facing right, the whole giraffe visible, the whole giraffe clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the giraffe is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a rock on the left, clapping its wings happily. Background: sunny cartoon African savanna with golden grass, acacia trees and a clear sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
+Wide horizontal 16:9 landscape composition. A friendly gray cartoon donkey with long ears and its mouth open braying, standing in the grass, side view facing right, the whole donkey clearly visible with empty space around it, not touching the frame edges, not overlapping anything, the donkey is the main subject in the center-right of the frame, little cartoon sound lines near it. Pip, a small round coral-orange baby owl with a cream face, big mint-green eyes, a tiny orange beak and oversized teal headphones, sitting on a wooden fence post on the left, clapping its wings happily. Background: sunny cartoon farm with a red barn, a wooden fence, green grass and a clear light blue sky, bright warm light, medium-wide shot. 2D cartoon children's illustration, soft cel shading, subtle feather texture, clean dark-brown outlines, bright warm palette of sunny yellow, coral, mint green, teal and cream, rounded cute shapes. Landscape orientation, 16:9, 1920x1080. The owl wears its oversized teal headphones and no hat. No text, no letters, no words, no numbers in the image.
 ```
 
 ---
