@@ -20,8 +20,9 @@ INS = ["cow", "penguin", "bear", "dog", "dolphin", "snake", "pig", "seal", "seag
        "bull", "rooster", "monkey", "rhino", "squirrel", "crow", "donkey"]
 DRAWN = set()                  # dezvăluire cu clip desenat (nu video real)
 SND_FROM = {}                     # cimpoiul: sunetul bun începe de la 5 s
-Q = {n: (5 if n in (16, 18, 20) else (n - 4) % 4 + 1) for n in range(4, 21)}
-P = {n: (7 if n >= 19 else (n - 1) % 6 + 1) for n in range(1, 21)}
+Q = {n: (5 if n in (16, 18, 20) else (n - 4) % 3 + 2) for n in range(4, 21)}   # fără întrebarea 1 („What vehicle is that?”)
+PG = f"{C}/voci-comune/pip"   # laude generale (cele de la Video 4 sunt despre vehicule)
+PRAISE = {n: (f"{R4}/pip/P-lauda-7.mp3" if n >= 19 else f"{PG}/P-lauda-generala-{(n - 1) % 5 + 1}.mp3") for n in range(1, 21)}
 
 def run(a): subprocess.run([FF, "-loglevel", "error", "-y"] + a, check=True)
 def dur(f):
@@ -51,7 +52,7 @@ for n in WANT:
     en = INS[n - 1]; d = f"{V9}/imagini/runda-{n:02d}"
     r = {"nr": n, "en": en, "dir": d, "sfx": f"{M}/sunete/{n:02d}-{en}.mp3", "rev": f"{M}/video-real/{n:02d}-{en}" + ".mp4",
          "round": f"{R4}/runde/N-{n:02d}-round.mp3", "answer": f"{M}/voci-noi/raspunsuri/N-{n:02d}-answer.mp3",
-         "praise": f"{R4}/pip/P-lauda-{P[n]}.mp3", "question": f"{R4}/pip/P-intrebare-{Q[n]}.mp3" if n in Q else None}
+         "praise": PRAISE[n], "question": f"{R4}/pip/P-intrebare-{Q[n]}.mp3" if n in Q else None}
     fast = n <= 3
     r["L"] = 3.5 if fast else 5.0
     r["s1"] = window(r["sfx"], r["L"], SND_FROM.get(n, 0)); r["s3"] = window(r["sfx"], 3.0, SND_FROM.get(n, 0))
